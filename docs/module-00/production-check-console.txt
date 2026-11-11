@@ -1,0 +1,85 @@
+{
+  "kind": "static-source-and-build-artifact-checks",
+  "mode": "production-default",
+  "screenEntries": 180,
+  "partialMappings": 180,
+  "workflowEntries": 40,
+  "partialWorkflowPaths": 40,
+  "counts": {
+    "PUB": {
+      "complete": 0,
+      "partial": 22,
+      "pending": 0
+    },
+    "AUTH": {
+      "complete": 0,
+      "partial": 16,
+      "pending": 0
+    },
+    "APP": {
+      "complete": 0,
+      "partial": 19,
+      "pending": 0
+    },
+    "STU": {
+      "complete": 0,
+      "partial": 24,
+      "pending": 0
+    },
+    "EDU": {
+      "complete": 0,
+      "partial": 23,
+      "pending": 0
+    },
+    "PAR": {
+      "complete": 0,
+      "partial": 15,
+      "pending": 0
+    },
+    "INS": {
+      "complete": 0,
+      "partial": 30,
+      "pending": 0
+    },
+    "PRO": {
+      "complete": 0,
+      "partial": 11,
+      "pending": 0
+    },
+    "ADM": {
+      "complete": 0,
+      "partial": 20,
+      "pending": 0
+    }
+  },
+  "contrastResults": [
+    {
+      "name": "brand on white",
+      "ratio": 13.22
+    },
+    {
+      "name": "ink on white",
+      "ratio": 15.08
+    },
+    {
+      "name": "secondary on white",
+      "ratio": 5.58
+    },
+    {
+      "name": "success on sage",
+      "ratio": 5.68
+    },
+    {
+      "name": "danger on white",
+      "ratio": 6.26
+    }
+  ],
+  "passed": true,
+  "limitations": [
+    "No browser rendering or interaction assertions",
+    "No viewport measurements",
+    "No screen-reader, device, real-user performance, or production authorization tests"
+  ],
+  "checkedScreenArtifacts": 0,
+  "checkedWorkflowArtifacts": 0
+}

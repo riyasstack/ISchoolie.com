@@ -1,0 +1,9 @@
+{
+  "kind": "generated-html-state-coverage",
+  "screens": 180,
+  "expectedArtifacts": 1620,
+  "checkedArtifacts": 1620,
+  "passed": true,
+  "issues": [],
+  "limits": "Server-generated markup only; no browser hydration, interaction, viewport, screen-reader or native runtime acceptance."
+}

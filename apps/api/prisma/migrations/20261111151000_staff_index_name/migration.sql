@@ -1,0 +1,1 @@
+ALTER INDEX "InstitutionalLogin_institutionId_hiringYear_staffType_sequence_" RENAME TO "InstitutionalLogin_staff_sequence_key";

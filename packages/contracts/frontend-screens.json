@@ -1,0 +1,7314 @@
+[
+  {
+    "id": "PUB-01",
+    "name": "Home",
+    "family": "PUB",
+    "kind": "home",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/PUB-01",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "PUB-02",
+    "name": "About",
+    "family": "PUB",
+    "kind": "about",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/PUB-02",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "PUB-03",
+    "name": "Mission and Vision",
+    "family": "PUB",
+    "kind": "mission",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/PUB-03",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "PUB-04",
+    "name": "Trust and Safety",
+    "family": "PUB",
+    "kind": "trust",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/PUB-04",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "PUB-05",
+    "name": "Explore Network",
+    "family": "PUB",
+    "kind": "feed",
+    "summary": "Explore public education ideas. Example adult educator content only.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/PUB-05",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "PUB-06",
+    "name": "Discover People",
+    "family": "PUB",
+    "kind": "directory",
+    "summary": "Find an educator by subject, teaching approach, or learning interest.",
+    "fields": [],
+    "columns": [
+      "Person",
+      "Expertise",
+      "Location",
+      "Trust state"
+    ],
+    "rows": [
+      [
+        "Ananya Rao",
+        "Visual thinking",
+        "India",
+        "Unverified example"
+      ],
+      [
+        "Kabir Sen",
+        "Inquiry science",
+        "India",
+        "Unverified example"
+      ],
+      [
+        "Meera Iyer",
+        "Language & writing",
+        "India",
+        "Unverified example"
+      ]
+    ],
+    "links": [
+      "PUB-08",
+      "PUB-09"
+    ],
+    "sections": [],
+    "route": "/preview/PUB-06",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "PUB-07",
+    "name": "Discover Teachers",
+    "family": "PUB",
+    "kind": "directory",
+    "summary": "Find an educator by subject, teaching approach, or learning interest.",
+    "fields": [],
+    "columns": [
+      "Person",
+      "Expertise",
+      "Location",
+      "Trust state"
+    ],
+    "rows": [
+      [
+        "Ananya Rao",
+        "Visual thinking",
+        "India",
+        "Unverified example"
+      ],
+      [
+        "Kabir Sen",
+        "Inquiry science",
+        "India",
+        "Unverified example"
+      ],
+      [
+        "Meera Iyer",
+        "Language & writing",
+        "India",
+        "Unverified example"
+      ]
+    ],
+    "links": [
+      "PUB-08",
+      "PUB-09"
+    ],
+    "sections": [],
+    "route": "/preview/PUB-07",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "PUB-08",
+    "name": "Educator Public Profile",
+    "family": "PUB",
+    "kind": "profile",
+    "summary": "Meet an example educator and explore their teaching perspective.",
+    "fields": [
+      {
+        "key": "display-name",
+        "label": "Display name",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "headline",
+        "label": "Headline",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "teaching-approach",
+        "label": "Teaching approach",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "public-website",
+        "label": "Public website",
+        "type": "url",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "PUB-10",
+      "PUB-14"
+    ],
+    "sections": [
+      [
+        "Teaching philosophy",
+        "Make space for useful questions, careful observation, and practical reflection."
+      ],
+      [
+        "Experience & evidence",
+        "Example professional narrative. No qualification or institution affiliation has been verified."
+      ],
+      [
+        "Public visibility",
+        "Only audience-approved professional details belong on a public profile."
+      ]
+    ],
+    "route": "/preview/PUB-08",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "PUB-09",
+    "name": "Explore Courses",
+    "family": "PUB",
+    "kind": "catalog",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/PUB-09",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "PUB-10",
+    "name": "Course Detail",
+    "family": "PUB",
+    "kind": "course",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/PUB-10",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "PUB-11",
+    "name": "Discover Institutions",
+    "family": "PUB",
+    "kind": "directory",
+    "summary": "Find the right learning environment; no organization is presented as verified.",
+    "fields": [],
+    "columns": [
+      "Institution",
+      "Type",
+      "Campus",
+      "Trust state"
+    ],
+    "rows": [
+      [
+        "Example Learning Campus",
+        "School",
+        "Pune",
+        "Example · Not verified"
+      ],
+      [
+        "Open Inquiry College",
+        "College",
+        "Bengaluru",
+        "Example · Not verified"
+      ],
+      [
+        "Community Learning Studio",
+        "Learning center",
+        "Chennai",
+        "Example · Not verified"
+      ]
+    ],
+    "links": [
+      "PUB-12",
+      "PUB-19"
+    ],
+    "sections": [],
+    "route": "/preview/PUB-11",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "PUB-12",
+    "name": "Institution Public Profile",
+    "family": "PUB",
+    "kind": "profile",
+    "summary": "A proposed institution page that keeps public identity separate from private records.",
+    "fields": [
+      {
+        "key": "institution-name",
+        "label": "Institution name",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "institution-type",
+        "label": "Institution type",
+        "type": "select",
+        "required": true,
+        "options": [
+          "School",
+          "College",
+          "University",
+          "Learning center"
+        ]
+      },
+      {
+        "key": "campus-city",
+        "label": "Campus city",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "public-description",
+        "label": "Public description",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "PUB-19",
+      "PUB-13"
+    ],
+    "sections": [
+      [
+        "Learning environment",
+        "An example campus organized around inquiry, collaboration, and thoughtful teaching."
+      ],
+      [
+        "Programs",
+        "Illustrative science, language, and design pathways. Accreditation is not claimed."
+      ],
+      [
+        "Contact & verification",
+        "Contact and verification must be reviewed before publication."
+      ]
+    ],
+    "route": "/preview/PUB-12",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "PUB-13",
+    "name": "Explore Communities",
+    "family": "PUB",
+    "kind": "communities",
+    "summary": "Find a circle of people who share your questions.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/PUB-13",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "PUB-14",
+    "name": "Community Preview",
+    "family": "PUB",
+    "kind": "discussion",
+    "summary": "The curious classroom: a public discussion preview.",
+    "fields": [
+      {
+        "key": "your-contribution",
+        "label": "Your contribution",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Discussion",
+      "Topic",
+      "Audience"
+    ],
+    "rows": [
+      [
+        "What makes a question useful?",
+        "Teaching practice",
+        "Public example"
+      ],
+      [
+        "Three observation exercises",
+        "Inquiry learning",
+        "Public example"
+      ]
+    ],
+    "links": [
+      "APP-11",
+      "PUB-08"
+    ],
+    "sections": [],
+    "route": "/preview/PUB-14",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "PUB-15",
+    "name": "Events",
+    "family": "PUB",
+    "kind": "events",
+    "summary": "Make time for a new perspective.",
+    "fields": [],
+    "columns": [
+      "Event",
+      "Format",
+      "Schedule",
+      "Eligibility"
+    ],
+    "rows": [
+      [
+        "Teaching with better questions",
+        "Workshop",
+        "Illustrative · Not scheduled",
+        "Approval required"
+      ],
+      [
+        "Science beyond the classroom",
+        "Discussion",
+        "Illustrative · Not scheduled",
+        "Approval required"
+      ]
+    ],
+    "links": [
+      "APP-14",
+      "PUB-16"
+    ],
+    "sections": [],
+    "route": "/preview/PUB-15",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "PUB-16",
+    "name": "Opportunities",
+    "family": "PUB",
+    "kind": "opportunities",
+    "summary": "Explore possibilities without invented endorsements or guaranteed outcomes.",
+    "fields": [],
+    "columns": [
+      "Opportunity",
+      "Category",
+      "Eligibility",
+      "Closing state"
+    ],
+    "rows": [
+      [
+        "Creative inquiry project",
+        "Collaboration",
+        "Example adult learners",
+        "Not accepting applications"
+      ],
+      [
+        "Learning design mentorship",
+        "Mentorship",
+        "Example educators",
+        "Not accepting applications"
+      ]
+    ],
+    "links": [
+      "STU-23",
+      "PUB-21"
+    ],
+    "sections": [],
+    "route": "/preview/PUB-16",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "PUB-17",
+    "name": "Pricing",
+    "family": "PUB",
+    "kind": "pricing",
+    "summary": "Find an appropriate product offering. Commercial terms are awaiting approval.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "PUB-19",
+      "PUB-21"
+    ],
+    "sections": [
+      [
+        "Personal learning",
+        "Networking and course discovery concepts. Price and entitlement boundaries pending."
+      ],
+      [
+        "Educator tools",
+        "Teaching and authoring concepts. Commission and publication terms pending."
+      ],
+      [
+        "Institution workspace",
+        "Academic and operational concepts. Contract, scope, and pricing pending."
+      ]
+    ],
+    "route": "/preview/PUB-17",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "PUB-18",
+    "name": "Become Educator",
+    "family": "PUB",
+    "kind": "form",
+    "summary": "Introduce your teaching practice and prepare an application preview.",
+    "fields": [
+      {
+        "key": "professional-name",
+        "label": "Professional name",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "example-contact",
+        "label": "Example contact",
+        "type": "email",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "subjects",
+        "label": "Subjects",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "teaching-approach",
+        "label": "Teaching approach",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "evidence-description",
+        "label": "Evidence description",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "AUTH-08",
+      "PUB-08"
+    ],
+    "sections": [],
+    "route": "/preview/PUB-18",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "PUB-19",
+    "name": "Register Institution",
+    "family": "PUB",
+    "kind": "form",
+    "summary": "Prepare an institution application without creating or verifying a tenant.",
+    "fields": [
+      {
+        "key": "institution-name",
+        "label": "Institution name",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "institution-type",
+        "label": "Institution type",
+        "type": "select",
+        "required": true,
+        "options": [
+          "School",
+          "College",
+          "University",
+          "Learning center"
+        ]
+      },
+      {
+        "key": "representative-name",
+        "label": "Representative name",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "example-contact",
+        "label": "Example contact",
+        "type": "email",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "campus-city",
+        "label": "Campus city",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "evidence-description",
+        "label": "Evidence description",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "AUTH-11",
+      "INS-03"
+    ],
+    "sections": [],
+    "route": "/preview/PUB-19",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "PUB-20",
+    "name": "Resources and Help",
+    "family": "PUB",
+    "kind": "help",
+    "summary": "Practical guides for finding your way around iSchoolie.",
+    "fields": [
+      {
+        "key": "search-help",
+        "label": "Search help",
+        "type": "text",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "PUB-04",
+      "PUB-21",
+      "APP-19"
+    ],
+    "sections": [
+      [
+        "Find learning",
+        "Search a subject, inspect a syllabus, and open a sample lesson before any enrollment."
+      ],
+      [
+        "Choose a workspace",
+        "A preview context shows design examples and never grants account permissions."
+      ],
+      [
+        "Get help safely",
+        "Share the route and problem description, never credentials or private student records."
+      ]
+    ],
+    "route": "/preview/PUB-20",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "PUB-21",
+    "name": "Contact and Support",
+    "family": "PUB",
+    "kind": "support",
+    "summary": "Tell us what you need help with. This is a local support-draft preview.",
+    "fields": [
+      {
+        "key": "category",
+        "label": "Category",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Product question",
+          "Accessibility",
+          "Account",
+          "Institution",
+          "Safety report"
+        ]
+      },
+      {
+        "key": "example-email",
+        "label": "Example email",
+        "type": "email",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "subject",
+        "label": "Subject",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "description",
+        "label": "Description",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "PUB-20",
+      "PUB-04"
+    ],
+    "sections": [],
+    "route": "/preview/PUB-21",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "PUB-22",
+    "name": "Legal and Privacy",
+    "family": "PUB",
+    "kind": "policy",
+    "summary": "Review the proposed policy structure. No final legal agreement is published.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "PUB-04",
+      "APP-18"
+    ],
+    "sections": [
+      [
+        "Privacy notice · Draft",
+        "Purpose, data categories, rights, retention, processors, and territory-specific rules require legal approval."
+      ],
+      [
+        "Terms of use · Draft",
+        "Account eligibility, acceptable use, content rights, and dispute terms are not finalized."
+      ],
+      [
+        "Safeguarding approach · Draft",
+        "Age assurance, relationship evidence, contact eligibility, and incident escalation remain policy decisions."
+      ],
+      [
+        "Version history",
+        "No effective policy version has been approved. This screen records draft structure only."
+      ]
+    ],
+    "route": "/preview/PUB-22",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "AUTH-01",
+    "name": "Sign In",
+    "family": "AUTH",
+    "kind": "identity",
+    "summary": "Sign in preview. No account, verification, grant, or session is created.",
+    "fields": [
+      {
+        "key": "example-email",
+        "label": "Example email",
+        "type": "email",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "credential-method",
+        "label": "Credential method",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Email provider",
+          "Institution SSO"
+        ]
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "AUTH-02",
+      "PUB-04"
+    ],
+    "sections": [],
+    "route": "/preview/AUTH-01",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "AUTH-02",
+    "name": "Register Account",
+    "family": "AUTH",
+    "kind": "identity",
+    "summary": "Prepare an example account. No account, verification, grant, or session is created.",
+    "fields": [
+      {
+        "key": "display-name",
+        "label": "Display name",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "example-email",
+        "label": "Example email",
+        "type": "email",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "purpose",
+        "label": "Purpose",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Learn",
+          "Teach",
+          "Family",
+          "Tutoring",
+          "Institution"
+        ]
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "AUTH-03",
+      "PUB-04"
+    ],
+    "sections": [],
+    "route": "/preview/AUTH-02",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "AUTH-03",
+    "name": "Contact Verification",
+    "family": "AUTH",
+    "kind": "identity",
+    "summary": "Review a contact challenge. No account, verification, grant, or session is created.",
+    "fields": [
+      {
+        "key": "example-contact",
+        "label": "Example contact",
+        "type": "email",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "sample-code",
+        "label": "Sample code",
+        "type": "text",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "AUTH-04",
+      "PUB-04"
+    ],
+    "sections": [],
+    "route": "/preview/AUTH-03",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "AUTH-04",
+    "name": "Choose Purpose",
+    "family": "AUTH",
+    "kind": "identity",
+    "summary": "Choose your learning purpose. No account, verification, grant, or session is created.",
+    "fields": [
+      {
+        "key": "primary-purpose",
+        "label": "Primary purpose",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Learn",
+          "Teach",
+          "Support a child",
+          "Offer tutoring",
+          "Represent an institution"
+        ]
+      },
+      {
+        "key": "learning-interests",
+        "label": "Learning interests",
+        "type": "text",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "AUTH-05",
+      "PUB-04"
+    ],
+    "sections": [],
+    "route": "/preview/AUTH-04",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "AUTH-05",
+    "name": "Age and Consent",
+    "family": "AUTH",
+    "kind": "identity",
+    "summary": "Age and consent review. No account, verification, grant, or session is created.",
+    "fields": [
+      {
+        "key": "jurisdiction",
+        "label": "Jurisdiction",
+        "type": "select",
+        "required": true,
+        "options": [
+          "India",
+          "Other territory"
+        ]
+      },
+      {
+        "key": "age-declaration",
+        "label": "Age declaration",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Policy review required",
+          "Adult example",
+          "Guardian-supported example"
+        ]
+      },
+      {
+        "key": "consent-context",
+        "label": "Consent context",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "AUTH-06",
+      "PUB-04"
+    ],
+    "sections": [],
+    "route": "/preview/AUTH-05",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "AUTH-06",
+    "name": "Guardian Approval",
+    "family": "AUTH",
+    "kind": "identity",
+    "summary": "Guardian authorization review. No account, verification, grant, or session is created.",
+    "fields": [
+      {
+        "key": "relationship-reference",
+        "label": "Relationship reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "evidence-description",
+        "label": "Evidence description",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "permitted-categories",
+        "label": "Permitted categories",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Academic summary",
+          "Attendance",
+          "Published results"
+        ]
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "AUTH-07",
+      "PUB-04"
+    ],
+    "sections": [],
+    "route": "/preview/AUTH-06",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "AUTH-07",
+    "name": "Learner Onboarding",
+    "family": "AUTH",
+    "kind": "identity",
+    "summary": "Set up your learner profile. No account, verification, grant, or session is created.",
+    "fields": [
+      {
+        "key": "display-name",
+        "label": "Display name",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "learning-interests",
+        "label": "Learning interests",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "education-stage",
+        "label": "Education stage",
+        "type": "select",
+        "required": true,
+        "options": [
+          "School",
+          "College",
+          "Professional learning"
+        ]
+      },
+      {
+        "key": "profile-introduction",
+        "label": "Profile introduction",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "AUTH-08",
+      "PUB-04"
+    ],
+    "sections": [],
+    "route": "/preview/AUTH-07",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "AUTH-08",
+    "name": "Educator Onboarding",
+    "family": "AUTH",
+    "kind": "identity",
+    "summary": "Introduce your teaching practice. No account, verification, grant, or session is created.",
+    "fields": [
+      {
+        "key": "professional-name",
+        "label": "Professional name",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "subjects",
+        "label": "Subjects",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "experience-summary",
+        "label": "Experience summary",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "evidence-description",
+        "label": "Evidence description",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "AUTH-09",
+      "PUB-04"
+    ],
+    "sections": [],
+    "route": "/preview/AUTH-08",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "AUTH-09",
+    "name": "Tutor Onboarding",
+    "family": "AUTH",
+    "kind": "identity",
+    "summary": "Prepare your professional intent. No account, verification, grant, or session is created.",
+    "fields": [
+      {
+        "key": "professional-name",
+        "label": "Professional name",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "expertise",
+        "label": "Expertise",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "service-description",
+        "label": "Service description",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "timezone",
+        "label": "Timezone",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Asia/Kolkata",
+          "UTC"
+        ]
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "AUTH-10",
+      "PUB-04"
+    ],
+    "sections": [],
+    "route": "/preview/AUTH-09",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "AUTH-10",
+    "name": "Guardian Onboarding",
+    "family": "AUTH",
+    "kind": "identity",
+    "summary": "Start a family context. No account, verification, grant, or session is created.",
+    "fields": [
+      {
+        "key": "guardian-name",
+        "label": "Guardian name",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "relationship-reference",
+        "label": "Relationship reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "institution-reference",
+        "label": "Institution reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "requested-categories",
+        "label": "Requested categories",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "AUTH-11",
+      "PUB-04"
+    ],
+    "sections": [],
+    "route": "/preview/AUTH-10",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "AUTH-11",
+    "name": "Institution Application",
+    "family": "AUTH",
+    "kind": "identity",
+    "summary": "Prepare an institution application. No account, verification, grant, or session is created.",
+    "fields": [
+      {
+        "key": "institution-name",
+        "label": "Institution name",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "representative",
+        "label": "Representative",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "example-email",
+        "label": "Example email",
+        "type": "email",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "campus-city",
+        "label": "Campus city",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "evidence-summary",
+        "label": "Evidence summary",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "AUTH-12",
+      "PUB-04"
+    ],
+    "sections": [],
+    "route": "/preview/AUTH-11",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "AUTH-12",
+    "name": "Forgot Password",
+    "family": "AUTH",
+    "kind": "identity",
+    "summary": "Recover access safely. No account, verification, grant, or session is created.",
+    "fields": [
+      {
+        "key": "example-email",
+        "label": "Example email",
+        "type": "email",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "recovery-method",
+        "label": "Recovery method",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Verified contact",
+          "Institution support"
+        ]
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "AUTH-13",
+      "PUB-04"
+    ],
+    "sections": [],
+    "route": "/preview/AUTH-12",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "AUTH-13",
+    "name": "Reset Credentials",
+    "family": "AUTH",
+    "kind": "identity",
+    "summary": "Credential recovery boundary. No account, verification, grant, or session is created.",
+    "fields": [
+      {
+        "key": "recovery-reference",
+        "label": "Recovery reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "requested-method",
+        "label": "Requested method",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Provider reset",
+          "Institution SSO support"
+        ]
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "AUTH-14",
+      "PUB-04"
+    ],
+    "sections": [],
+    "route": "/preview/AUTH-13",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "AUTH-14",
+    "name": "Session Management",
+    "family": "AUTH",
+    "kind": "identity",
+    "summary": "Review example devices. No account, verification, grant, or session is created.",
+    "fields": [
+      {
+        "key": "device-label",
+        "label": "Device label",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "reason",
+        "label": "Reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "AUTH-15",
+      "PUB-04"
+    ],
+    "sections": [],
+    "route": "/preview/AUTH-14",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "AUTH-15",
+    "name": "Account Restricted",
+    "family": "AUTH",
+    "kind": "identity",
+    "summary": "Account restriction and appeal. No account, verification, grant, or session is created.",
+    "fields": [
+      {
+        "key": "restriction-reference",
+        "label": "Restriction reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "appeal-explanation",
+        "label": "Appeal explanation",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "AUTH-16",
+      "PUB-04"
+    ],
+    "sections": [],
+    "route": "/preview/AUTH-15",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "AUTH-16",
+    "name": "Workspace Picker",
+    "family": "AUTH",
+    "kind": "identity",
+    "summary": "Choose an eligible context. No account, verification, grant, or session is created.",
+    "fields": [
+      {
+        "key": "context",
+        "label": "Context",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Student",
+          "Educator",
+          "Guardian",
+          "Tutor",
+          "Institution"
+        ]
+      },
+      {
+        "key": "reason-for-context",
+        "label": "Reason for context",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "AUTH-16",
+      "PUB-04"
+    ],
+    "sections": [],
+    "route": "/preview/AUTH-16",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "APP-01",
+    "name": "Unified Home",
+    "family": "APP",
+    "kind": "feed",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/APP-01",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "APP-02",
+    "name": "Global Search",
+    "family": "APP",
+    "kind": "search",
+    "summary": "Search example people, courses, and communities by meaning and interest.",
+    "fields": [
+      {
+        "key": "search-your-world",
+        "label": "Search your world",
+        "type": "text",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "APP-09",
+      "APP-12",
+      "APP-10"
+    ],
+    "sections": [],
+    "route": "/preview/APP-02",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "APP-03",
+    "name": "Notifications",
+    "family": "APP",
+    "kind": "notifications",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/APP-03",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "APP-04",
+    "name": "Inbox",
+    "family": "APP",
+    "kind": "messages",
+    "summary": "Your example conversation list. Only fictional adult professional exchanges are shown.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "APP-05",
+      "APP-19"
+    ],
+    "sections": [],
+    "route": "/preview/APP-04",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "APP-05",
+    "name": "Conversation",
+    "family": "APP",
+    "kind": "messages",
+    "summary": "An example adult educator conversation. Sending adds a local message only.",
+    "fields": [
+      {
+        "key": "message",
+        "label": "Message",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "APP-18",
+      "APP-19"
+    ],
+    "sections": [],
+    "route": "/preview/APP-05",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "APP-06",
+    "name": "Compose Post",
+    "family": "APP",
+    "kind": "feed",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/APP-06",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "APP-07",
+    "name": "Post Detail",
+    "family": "APP",
+    "kind": "feed",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/APP-07",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "APP-08",
+    "name": "My Network",
+    "family": "APP",
+    "kind": "connections",
+    "summary": "Build a deliberate education network.",
+    "fields": [],
+    "columns": [
+      "Person",
+      "Expertise",
+      "Relationship"
+    ],
+    "rows": [
+      [
+        "Ananya Rao",
+        "Visual thinking",
+        "Example connection"
+      ],
+      [
+        "Kabir Sen",
+        "Science inquiry",
+        "Example request"
+      ],
+      [
+        "Meera Iyer",
+        "Writing",
+        "Suggested adult professional"
+      ]
+    ],
+    "links": [
+      "APP-09",
+      "APP-16"
+    ],
+    "sections": [],
+    "route": "/preview/APP-08",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "APP-09",
+    "name": "People Search",
+    "family": "APP",
+    "kind": "network",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/APP-09",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "APP-10",
+    "name": "Community Discovery",
+    "family": "APP",
+    "kind": "communities",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/APP-10",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "APP-11",
+    "name": "Community Detail",
+    "family": "APP",
+    "kind": "discussion",
+    "summary": "The curious classroom: contribute to an example discussion without entering a private group.",
+    "fields": [
+      {
+        "key": "discussion-title",
+        "label": "Discussion title",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "your-contribution",
+        "label": "Your contribution",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Discussion",
+      "Topic",
+      "Replies"
+    ],
+    "rows": [
+      [
+        "What makes a question useful?",
+        "Classroom practice",
+        "2 example replies"
+      ],
+      [
+        "Observation before explanation",
+        "Inquiry",
+        "1 example reply"
+      ]
+    ],
+    "links": [
+      "APP-10",
+      "APP-06"
+    ],
+    "sections": [],
+    "route": "/preview/APP-11",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "APP-12",
+    "name": "Course Catalog",
+    "family": "APP",
+    "kind": "catalog",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/APP-12",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "APP-13",
+    "name": "Course Detail",
+    "family": "APP",
+    "kind": "course",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/APP-13",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "APP-14",
+    "name": "Event Detail",
+    "family": "APP",
+    "kind": "event-detail",
+    "summary": "Teaching with better questions: an illustrative event detail and registration review.",
+    "fields": [
+      {
+        "key": "attendance-format",
+        "label": "Attendance format",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Online",
+          "In person"
+        ]
+      },
+      {
+        "key": "access-requirements-(optional)",
+        "label": "Access requirements (optional)",
+        "type": "textarea",
+        "required": false,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "PUB-15",
+      "STU-23"
+    ],
+    "sections": [
+      [
+        "Agenda",
+        "Observe a learning prompt, compare question types, and draft a small classroom experiment."
+      ],
+      [
+        "Schedule",
+        "No live date or meeting is scheduled. All registration actions stay local."
+      ],
+      [
+        "Eligibility",
+        "Publisher trust, age, participant capacity, and consent require authoritative checks."
+      ]
+    ],
+    "route": "/preview/APP-14",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "APP-15",
+    "name": "Saved Items",
+    "family": "APP",
+    "kind": "saved",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/APP-15",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "APP-16",
+    "name": "Profile Viewer",
+    "family": "APP",
+    "kind": "profile",
+    "summary": "A professional identity with deliberate public visibility.",
+    "fields": [
+      {
+        "key": "display-name",
+        "label": "Display name",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "headline",
+        "label": "Headline",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "bio",
+        "label": "Bio",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "website-(optional)",
+        "label": "Website (optional)",
+        "type": "url",
+        "required": false,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "APP-08",
+      "STU-03",
+      "APP-18"
+    ],
+    "sections": [
+      [
+        "About",
+        "Example educator and lifelong learner exploring inquiry, design, and better questions."
+      ],
+      [
+        "Selected work",
+        "An observation journal and a visual explanation project demonstrate the portfolio layout."
+      ],
+      [
+        "Visibility",
+        "Institution records and private child details never become public profile content."
+      ]
+    ],
+    "route": "/preview/APP-16",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "APP-17",
+    "name": "Account Settings",
+    "family": "APP",
+    "kind": "settings",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/APP-17",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "APP-18",
+    "name": "Privacy Center",
+    "family": "APP",
+    "kind": "privacy",
+    "summary": "Understand and control the boundaries around your information.",
+    "fields": [
+      {
+        "key": "request-type",
+        "label": "Request type",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Access copy",
+          "Correction",
+          "Deletion review",
+          "Consent question"
+        ]
+      },
+      {
+        "key": "request-scope",
+        "label": "Request scope",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "reason-(optional)",
+        "label": "Reason (optional)",
+        "type": "textarea",
+        "required": false,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "AUTH-14",
+      "APP-19",
+      "PUB-22"
+    ],
+    "sections": [],
+    "route": "/preview/APP-18",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "APP-19",
+    "name": "Help and Report",
+    "family": "APP",
+    "kind": "support",
+    "summary": "Prepare a help request or a report with a clear recovery path.",
+    "fields": [
+      {
+        "key": "category",
+        "label": "Category",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Help",
+          "Accessibility",
+          "Content report",
+          "Contact concern",
+          "Privacy"
+        ]
+      },
+      {
+        "key": "subject",
+        "label": "Subject",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "description",
+        "label": "Description",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "related-reference-(optional)",
+        "label": "Related reference (optional)",
+        "type": "text",
+        "required": false,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "APP-18",
+      "PUB-04"
+    ],
+    "sections": [],
+    "route": "/preview/APP-19",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "STU-01",
+    "name": "Student Overview",
+    "family": "STU",
+    "kind": "overview",
+    "summary": "See your next learning priorities, classroom tasks, and opportunities.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "STU-09",
+      "STU-12",
+      "STU-18",
+      "STU-03"
+    ],
+    "sections": [
+      [
+        "Continue learning",
+        "The art of thinking clearly · observation practice."
+      ],
+      [
+        "Next task",
+        "Prepare an observation journal for the example design class."
+      ],
+      [
+        "From your institution",
+        "Review example school announcements and your sample timetable."
+      ]
+    ],
+    "route": "/preview/STU-01",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "STU-02",
+    "name": "Academic Profile",
+    "family": "STU",
+    "kind": "form",
+    "summary": "Edit permitted academic-profile details without modifying official institution records.",
+    "fields": [
+      {
+        "key": "preferred-name",
+        "label": "Preferred name",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "learning-interests",
+        "label": "Learning interests",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "education-stage",
+        "label": "Education stage",
+        "type": "select",
+        "required": true,
+        "options": [
+          "School",
+          "College",
+          "Continuing education"
+        ]
+      },
+      {
+        "key": "personal-introduction",
+        "label": "Personal introduction",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "STU-03",
+      "STU-24"
+    ],
+    "sections": [],
+    "route": "/preview/STU-02",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "STU-03",
+    "name": "Portfolio",
+    "family": "STU",
+    "kind": "portfolio",
+    "summary": "Give your learning a thoughtful home.",
+    "fields": [
+      {
+        "key": "project-title",
+        "label": "Project title",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "project-summary",
+        "label": "Project summary",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "project-link-(optional)",
+        "label": "Project link (optional)",
+        "type": "url",
+        "required": false,
+        "options": []
+      },
+      {
+        "key": "visibility",
+        "label": "Visibility",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Private draft",
+          "Eligible network preview"
+        ]
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "APP-16",
+      "STU-16"
+    ],
+    "sections": [
+      [
+        "Observation journal",
+        "A small collection of questions, sketches, and reflections. Example project."
+      ],
+      [
+        "A visual explanation",
+        "Explore how a familiar process works through diagrams and short notes. Example project."
+      ]
+    ],
+    "route": "/preview/STU-03",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "STU-04",
+    "name": "Connections",
+    "family": "STU",
+    "kind": "connections",
+    "summary": "A student-safe relationship manager. Public student discovery and unrestricted contact remain disabled.",
+    "fields": [],
+    "columns": [
+      "Relationship",
+      "Context",
+      "Eligibility"
+    ],
+    "rows": [
+      [
+        "Assigned educator",
+        "Example classroom",
+        "Policy review required"
+      ],
+      [
+        "Class community",
+        "Example institution",
+        "Membership required"
+      ]
+    ],
+    "links": [
+      "STU-07",
+      "STU-24"
+    ],
+    "sections": [],
+    "route": "/preview/STU-04",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "STU-05",
+    "name": "Student Feed",
+    "family": "STU",
+    "kind": "student-feed",
+    "summary": "Read example class learning updates. Public posting and messaging require eligibility review.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "STU-06",
+      "STU-20"
+    ],
+    "sections": [],
+    "route": "/preview/STU-05",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "STU-06",
+    "name": "Create Learning Post",
+    "family": "STU",
+    "kind": "form",
+    "summary": "Prepare a learning reflection for an approved classroom audience.",
+    "fields": [
+      {
+        "key": "reflection-title",
+        "label": "Reflection title",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "what-i-noticed",
+        "label": "What I noticed",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "audience",
+        "label": "Audience",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Assigned class draft",
+          "Private draft"
+        ]
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "STU-05",
+      "STU-24"
+    ],
+    "sections": [],
+    "route": "/preview/STU-06",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "STU-07",
+    "name": "My Communities",
+    "family": "STU",
+    "kind": "communities",
+    "summary": "Your classroom and subject communities, with membership boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/STU-07",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "STU-08",
+    "name": "Student Course Search",
+    "family": "STU",
+    "kind": "catalog",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/STU-08",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "STU-09",
+    "name": "Enrolled Courses",
+    "family": "STU",
+    "kind": "my-learning",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/STU-09",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "STU-10",
+    "name": "Learning Player",
+    "family": "STU",
+    "kind": "player",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/STU-10",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "STU-11",
+    "name": "Course Progress",
+    "family": "STU",
+    "kind": "player",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/STU-11",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "STU-12",
+    "name": "Assignments",
+    "family": "STU",
+    "kind": "assignments",
+    "summary": "Plan your next piece of meaningful work.",
+    "fields": [],
+    "columns": [
+      "Assignment",
+      "Class",
+      "Due state",
+      "Draft state"
+    ],
+    "rows": [
+      [
+        "Observation journal",
+        "Visual thinking",
+        "Example deadline",
+        "Not started"
+      ],
+      [
+        "Explain an everyday system",
+        "Science inquiry",
+        "Example deadline",
+        "Draft available"
+      ]
+    ],
+    "links": [
+      "STU-13",
+      "STU-14",
+      "STU-15"
+    ],
+    "sections": [],
+    "route": "/preview/STU-12",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "STU-13",
+    "name": "Submit Assignment",
+    "family": "STU",
+    "kind": "submission",
+    "summary": "Observation journal: describe five details and one question worth pursuing.",
+    "fields": [
+      {
+        "key": "response-title",
+        "label": "Response title",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "your-response",
+        "label": "Your response",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "attachment-description-(optional)",
+        "label": "Attachment description (optional)",
+        "type": "textarea",
+        "required": false,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "STU-12",
+      "STU-15"
+    ],
+    "sections": [],
+    "route": "/preview/STU-13",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "STU-14",
+    "name": "Assessment Attempt",
+    "family": "STU",
+    "kind": "assessment",
+    "summary": "Practice observation and reflection in a low-stakes sample assessment.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "STU-15",
+      "STU-09"
+    ],
+    "sections": [],
+    "route": "/preview/STU-14",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "STU-15",
+    "name": "Grades and Feedback",
+    "family": "STU",
+    "kind": "results",
+    "summary": "Review published-example feedback. No official grade is represented.",
+    "fields": [],
+    "columns": [
+      "Learning evidence",
+      "Release state",
+      "Feedback"
+    ],
+    "rows": [
+      [
+        "Observation journal",
+        "Published example",
+        "Specific observations; explore one deeper question."
+      ],
+      [
+        "Science explanation",
+        "Not released",
+        "Feedback unavailable until authorized publication."
+      ]
+    ],
+    "links": [
+      "STU-13",
+      "STU-16"
+    ],
+    "sections": [],
+    "route": "/preview/STU-15",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "STU-16",
+    "name": "Certificates",
+    "family": "STU",
+    "kind": "credentials",
+    "summary": "Inspect example achievements without claiming an issued or verified certificate.",
+    "fields": [],
+    "columns": [
+      "Credential",
+      "Issuer",
+      "Verification"
+    ],
+    "rows": [
+      [
+        "Curiosity practice",
+        "Example course",
+        "Not issued"
+      ],
+      [
+        "Visual thinking pathway",
+        "Example educator",
+        "Unverified concept"
+      ]
+    ],
+    "links": [
+      "STU-03",
+      "STU-09"
+    ],
+    "sections": [],
+    "route": "/preview/STU-16",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "STU-17",
+    "name": "My Classrooms",
+    "family": "STU",
+    "kind": "classes",
+    "summary": "A clear home for your assigned learning spaces.",
+    "fields": [],
+    "columns": [
+      "Class",
+      "Educator",
+      "Next focus"
+    ],
+    "rows": [
+      [
+        "Visual thinking · 10 A",
+        "Ananya Rao",
+        "Observation journal"
+      ],
+      [
+        "Science inquiry · 10 A",
+        "Kabir Sen",
+        "Everyday systems"
+      ]
+    ],
+    "links": [
+      "STU-12",
+      "STU-18",
+      "STU-20"
+    ],
+    "sections": [],
+    "route": "/preview/STU-17",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "STU-18",
+    "name": "Class Schedule",
+    "family": "STU",
+    "kind": "timetable",
+    "summary": "Your example week, with clear lesson times and locations.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "STU-17",
+      "STU-19"
+    ],
+    "sections": [],
+    "route": "/preview/STU-18",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "STU-19",
+    "name": "Attendance View",
+    "family": "STU",
+    "kind": "attendance-summary",
+    "summary": "A transparent personal attendance view with a correction-request draft.",
+    "fields": [
+      {
+        "key": "session-reference",
+        "label": "Session reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "correction-reason",
+        "label": "Correction reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Session",
+      "Class",
+      "Example status"
+    ],
+    "rows": [
+      [
+        "10 Nov · Period 1",
+        "Visual thinking",
+        "Present example"
+      ],
+      [
+        "10 Nov · Period 2",
+        "Science inquiry",
+        "Late example"
+      ]
+    ],
+    "links": [
+      "STU-18",
+      "STU-20"
+    ],
+    "sections": [],
+    "route": "/preview/STU-19",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "STU-20",
+    "name": "School Announcements",
+    "family": "STU",
+    "kind": "announcements",
+    "summary": "Official communication layout, separated from social activity.",
+    "fields": [],
+    "columns": [
+      "Announcement",
+      "Audience",
+      "Status"
+    ],
+    "rows": [
+      [
+        "Family learning conversation",
+        "Example class families",
+        "Draft schedule"
+      ],
+      [
+        "Library exploration week",
+        "Example institution",
+        "Illustrative notice"
+      ]
+    ],
+    "links": [
+      "STU-17",
+      "STU-18"
+    ],
+    "sections": [],
+    "route": "/preview/STU-20",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "STU-21",
+    "name": "Find Tutors",
+    "family": "STU",
+    "kind": "directory",
+    "summary": "Explore example tutoring expertise. Contact and bookings require eligibility.",
+    "fields": [],
+    "columns": [
+      "Tutor",
+      "Expertise",
+      "Session style",
+      "Trust"
+    ],
+    "rows": [
+      [
+        "Dev Patel",
+        "Mathematics",
+        "Visual explanation",
+        "Unverified example"
+      ],
+      [
+        "Meera Iyer",
+        "Language",
+        "Writing practice",
+        "Unverified example"
+      ]
+    ],
+    "links": [
+      "STU-22",
+      "PRO-02"
+    ],
+    "sections": [],
+    "route": "/preview/STU-21",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "STU-22",
+    "name": "Tutor Booking",
+    "family": "STU",
+    "kind": "booking",
+    "summary": "Review an example tutoring time without creating a reservation or payment.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/STU-22",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "STU-23",
+    "name": "Events and Opportunities",
+    "family": "STU",
+    "kind": "opportunities",
+    "summary": "Explore example events and projects with explicit eligibility boundaries.",
+    "fields": [],
+    "columns": [
+      "Opportunity",
+      "Category",
+      "Application state"
+    ],
+    "rows": [
+      [
+        "Visual inquiry circle",
+        "Learning event",
+        "Not accepting applications"
+      ],
+      [
+        "Everyday science project",
+        "Collaboration",
+        "Eligibility review required"
+      ]
+    ],
+    "links": [
+      "APP-14",
+      "PUB-16"
+    ],
+    "sections": [],
+    "route": "/preview/STU-23",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "STU-24",
+    "name": "Student Settings",
+    "family": "STU",
+    "kind": "preferences",
+    "summary": "Keep student visibility and contact preferences deliberate.",
+    "fields": [
+      {
+        "key": "learning-reminder",
+        "label": "Learning reminder",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Off",
+          "Weekly example"
+        ]
+      },
+      {
+        "key": "profile-visibility",
+        "label": "Profile visibility",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Private",
+          "Institution-only preview"
+        ]
+      },
+      {
+        "key": "contact-preference",
+        "label": "Contact preference",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Restricted pending policy",
+          "Assigned institutional channels"
+        ]
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "APP-18",
+      "AUTH-14"
+    ],
+    "sections": [],
+    "route": "/preview/STU-24",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "EDU-01",
+    "name": "Educator Overview",
+    "family": "EDU",
+    "kind": "overview",
+    "summary": "Focus your teaching day on the work that needs attention.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "EDU-05",
+      "EDU-11",
+      "EDU-15",
+      "EDU-21"
+    ],
+    "sections": [
+      [
+        "Course studio",
+        "Continue your visual thinking curriculum draft."
+      ],
+      [
+        "Review queue",
+        "Two fictional submissions are ready for a feedback draft."
+      ],
+      [
+        "Classroom preparation",
+        "Check the sample weekly schedule and attendance register."
+      ]
+    ],
+    "route": "/preview/EDU-01",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "EDU-02",
+    "name": "Professional Profile",
+    "family": "EDU",
+    "kind": "profile",
+    "summary": "A professional teaching identity with reviewable qualification claims.",
+    "fields": [
+      {
+        "key": "professional-name",
+        "label": "Professional name",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "headline",
+        "label": "Headline",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "teaching-philosophy",
+        "label": "Teaching philosophy",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "evidence-summary",
+        "label": "Evidence summary",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "PUB-08",
+      "EDU-23"
+    ],
+    "sections": [
+      [
+        "Teaching focus",
+        "Visual thinking, observation, and inquiry-based learning."
+      ],
+      [
+        "Experience",
+        "Example narrative only. Evidence and institutional affiliations are unverified."
+      ],
+      [
+        "Public preview",
+        "Private student information is never part of your professional profile."
+      ]
+    ],
+    "route": "/preview/EDU-02",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "EDU-03",
+    "name": "Educator Feed",
+    "family": "EDU",
+    "kind": "feed",
+    "summary": "Share expertise through an adult educator network.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/EDU-03",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "EDU-04",
+    "name": "Teaching Network",
+    "family": "EDU",
+    "kind": "connections",
+    "summary": "Your professional teaching relationships and outstanding requests.",
+    "fields": [],
+    "columns": [
+      "Educator",
+      "Focus",
+      "Relationship"
+    ],
+    "rows": [
+      [
+        "Kabir Sen",
+        "Science inquiry",
+        "Example connection"
+      ],
+      [
+        "Meera Iyer",
+        "Language practice",
+        "Example request"
+      ]
+    ],
+    "links": [
+      "APP-09",
+      "EDU-02"
+    ],
+    "sections": [],
+    "route": "/preview/EDU-04",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "EDU-05",
+    "name": "My Courses",
+    "family": "EDU",
+    "kind": "course-manager",
+    "summary": "Give each learning experience a clear next step.",
+    "fields": [],
+    "columns": [
+      "Course",
+      "Version",
+      "Draft state",
+      "Review readiness"
+    ],
+    "rows": [
+      [
+        "The art of thinking clearly",
+        "Draft v1",
+        "4 example lessons",
+        "Outcomes needed"
+      ],
+      [
+        "Learning through observation",
+        "Draft v1",
+        "2 example lessons",
+        "Evidence needed"
+      ]
+    ],
+    "links": [
+      "EDU-06",
+      "EDU-07",
+      "EDU-09"
+    ],
+    "sections": [],
+    "route": "/preview/EDU-05",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "EDU-06",
+    "name": "Create Course",
+    "family": "EDU",
+    "kind": "form",
+    "summary": "Start a course with a clear audience and learning outcome.",
+    "fields": [
+      {
+        "key": "course-title",
+        "label": "Course title",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "category",
+        "label": "Category",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Design",
+          "Science",
+          "Language",
+          "Mathematics"
+        ]
+      },
+      {
+        "key": "intended-audience",
+        "label": "Intended audience",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "learning-outcomes",
+        "label": "Learning outcomes",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "prerequisites",
+        "label": "Prerequisites",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "content-ownership-note",
+        "label": "Content ownership note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "EDU-07",
+      "EDU-09"
+    ],
+    "sections": [],
+    "route": "/preview/EDU-06",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "EDU-07",
+    "name": "Curriculum Editor",
+    "family": "EDU",
+    "kind": "editor",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/EDU-07",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "EDU-08",
+    "name": "Resource Library",
+    "family": "EDU",
+    "kind": "resources",
+    "summary": "Keep learning materials organized, described, and licensed.",
+    "fields": [
+      {
+        "key": "resource-title",
+        "label": "Resource title",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "resource-description",
+        "label": "Resource description",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "license-or-ownership",
+        "label": "License or ownership",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "resource-category",
+        "label": "Resource category",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Reading",
+          "Worksheet",
+          "Presentation",
+          "Reference"
+        ]
+      }
+    ],
+    "columns": [
+      "Resource",
+      "Type",
+      "License",
+      "State"
+    ],
+    "rows": [
+      [
+        "Observation worksheet",
+        "Worksheet",
+        "Original example",
+        "Draft"
+      ],
+      [
+        "Reflection prompts",
+        "Reading",
+        "Original example",
+        "Draft"
+      ]
+    ],
+    "links": [
+      "EDU-07",
+      "EDU-09"
+    ],
+    "sections": [],
+    "route": "/preview/EDU-08",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "EDU-09",
+    "name": "Course Publish Review",
+    "family": "EDU",
+    "kind": "publication",
+    "summary": "Review a course before requesting a publication decision.",
+    "fields": [
+      {
+        "key": "review-note",
+        "label": "Review note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "content-ownership-declaration",
+        "label": "Content ownership declaration",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Evidence review required",
+          "Original example content"
+        ]
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "EDU-06",
+      "EDU-07",
+      "EDU-08"
+    ],
+    "sections": [
+      [
+        "Learning outcomes",
+        "Confirm measurable outcomes and prerequisites."
+      ],
+      [
+        "Content readiness",
+        "Review curriculum, transcripts, accessibility, resource licenses, and empty lessons."
+      ],
+      [
+        "Release boundary",
+        "This preview cannot publish a course or grant learner entitlement."
+      ]
+    ],
+    "route": "/preview/EDU-09",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "EDU-10",
+    "name": "Course Enrollments",
+    "family": "EDU",
+    "kind": "records",
+    "summary": "Review course-specific example enrollment states.",
+    "fields": [],
+    "columns": [
+      "Learner alias",
+      "Course",
+      "Access state",
+      "Progress"
+    ],
+    "rows": [
+      [
+        "Example learner A",
+        "Visual thinking",
+        "Example entitlement",
+        "42% illustrative"
+      ],
+      [
+        "Example learner B",
+        "Visual thinking",
+        "Awaiting eligibility",
+        "Unavailable"
+      ]
+    ],
+    "links": [
+      "EDU-05",
+      "EDU-22"
+    ],
+    "sections": [],
+    "route": "/preview/EDU-10",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "EDU-11",
+    "name": "Institution Classes",
+    "family": "EDU",
+    "kind": "classes",
+    "summary": "Your assigned example cohorts and teaching responsibilities.",
+    "fields": [],
+    "columns": [
+      "Class",
+      "Subject",
+      "Assignment state",
+      "Next focus"
+    ],
+    "rows": [
+      [
+        "10 A",
+        "Visual thinking",
+        "Example assignment",
+        "Observation journal"
+      ],
+      [
+        "10 B",
+        "Design practice",
+        "Example assignment",
+        "Sketch connections"
+      ]
+    ],
+    "links": [
+      "EDU-12",
+      "EDU-13",
+      "EDU-20",
+      "EDU-21"
+    ],
+    "sections": [],
+    "route": "/preview/EDU-11",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "EDU-12",
+    "name": "Class Roster",
+    "family": "EDU",
+    "kind": "roster",
+    "summary": "Inspect a fictional assigned-class register. No private records are loaded.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/EDU-12",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "EDU-13",
+    "name": "Class Announcements",
+    "family": "EDU",
+    "kind": "form",
+    "summary": "Prepare an official class announcement with a clear audience.",
+    "fields": [
+      {
+        "key": "announcement-title",
+        "label": "Announcement title",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "class",
+        "label": "Class",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Example 10 A",
+          "Example 10 B"
+        ]
+      },
+      {
+        "key": "announcement",
+        "label": "Announcement",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "priority",
+        "label": "Priority",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Routine",
+          "Action requested"
+        ]
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "EDU-11",
+      "STU-20"
+    ],
+    "sections": [],
+    "route": "/preview/EDU-13",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "EDU-14",
+    "name": "Assignment Builder",
+    "family": "EDU",
+    "kind": "assignment-builder",
+    "summary": "Give learners a clear task and a transparent rubric.",
+    "fields": [
+      {
+        "key": "assignment-title",
+        "label": "Assignment title",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "class",
+        "label": "Class",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Example 10 A",
+          "Example 10 B"
+        ]
+      },
+      {
+        "key": "instructions",
+        "label": "Instructions",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "due-date",
+        "label": "Due date",
+        "type": "date",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "assessment-criteria",
+        "label": "Assessment criteria",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "maximum-attempts",
+        "label": "Maximum attempts",
+        "type": "number",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "EDU-15",
+      "STU-13"
+    ],
+    "sections": [],
+    "route": "/preview/EDU-14",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "EDU-15",
+    "name": "Submissions Inbox",
+    "family": "EDU",
+    "kind": "submissions",
+    "summary": "A focused review queue for example learner work.",
+    "fields": [],
+    "columns": [
+      "Submission",
+      "Class",
+      "Received state",
+      "Review"
+    ],
+    "rows": [
+      [
+        "Observation journal · Learner A",
+        "10 A",
+        "Example receipt",
+        "Awaiting draft feedback"
+      ],
+      [
+        "Observation journal · Learner B",
+        "10 A",
+        "Example receipt",
+        "Draft feedback"
+      ]
+    ],
+    "links": [
+      "EDU-16",
+      "EDU-14"
+    ],
+    "sections": [],
+    "route": "/preview/EDU-15",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "EDU-16",
+    "name": "Grade and Feedback",
+    "family": "EDU",
+    "kind": "grading",
+    "summary": "Read a sample response and draft specific, useful feedback.",
+    "fields": [
+      {
+        "key": "observation-criterion",
+        "label": "Observation criterion",
+        "type": "number",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "reflection-criterion",
+        "label": "Reflection criterion",
+        "type": "number",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "feedback",
+        "label": "Feedback",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "release-state",
+        "label": "Release state",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Private local draft",
+          "Review requested preview"
+        ]
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "EDU-15",
+      "STU-15"
+    ],
+    "sections": [
+      [
+        "Example response",
+        "I noticed the shape of a leaf, its veins, and the way shadows changed across it. My question is: how does its structure support growth?"
+      ],
+      [
+        "Rubric",
+        "Observation and reflection are illustrative criteria; official scales require institution approval."
+      ]
+    ],
+    "route": "/preview/EDU-16",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "EDU-17",
+    "name": "Assessment Builder",
+    "family": "EDU",
+    "kind": "assessment-builder",
+    "summary": "Build questions that check understanding without automated consequential grading.",
+    "fields": [
+      {
+        "key": "assessment-title",
+        "label": "Assessment title",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "question-prompt",
+        "label": "Question prompt",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "answer-options",
+        "label": "Answer options",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "feedback-explanation",
+        "label": "Feedback explanation",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "attempt-policy-note",
+        "label": "Attempt policy note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "STU-14",
+      "EDU-16"
+    ],
+    "sections": [],
+    "route": "/preview/EDU-17",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "EDU-18",
+    "name": "Live Class Scheduler",
+    "family": "EDU",
+    "kind": "scheduler",
+    "summary": "Plan an example live lesson with explicit timezone and participant context.",
+    "fields": [
+      {
+        "key": "session-title",
+        "label": "Session title",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "class",
+        "label": "Class",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Example 10 A",
+          "Example 10 B"
+        ]
+      },
+      {
+        "key": "session-date",
+        "label": "Session date",
+        "type": "date",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "start-time",
+        "label": "Start time",
+        "type": "time",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "timezone",
+        "label": "Timezone",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Asia/Kolkata",
+          "UTC"
+        ]
+      },
+      {
+        "key": "agenda",
+        "label": "Agenda",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "EDU-19",
+      "EDU-21"
+    ],
+    "sections": [],
+    "route": "/preview/EDU-18",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "EDU-19",
+    "name": "Live Class Host",
+    "family": "EDU",
+    "kind": "live",
+    "summary": "Prepare a live-teaching room without starting a meeting or collecting media.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "EDU-18",
+      "EDU-20"
+    ],
+    "sections": [
+      [
+        "Room readiness",
+        "Microphone/camera permissions are not requested in Module 00."
+      ],
+      [
+        "Participant boundary",
+        "A copied meeting link never authorizes classroom entry."
+      ],
+      [
+        "Recovery",
+        "Provider connection is unavailable; use the rescheduling path."
+      ]
+    ],
+    "route": "/preview/EDU-19",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "EDU-20",
+    "name": "Attendance Register",
+    "family": "EDU",
+    "kind": "attendance",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/EDU-20",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "EDU-21",
+    "name": "Timetable",
+    "family": "EDU",
+    "kind": "timetable",
+    "summary": "A readable teaching week with class and room context.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "EDU-18",
+      "EDU-20"
+    ],
+    "sections": [],
+    "route": "/preview/EDU-21",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "EDU-22",
+    "name": "Teaching Analytics",
+    "family": "EDU",
+    "kind": "report",
+    "summary": "Inspect teaching engagement with transparent example measures.",
+    "fields": [],
+    "columns": [
+      "Course",
+      "Example enrolled",
+      "Example engaged",
+      "Data quality"
+    ],
+    "rows": [
+      [
+        "Visual thinking",
+        "12 fictional",
+        "8 fictional",
+        "Illustrative only"
+      ],
+      [
+        "Observation practice",
+        "10 fictional",
+        "6 fictional",
+        "Illustrative only"
+      ]
+    ],
+    "links": [
+      "EDU-05",
+      "EDU-10"
+    ],
+    "sections": [],
+    "route": "/preview/EDU-22",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "EDU-23",
+    "name": "Educator Settings",
+    "family": "EDU",
+    "kind": "preferences",
+    "summary": "Set teaching availability and communication preferences.",
+    "fields": [
+      {
+        "key": "timezone",
+        "label": "Timezone",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Asia/Kolkata",
+          "UTC"
+        ]
+      },
+      {
+        "key": "office-hours",
+        "label": "Office hours",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "notification-digest",
+        "label": "Notification digest",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Off",
+          "Daily example",
+          "Weekly example"
+        ]
+      },
+      {
+        "key": "professional-visibility",
+        "label": "Professional visibility",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Private draft",
+          "Eligible professional preview"
+        ]
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "EDU-02",
+      "APP-18"
+    ],
+    "sections": [],
+    "route": "/preview/EDU-23",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PAR-01",
+    "name": "Guardian Overview",
+    "family": "PAR",
+    "kind": "guardian",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/PAR-01",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PAR-02",
+    "name": "Child Selector",
+    "family": "PAR",
+    "kind": "guardian",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/PAR-02",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PAR-03",
+    "name": "Child Academic Summary",
+    "family": "PAR",
+    "kind": "guardian",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/PAR-03",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PAR-04",
+    "name": "Child Attendance",
+    "family": "PAR",
+    "kind": "guardian",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/PAR-04",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PAR-05",
+    "name": "Child Timetable",
+    "family": "PAR",
+    "kind": "timetable",
+    "summary": "A permitted-example child schedule, with no cross-child state retained.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "PAR-01",
+      "PAR-04"
+    ],
+    "sections": [],
+    "route": "/preview/PAR-05",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PAR-06",
+    "name": "Child Assignments",
+    "family": "PAR",
+    "kind": "assignments",
+    "summary": "See the work shared with an authorized-example family context.",
+    "fields": [],
+    "columns": [
+      "Assignment",
+      "Class",
+      "Due state",
+      "Shared state"
+    ],
+    "rows": [
+      [
+        "Observation journal",
+        "Visual thinking",
+        "Example deadline",
+        "Family summary only"
+      ],
+      [
+        "Everyday systems",
+        "Science inquiry",
+        "Example deadline",
+        "Family summary only"
+      ]
+    ],
+    "links": [
+      "PAR-03",
+      "PAR-08"
+    ],
+    "sections": [],
+    "route": "/preview/PAR-06",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PAR-07",
+    "name": "Child Grades",
+    "family": "PAR",
+    "kind": "results",
+    "summary": "Released-example results only. Unpublished grades and staff notes remain unavailable.",
+    "fields": [],
+    "columns": [
+      "Learning area",
+      "Release",
+      "Shared feedback"
+    ],
+    "rows": [
+      [
+        "Observation practice",
+        "Published example",
+        "Thoughtful attention to detail"
+      ],
+      [
+        "Inquiry reflection",
+        "Not released",
+        "Unavailable"
+      ]
+    ],
+    "links": [
+      "PAR-03",
+      "PAR-13"
+    ],
+    "sections": [],
+    "route": "/preview/PAR-07",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PAR-08",
+    "name": "Child Course Progress",
+    "family": "PAR",
+    "kind": "guardian",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/PAR-08",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PAR-09",
+    "name": "Child Fees",
+    "family": "PAR",
+    "kind": "finance",
+    "summary": "Inspect unposted example charges without implying a real balance, receipt, or payment.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/PAR-09",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PAR-10",
+    "name": "School Announcements",
+    "family": "PAR",
+    "kind": "guardian",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/PAR-10",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PAR-11",
+    "name": "Teacher Communication",
+    "family": "PAR",
+    "kind": "messages",
+    "summary": "An example school communication channel. Child private messages are excluded.",
+    "fields": [
+      {
+        "key": "message",
+        "label": "Message",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "PAR-10",
+      "PAR-13"
+    ],
+    "sections": [],
+    "route": "/preview/PAR-11",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PAR-12",
+    "name": "Guardian Approvals",
+    "family": "PAR",
+    "kind": "consent",
+    "summary": "Review a request by purpose, child, category, and duration.",
+    "fields": [
+      {
+        "key": "request-reference",
+        "label": "Request reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "purpose",
+        "label": "Purpose",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Learning visit",
+          "Academic summary",
+          "Course participation"
+        ]
+      },
+      {
+        "key": "decision-draft",
+        "label": "Decision draft",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Request more information",
+          "Review consent",
+          "Decline draft"
+        ]
+      },
+      {
+        "key": "reason",
+        "label": "Reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "PAR-13",
+      "PAR-03"
+    ],
+    "sections": [
+      [
+        "Scope",
+        "Example learning-visit request. No signed consent is collected."
+      ],
+      [
+        "Evidence",
+        "Relationship, policy version, permitted purpose, and withdrawal rules require authoritative verification."
+      ]
+    ],
+    "route": "/preview/PAR-12",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PAR-13",
+    "name": "Child Link Request",
+    "family": "PAR",
+    "kind": "form",
+    "summary": "Request a child relationship without granting access to any student record.",
+    "fields": [
+      {
+        "key": "institution-reference",
+        "label": "Institution reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "child-reference",
+        "label": "Child reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "relationship",
+        "label": "Relationship",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Parent",
+          "Guardian",
+          "Other authorized relationship"
+        ]
+      },
+      {
+        "key": "evidence-description",
+        "label": "Evidence description",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "requested-categories",
+        "label": "Requested categories",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "PAR-01",
+      "PAR-12"
+    ],
+    "sections": [],
+    "route": "/preview/PAR-13",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PAR-14",
+    "name": "Family Notification Settings",
+    "family": "PAR",
+    "kind": "preferences",
+    "summary": "Choose family notification categories without subscribing an actual contact.",
+    "fields": [
+      {
+        "key": "academic-notices",
+        "label": "Academic notices",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Off",
+          "Example enabled"
+        ]
+      },
+      {
+        "key": "attendance-alerts",
+        "label": "Attendance alerts",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Off",
+          "Example enabled"
+        ]
+      },
+      {
+        "key": "fee-notices",
+        "label": "Fee notices",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Off",
+          "Example enabled"
+        ]
+      },
+      {
+        "key": "digest",
+        "label": "Digest",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Off",
+          "Weekly example"
+        ]
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "PAR-15",
+      "PAR-01"
+    ],
+    "sections": [],
+    "route": "/preview/PAR-14",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PAR-15",
+    "name": "Guardian Account Settings",
+    "family": "PAR",
+    "kind": "preferences",
+    "summary": "Keep account details and relationship visibility clear.",
+    "fields": [
+      {
+        "key": "preferred-name",
+        "label": "Preferred name",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "example-contact",
+        "label": "Example contact",
+        "type": "email",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "language-preference",
+        "label": "Language preference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "privacy-question-(optional)",
+        "label": "Privacy question (optional)",
+        "type": "textarea",
+        "required": false,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "PAR-13",
+      "APP-18",
+      "AUTH-14"
+    ],
+    "sections": [],
+    "route": "/preview/PAR-15",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-01",
+    "name": "Institution Overview",
+    "family": "INS",
+    "kind": "overview",
+    "summary": "A clear operational picture, separated from public network activity.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "INS-12",
+      "INS-08",
+      "INS-18",
+      "INS-20",
+      "INS-23",
+      "INS-29"
+    ],
+    "sections": [
+      [
+        "Admissions attention",
+        "Two synthetic applications await evidence review."
+      ],
+      [
+        "Academic readiness",
+        "Review the draft weekly timetable and unresolved resource conflicts."
+      ],
+      [
+        "Financial controls",
+        "Example charges remain unposted; no settlement feed is connected."
+      ]
+    ],
+    "route": "/preview/INS-01",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-02",
+    "name": "Public Institution Profile",
+    "family": "INS",
+    "kind": "profile",
+    "summary": "Prepare the public institution identity without exposing private academic records.",
+    "fields": [
+      {
+        "key": "institution-name",
+        "label": "Institution name",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "public-description",
+        "label": "Public description",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "campus-city",
+        "label": "Campus city",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "public-website-(optional)",
+        "label": "Public website (optional)",
+        "type": "url",
+        "required": false,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "PUB-12",
+      "INS-03"
+    ],
+    "sections": [
+      [
+        "Public information",
+        "Programs, teaching approach, contact channels, and reviewable organization claims."
+      ],
+      [
+        "Private boundary",
+        "Student records, staff permissions, attendance, and finance never belong on this page."
+      ]
+    ],
+    "route": "/preview/INS-02",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-03",
+    "name": "Verification Status",
+    "family": "INS",
+    "kind": "verification",
+    "summary": "Inspect the application evidence checklist without marking an organization verified.",
+    "fields": [
+      {
+        "key": "application-reference",
+        "label": "Application reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "evidence-description",
+        "label": "Evidence description",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "reviewer-question",
+        "label": "Reviewer question",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "AUTH-11",
+      "INS-04"
+    ],
+    "sections": [
+      [
+        "Representative authority",
+        "Evidence that the applicant may represent the institution."
+      ],
+      [
+        "Organization identity",
+        "Registration, official contact, and campus evidence require review."
+      ],
+      [
+        "Review history",
+        "No genuine review, approval, or institution grant exists in this preview."
+      ]
+    ],
+    "route": "/preview/INS-03",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-04",
+    "name": "Institution Settings",
+    "family": "INS",
+    "kind": "form",
+    "summary": "Prepare tenant settings as a local draft.",
+    "fields": [
+      {
+        "key": "institution-display-name",
+        "label": "Institution display name",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "academic-timezone",
+        "label": "Academic timezone",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Asia/Kolkata",
+          "UTC"
+        ]
+      },
+      {
+        "key": "default-locale",
+        "label": "Default locale",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "support-contact",
+        "label": "Support contact",
+        "type": "email",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "campus-reference",
+        "label": "Campus reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "INS-05",
+      "INS-14"
+    ],
+    "sections": [],
+    "route": "/preview/INS-04",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-05",
+    "name": "Institution Users and Roles",
+    "family": "INS",
+    "kind": "permissions",
+    "summary": "Inspect delegated scopes without creating or expanding access.",
+    "fields": [],
+    "columns": [
+      "Example role",
+      "Scope",
+      "Sensitive rights",
+      "Grant state"
+    ],
+    "rows": [
+      [
+        "Registrar",
+        "Example campus",
+        "Student lifecycle",
+        "Not granted"
+      ],
+      [
+        "Assigned educator",
+        "Example class",
+        "Attendance draft",
+        "Not granted"
+      ],
+      [
+        "Finance reviewer",
+        "Example tenant",
+        "Reconciliation review",
+        "Not granted"
+      ]
+    ],
+    "links": [
+      "INS-06",
+      "INS-30"
+    ],
+    "sections": [],
+    "route": "/preview/INS-05",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-06",
+    "name": "Staff Directory",
+    "family": "INS",
+    "kind": "records",
+    "summary": "Find synthetic staff affiliations and teaching responsibilities.",
+    "fields": [],
+    "columns": [
+      "Staff",
+      "Department",
+      "Affiliation",
+      "State"
+    ],
+    "rows": [
+      [
+        "Ananya Rao",
+        "Creative learning",
+        "Example educator",
+        "Unverified affiliation"
+      ],
+      [
+        "Kabir Sen",
+        "Science",
+        "Example educator",
+        "Unverified affiliation"
+      ]
+    ],
+    "links": [
+      "INS-07",
+      "INS-28"
+    ],
+    "sections": [],
+    "route": "/preview/INS-06",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-07",
+    "name": "Staff Assignments",
+    "family": "INS",
+    "kind": "form",
+    "summary": "Draft teaching responsibility assignments for an example term.",
+    "fields": [
+      {
+        "key": "staff-reference",
+        "label": "Staff reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "class",
+        "label": "Class",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Example 10 A",
+          "Example 10 B"
+        ]
+      },
+      {
+        "key": "subject",
+        "label": "Subject",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Visual thinking",
+          "Science inquiry"
+        ]
+      },
+      {
+        "key": "effective-from",
+        "label": "Effective from",
+        "type": "date",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "effective-until",
+        "label": "Effective until",
+        "type": "date",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "assignment-reason",
+        "label": "Assignment reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "INS-06",
+      "INS-16",
+      "INS-18"
+    ],
+    "sections": [],
+    "route": "/preview/INS-07",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-08",
+    "name": "Student Directory",
+    "family": "INS",
+    "kind": "roster",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/INS-08",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-09",
+    "name": "Student Record Detail",
+    "family": "INS",
+    "kind": "roster",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/INS-09",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-10",
+    "name": "Guardian Links",
+    "family": "INS",
+    "kind": "review",
+    "summary": "Review relationship evidence and requested child-specific categories.",
+    "fields": [
+      {
+        "key": "relationship-reference",
+        "label": "Relationship reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "evidence-review-note",
+        "label": "Evidence review note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "category-scope",
+        "label": "Category scope",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Academic summary",
+          "Attendance",
+          "Published results",
+          "Fee notices"
+        ]
+      },
+      {
+        "key": "decision-draft",
+        "label": "Decision draft",
+        "type": "select",
+        "required": true,
+        "options": [
+          "More evidence required",
+          "Ready for authorized review",
+          "Decline draft"
+        ]
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "PAR-13",
+      "INS-09"
+    ],
+    "sections": [
+      [
+        "Evidence boundary",
+        "Fictional relationship request only. Custody and identity evidence are not loaded."
+      ],
+      [
+        "Revocation",
+        "A future authoritative grant must be revocable independently per child and category."
+      ]
+    ],
+    "route": "/preview/INS-10",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-11",
+    "name": "Admissions Cycles",
+    "family": "INS",
+    "kind": "form",
+    "summary": "Draft an admissions cycle with clear dates and program eligibility.",
+    "fields": [
+      {
+        "key": "cycle-name",
+        "label": "Cycle name",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "program",
+        "label": "Program",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "opens-on",
+        "label": "Opens on",
+        "type": "date",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "closes-on",
+        "label": "Closes on",
+        "type": "date",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "eligibility-description",
+        "label": "Eligibility description",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "required-evidence",
+        "label": "Required evidence",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "INS-12",
+      "INS-13"
+    ],
+    "sections": [],
+    "route": "/preview/INS-11",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-12",
+    "name": "Application Inbox",
+    "family": "INS",
+    "kind": "admissions",
+    "summary": "A deliberate evidence-first admissions review queue.",
+    "fields": [],
+    "columns": [
+      "Application",
+      "Program",
+      "Evidence",
+      "Review state"
+    ],
+    "rows": [
+      [
+        "EX-A01 · Learner A",
+        "Example secondary program",
+        "One item missing",
+        "Needs review"
+      ],
+      [
+        "EX-A02 · Learner B",
+        "Example secondary program",
+        "Checklist complete",
+        "Ready for review"
+      ]
+    ],
+    "links": [
+      "INS-13",
+      "INS-11"
+    ],
+    "sections": [],
+    "route": "/preview/INS-12",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-13",
+    "name": "Admission Detail",
+    "family": "INS",
+    "kind": "review",
+    "summary": "Inspect a synthetic application and prepare a reasoned decision draft.",
+    "fields": [
+      {
+        "key": "reviewer-note",
+        "label": "Reviewer note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "decision-draft",
+        "label": "Decision draft",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Request correction",
+          "Recommend review",
+          "Decline draft"
+        ]
+      },
+      {
+        "key": "effective-date",
+        "label": "Effective date",
+        "type": "date",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "INS-12",
+      "INS-09"
+    ],
+    "sections": [
+      [
+        "Applicant summary",
+        "Synthetic learner alias, example program, and non-identifying evidence checklist."
+      ],
+      [
+        "Evidence",
+        "Application form present; guardian evidence requires policy review."
+      ],
+      [
+        "Conversion boundary",
+        "No admission offer, rejection, or official student enrollment is created."
+      ]
+    ],
+    "route": "/preview/INS-13",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-14",
+    "name": "Academic Years and Terms",
+    "family": "INS",
+    "kind": "structure",
+    "summary": "Define an example academic calendar with validated date ranges.",
+    "fields": [
+      {
+        "key": "academic-year",
+        "label": "Academic year",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "term-name",
+        "label": "Term name",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "start-date",
+        "label": "Start date",
+        "type": "date",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "end-date",
+        "label": "End date",
+        "type": "date",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Period",
+      "Start",
+      "End",
+      "State"
+    ],
+    "rows": [
+      [
+        "Example Term 1",
+        "2026-06-01",
+        "2026-10-30",
+        "Draft concept"
+      ],
+      [
+        "Example Term 2",
+        "2026-11-01",
+        "2027-03-31",
+        "Draft concept"
+      ]
+    ],
+    "links": [
+      "INS-15",
+      "INS-18"
+    ],
+    "sections": [],
+    "route": "/preview/INS-14",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-15",
+    "name": "Departments and Programs",
+    "family": "INS",
+    "kind": "structure",
+    "summary": "Organize departments and programs before assigning classes.",
+    "fields": [
+      {
+        "key": "department-name",
+        "label": "Department name",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "program-name",
+        "label": "Program name",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "program-level",
+        "label": "Program level",
+        "type": "select",
+        "required": true,
+        "options": [
+          "School",
+          "Undergraduate",
+          "Continuing education"
+        ]
+      },
+      {
+        "key": "program-description",
+        "label": "Program description",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Department",
+      "Program",
+      "State"
+    ],
+    "rows": [
+      [
+        "Creative learning",
+        "Visual thinking pathway",
+        "Example draft"
+      ],
+      [
+        "Science",
+        "Inquiry pathway",
+        "Example draft"
+      ]
+    ],
+    "links": [
+      "INS-16",
+      "INS-17"
+    ],
+    "sections": [],
+    "route": "/preview/INS-15",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-16",
+    "name": "Classes and Sections",
+    "family": "INS",
+    "kind": "classes",
+    "summary": "Organize example classes, sections, and teacher assignments.",
+    "fields": [],
+    "columns": [
+      "Class",
+      "Section",
+      "Program",
+      "Coordinator"
+    ],
+    "rows": [
+      [
+        "Grade 10",
+        "A",
+        "Inquiry pathway",
+        "Example educator"
+      ],
+      [
+        "Grade 10",
+        "B",
+        "Creative learning",
+        "Example educator"
+      ]
+    ],
+    "links": [
+      "INS-17",
+      "INS-07",
+      "INS-20"
+    ],
+    "sections": [],
+    "route": "/preview/INS-16",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-17",
+    "name": "Subjects and Teaching",
+    "family": "INS",
+    "kind": "structure",
+    "summary": "Draft subject offerings and teaching allocations.",
+    "fields": [
+      {
+        "key": "subject-title",
+        "label": "Subject title",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "subject-code",
+        "label": "Subject code",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "class",
+        "label": "Class",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Example 10 A",
+          "Example 10 B"
+        ]
+      },
+      {
+        "key": "educator-reference",
+        "label": "Educator reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "weekly-periods",
+        "label": "Weekly periods",
+        "type": "number",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Subject",
+      "Code",
+      "Example section"
+    ],
+    "rows": [
+      [
+        "Visual thinking",
+        "EX-DES",
+        "10 A"
+      ],
+      [
+        "Science inquiry",
+        "EX-SCI",
+        "10 A"
+      ]
+    ],
+    "links": [
+      "INS-18",
+      "INS-07"
+    ],
+    "sections": [],
+    "route": "/preview/INS-17",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-18",
+    "name": "Timetable Builder",
+    "family": "INS",
+    "kind": "timetable-builder",
+    "summary": "Build a conflict-aware sample week. No official schedule can be published.",
+    "fields": [
+      {
+        "key": "subject",
+        "label": "Subject",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Visual thinking",
+          "Science inquiry",
+          "Language practice"
+        ]
+      },
+      {
+        "key": "teacher",
+        "label": "Teacher",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Ananya Rao",
+          "Kabir Sen",
+          "Meera Iyer"
+        ]
+      },
+      {
+        "key": "day",
+        "label": "Day",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ]
+      },
+      {
+        "key": "period",
+        "label": "Period",
+        "type": "select",
+        "required": true,
+        "options": [
+          "09.00",
+          "10.00",
+          "11.00"
+        ]
+      },
+      {
+        "key": "room",
+        "label": "Room",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Studio A",
+          "Lab B",
+          "Room C"
+        ]
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "INS-19",
+      "INS-17"
+    ],
+    "sections": [],
+    "route": "/preview/INS-18",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-19",
+    "name": "Timetable Publisher",
+    "family": "INS",
+    "kind": "publication",
+    "summary": "Review timetable conflicts and readiness before any official publication.",
+    "fields": [
+      {
+        "key": "review-note",
+        "label": "Review note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "INS-18",
+      "INS-30"
+    ],
+    "sections": [
+      [
+        "Resource conflicts",
+        "The timetable builder flags overlapping teacher and room allocations."
+      ],
+      [
+        "Academic context",
+        "Term, class, teacher, and room availability require authoritative validation."
+      ],
+      [
+        "Publish boundary",
+        "This interface can prepare a local review only; no schedule is released."
+      ]
+    ],
+    "route": "/preview/INS-19",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-20",
+    "name": "Attendance Management",
+    "family": "INS",
+    "kind": "attendance",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/INS-20",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-21",
+    "name": "Examinations",
+    "family": "INS",
+    "kind": "form",
+    "summary": "Prepare an example examination period and component structure.",
+    "fields": [
+      {
+        "key": "examination-name",
+        "label": "Examination name",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "academic-term",
+        "label": "Academic term",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "start-date",
+        "label": "Start date",
+        "type": "date",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "end-date",
+        "label": "End date",
+        "type": "date",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "component-description",
+        "label": "Component description",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "grading-policy-reference",
+        "label": "Grading policy reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "INS-22",
+      "INS-29"
+    ],
+    "sections": [],
+    "route": "/preview/INS-21",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-22",
+    "name": "Marks and Results",
+    "family": "INS",
+    "kind": "marks",
+    "summary": "Review draft example marks while keeping publication segregated.",
+    "fields": [
+      {
+        "key": "review-reason",
+        "label": "Review reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Learner alias",
+      "Component",
+      "Draft value",
+      "Release state"
+    ],
+    "rows": [
+      [
+        "Example learner A",
+        "Observation practice",
+        "8 / 10 illustrative",
+        "Unpublished"
+      ],
+      [
+        "Example learner B",
+        "Observation practice",
+        "7 / 10 illustrative",
+        "Unpublished"
+      ]
+    ],
+    "links": [
+      "INS-21",
+      "EDU-16",
+      "INS-30"
+    ],
+    "sections": [],
+    "route": "/preview/INS-22",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-23",
+    "name": "Fees and Billing",
+    "family": "INS",
+    "kind": "finance",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/INS-23",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-24",
+    "name": "Payment Reconciliation",
+    "family": "INS",
+    "kind": "reconciliation",
+    "summary": "Match illustrative references without treating a provider event as settled.",
+    "fields": [],
+    "columns": [
+      "Reference",
+      "Charge",
+      "Provider evidence",
+      "Reconciliation"
+    ],
+    "rows": [
+      [
+        "EX-R01",
+        "EX-F01",
+        "Not connected",
+        "Unmatched example"
+      ],
+      [
+        "EX-R02",
+        "EX-F02",
+        "Not connected",
+        "Awaiting evidence"
+      ]
+    ],
+    "links": [
+      "INS-23",
+      "INS-30"
+    ],
+    "sections": [],
+    "route": "/preview/INS-24",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-25",
+    "name": "Institution Announcements",
+    "family": "INS",
+    "kind": "form",
+    "summary": "Prepare an official institution announcement for a scoped audience.",
+    "fields": [
+      {
+        "key": "announcement-title",
+        "label": "Announcement title",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "audience",
+        "label": "Audience",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Staff",
+          "Example class families",
+          "Example institution members"
+        ]
+      },
+      {
+        "key": "announcement",
+        "label": "Announcement",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "action-requested-(optional)",
+        "label": "Action requested (optional)",
+        "type": "text",
+        "required": false,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "INS-26",
+      "PAR-10",
+      "STU-20"
+    ],
+    "sections": [],
+    "route": "/preview/INS-25",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-26",
+    "name": "Institution Communities",
+    "family": "INS",
+    "kind": "communities",
+    "summary": "Private institution spaces require active scoped memberships.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/INS-26",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-27",
+    "name": "Library Transport Hostel",
+    "family": "INS",
+    "kind": "campus",
+    "summary": "Manage activated example library, transport, and hostel capabilities separately.",
+    "fields": [
+      {
+        "key": "module",
+        "label": "Module",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Library",
+          "Transport",
+          "Hostel"
+        ]
+      },
+      {
+        "key": "resource-reference",
+        "label": "Resource reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "action-note",
+        "label": "Action note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Module",
+      "Example resource",
+      "Capacity or availability",
+      "State"
+    ],
+    "rows": [
+      [
+        "Library",
+        "Observation handbook · Copy EX-L01",
+        "Available example",
+        "Not activated"
+      ],
+      [
+        "Transport",
+        "Example campus shuttle",
+        "Route review required",
+        "Not activated"
+      ],
+      [
+        "Hostel",
+        "Example House A",
+        "Capacity policy pending",
+        "Not activated"
+      ]
+    ],
+    "links": [
+      "INS-29",
+      "INS-30"
+    ],
+    "sections": [],
+    "route": "/preview/INS-27",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-28",
+    "name": "Staff Leave",
+    "family": "INS",
+    "kind": "leave",
+    "summary": "Review an example staff leave request without approving official absence.",
+    "fields": [
+      {
+        "key": "staff-reference",
+        "label": "Staff reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "from-date",
+        "label": "From date",
+        "type": "date",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "until-date",
+        "label": "Until date",
+        "type": "date",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "reason",
+        "label": "Reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "review-draft",
+        "label": "Review draft",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Request information",
+          "Recommend delegated review",
+          "Decline draft"
+        ]
+      }
+    ],
+    "columns": [
+      "Request",
+      "Dates",
+      "Delegation",
+      "State"
+    ],
+    "rows": [
+      [
+        "EX-LV01",
+        "Illustrative dates",
+        "Manager review required",
+        "Draft request"
+      ]
+    ],
+    "links": [
+      "INS-06",
+      "INS-18"
+    ],
+    "sections": [],
+    "route": "/preview/INS-28",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-29",
+    "name": "Reports and Exports",
+    "family": "INS",
+    "kind": "report",
+    "summary": "Produce a local example report with explicit scope and data-quality notes.",
+    "fields": [],
+    "columns": [
+      "Report",
+      "Scope",
+      "Refresh state",
+      "Export state"
+    ],
+    "rows": [
+      [
+        "Attendance summary",
+        "Example class 10 A",
+        "Illustrative snapshot",
+        "Preview only"
+      ],
+      [
+        "Admissions readiness",
+        "Example campus",
+        "Illustrative snapshot",
+        "Preview only"
+      ],
+      [
+        "Charge reconciliation",
+        "Example tenant",
+        "Provider disconnected",
+        "Unavailable"
+      ]
+    ],
+    "links": [
+      "INS-20",
+      "INS-12",
+      "INS-24"
+    ],
+    "sections": [],
+    "route": "/preview/INS-29",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "INS-30",
+    "name": "Institution Audit and Support",
+    "family": "INS",
+    "kind": "audit",
+    "summary": "Inspect synthetic activity and draft support context without exposing private history.",
+    "fields": [],
+    "columns": [
+      "Event",
+      "Actor context",
+      "Scope",
+      "Evidence state"
+    ],
+    "rows": [
+      [
+        "Draft timetable edited",
+        "Example scheduler",
+        "Example campus",
+        "Local example"
+      ],
+      [
+        "Attendance draft prepared",
+        "Example educator",
+        "Example class",
+        "Local example"
+      ],
+      [
+        "Charge reviewed",
+        "Example finance context",
+        "Example tenant",
+        "Unposted example"
+      ]
+    ],
+    "links": [
+      "APP-19",
+      "INS-05"
+    ],
+    "sections": [],
+    "route": "/preview/INS-30",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PRO-01",
+    "name": "Professional Dashboard",
+    "family": "PRO",
+    "kind": "overview",
+    "summary": "Keep your professional activity and next session preparation in view.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "PRO-03",
+      "PRO-04",
+      "PRO-05",
+      "PRO-09"
+    ],
+    "sections": [
+      [
+        "Your offering",
+        "Mathematics mentoring · example service draft."
+      ],
+      [
+        "Availability",
+        "Review proposed teaching times before opening any slots."
+      ],
+      [
+        "Financial boundary",
+        "No earnings, payout, tax, or payment record is genuine."
+      ]
+    ],
+    "route": "/preview/PRO-01",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PRO-02",
+    "name": "Tutor Public Profile",
+    "family": "PRO",
+    "kind": "booking",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/PRO-02",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PRO-03",
+    "name": "Service Editor",
+    "family": "PRO",
+    "kind": "form",
+    "summary": "Describe a thoughtful service and its learning outcomes.",
+    "fields": [
+      {
+        "key": "service-title",
+        "label": "Service title",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "expertise",
+        "label": "Expertise",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "session-duration",
+        "label": "Session duration",
+        "type": "number",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "delivery",
+        "label": "Delivery",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Online",
+          "In person"
+        ]
+      },
+      {
+        "key": "learning-outcomes",
+        "label": "Learning outcomes",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "cancellation-policy-note",
+        "label": "Cancellation policy note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "PRO-02",
+      "PRO-04"
+    ],
+    "sections": [],
+    "route": "/preview/PRO-03",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PRO-04",
+    "name": "Availability Calendar",
+    "family": "PRO",
+    "kind": "booking",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/PRO-04",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PRO-05",
+    "name": "Booking Requests",
+    "family": "PRO",
+    "kind": "bookings",
+    "summary": "Inspect example booking states without reserving or confirming a real slot.",
+    "fields": [],
+    "columns": [
+      "Booking",
+      "Service",
+      "Time context",
+      "State"
+    ],
+    "rows": [
+      [
+        "EX-B01",
+        "Mathematics mentoring",
+        "Asia/Kolkata",
+        "Review example"
+      ],
+      [
+        "EX-B02",
+        "Visual learning",
+        "Asia/Kolkata",
+        "Reschedule example"
+      ]
+    ],
+    "links": [
+      "PRO-06",
+      "PRO-04"
+    ],
+    "sections": [],
+    "route": "/preview/PRO-05",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PRO-06",
+    "name": "Booking Detail",
+    "family": "PRO",
+    "kind": "booking",
+    "summary": "A connected education experience with local example data and deliberate privacy boundaries.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [],
+    "sections": [],
+    "route": "/preview/PRO-06",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PRO-07",
+    "name": "Live Tutoring Session",
+    "family": "PRO",
+    "kind": "live",
+    "summary": "Prepare for a tutoring session without creating a meeting or contacting a learner.",
+    "fields": [],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "PRO-06",
+      "PRO-04"
+    ],
+    "sections": [
+      [
+        "Session outline",
+        "Clarify the learner’s question, explore one example, and agree a next practice."
+      ],
+      [
+        "Eligibility",
+        "Guardian/contact policy and current booking entitlement are required before entry."
+      ],
+      [
+        "Provider state",
+        "No live meeting provider is connected."
+      ]
+    ],
+    "route": "/preview/PRO-07",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PRO-08",
+    "name": "Learner Messages",
+    "family": "PRO",
+    "kind": "messages",
+    "summary": "A fictional professional channel; no minor contact eligibility is implied.",
+    "fields": [
+      {
+        "key": "message",
+        "label": "Message",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "PRO-05",
+      "APP-19"
+    ],
+    "sections": [],
+    "route": "/preview/PRO-08",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PRO-09",
+    "name": "Earnings",
+    "family": "PRO",
+    "kind": "earnings",
+    "summary": "Review illustrative gross/adjustment/net structure, without genuine financial outcomes.",
+    "fields": [],
+    "columns": [
+      "Reference",
+      "Gross example",
+      "Adjustments",
+      "Posting state"
+    ],
+    "rows": [
+      [
+        "EX-E01",
+        "₹0.00",
+        "Not calculated",
+        "No settled earnings"
+      ],
+      [
+        "EX-E02",
+        "₹0.00",
+        "Not calculated",
+        "No settled earnings"
+      ]
+    ],
+    "links": [
+      "PRO-10",
+      "PRO-11"
+    ],
+    "sections": [],
+    "route": "/preview/PRO-09",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PRO-10",
+    "name": "Payouts and Tax",
+    "family": "PRO",
+    "kind": "payout",
+    "summary": "Prepare a payout-readiness checklist without collecting bank or tax identifiers.",
+    "fields": [
+      {
+        "key": "account-holder-display-label",
+        "label": "Account holder display label",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "jurisdiction",
+        "label": "Jurisdiction",
+        "type": "select",
+        "required": true,
+        "options": [
+          "India",
+          "Other territory"
+        ]
+      },
+      {
+        "key": "verification-note",
+        "label": "Verification note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [],
+    "rows": [],
+    "links": [
+      "PRO-09",
+      "APP-19"
+    ],
+    "sections": [
+      [
+        "Identity readiness",
+        "No payout identity or tax evidence has been verified."
+      ],
+      [
+        "Settlement readiness",
+        "No provider, bank account, or eligible balance is connected."
+      ],
+      [
+        "Information safety",
+        "Do not enter real bank, card, government, or tax identifiers into this preview."
+      ]
+    ],
+    "route": "/preview/PRO-10",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "PRO-11",
+    "name": "Professional Analytics",
+    "family": "PRO",
+    "kind": "report",
+    "summary": "Review example discovery and session-funnel definitions.",
+    "fields": [],
+    "columns": [
+      "Measure",
+      "Definition",
+      "Example state"
+    ],
+    "rows": [
+      [
+        "Profile interest",
+        "Eligible views over selected period",
+        "Illustrative only"
+      ],
+      [
+        "Booking intent",
+        "Time selections reaching review",
+        "No confirmed sessions"
+      ],
+      [
+        "Feedback",
+        "Authorized post-session responses",
+        "No genuine reviews"
+      ]
+    ],
+    "links": [
+      "PRO-01",
+      "PRO-03"
+    ],
+    "sections": [],
+    "route": "/preview/PRO-11",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": true
+  },
+  {
+    "id": "ADM-01",
+    "name": "Platform Overview",
+    "family": "ADM",
+    "kind": "overview",
+    "summary": "A purpose-bound operations training console, with no privileged identity or real data.",
+    "fields": [
+      {
+        "key": "case-reference",
+        "label": "Case reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "purpose-or-reason",
+        "label": "Purpose or reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "draft-note",
+        "label": "Draft note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Reference",
+      "Category",
+      "Scope",
+      "State"
+    ],
+    "rows": [
+      [
+        "EX-OPS-01-A",
+        "Platform Overview",
+        "Synthetic example only",
+        "Awaiting delegated review"
+      ],
+      [
+        "EX-OPS-01-B",
+        "Platform Overview",
+        "Synthetic example only",
+        "Evidence required"
+      ]
+    ],
+    "links": [
+      "ADM-19",
+      "ADM-17",
+      "APP-19"
+    ],
+    "sections": [
+      [
+        "Least privilege",
+        "No privileged identity is active. All examples are synthetic training content."
+      ],
+      [
+        "Reason and evidence",
+        "Record scope, purpose, policy reference, decision note, and review history."
+      ],
+      [
+        "Action boundary",
+        "No account, content, institution, safety case, payment, or production setting is changed."
+      ]
+    ],
+    "route": "/preview/ADM-01",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "ADM-02",
+    "name": "User Management",
+    "family": "ADM",
+    "kind": "records",
+    "summary": "Inspect synthetic account-state cases with minimal disclosure.",
+    "fields": [
+      {
+        "key": "case-reference",
+        "label": "Case reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "purpose-or-reason",
+        "label": "Purpose or reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "draft-note",
+        "label": "Draft note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Reference",
+      "Category",
+      "Scope",
+      "State"
+    ],
+    "rows": [
+      [
+        "EX-OPS-02-A",
+        "User Management",
+        "Synthetic example only",
+        "Awaiting delegated review"
+      ],
+      [
+        "EX-OPS-02-B",
+        "User Management",
+        "Synthetic example only",
+        "Evidence required"
+      ]
+    ],
+    "links": [
+      "ADM-19",
+      "ADM-17",
+      "APP-19"
+    ],
+    "sections": [
+      [
+        "Least privilege",
+        "No privileged identity is active. All examples are synthetic training content."
+      ],
+      [
+        "Reason and evidence",
+        "Record scope, purpose, policy reference, decision note, and review history."
+      ],
+      [
+        "Action boundary",
+        "No account, content, institution, safety case, payment, or production setting is changed."
+      ]
+    ],
+    "route": "/preview/ADM-02",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "ADM-03",
+    "name": "Institution Verification",
+    "family": "ADM",
+    "kind": "verification",
+    "summary": "Review a fictional institution evidence checklist.",
+    "fields": [
+      {
+        "key": "case-reference",
+        "label": "Case reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "purpose-or-reason",
+        "label": "Purpose or reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "draft-note",
+        "label": "Draft note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Reference",
+      "Category",
+      "Scope",
+      "State"
+    ],
+    "rows": [
+      [
+        "EX-OPS-03-A",
+        "Institution Verification",
+        "Synthetic example only",
+        "Awaiting delegated review"
+      ],
+      [
+        "EX-OPS-03-B",
+        "Institution Verification",
+        "Synthetic example only",
+        "Evidence required"
+      ]
+    ],
+    "links": [
+      "ADM-19",
+      "ADM-17",
+      "APP-19"
+    ],
+    "sections": [
+      [
+        "Least privilege",
+        "No privileged identity is active. All examples are synthetic training content."
+      ],
+      [
+        "Reason and evidence",
+        "Record scope, purpose, policy reference, decision note, and review history."
+      ],
+      [
+        "Action boundary",
+        "No account, content, institution, safety case, payment, or production setting is changed."
+      ]
+    ],
+    "route": "/preview/ADM-03",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "ADM-04",
+    "name": "Educator Verification",
+    "family": "ADM",
+    "kind": "verification",
+    "summary": "Review a fictional professional claim and its evidence requirements.",
+    "fields": [
+      {
+        "key": "case-reference",
+        "label": "Case reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "purpose-or-reason",
+        "label": "Purpose or reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "draft-note",
+        "label": "Draft note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Reference",
+      "Category",
+      "Scope",
+      "State"
+    ],
+    "rows": [
+      [
+        "EX-OPS-04-A",
+        "Educator Verification",
+        "Synthetic example only",
+        "Awaiting delegated review"
+      ],
+      [
+        "EX-OPS-04-B",
+        "Educator Verification",
+        "Synthetic example only",
+        "Evidence required"
+      ]
+    ],
+    "links": [
+      "ADM-19",
+      "ADM-17",
+      "APP-19"
+    ],
+    "sections": [
+      [
+        "Least privilege",
+        "No privileged identity is active. All examples are synthetic training content."
+      ],
+      [
+        "Reason and evidence",
+        "Record scope, purpose, policy reference, decision note, and review history."
+      ],
+      [
+        "Action boundary",
+        "No account, content, institution, safety case, payment, or production setting is changed."
+      ]
+    ],
+    "route": "/preview/ADM-04",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "ADM-05",
+    "name": "Course Moderation",
+    "family": "ADM",
+    "kind": "review",
+    "summary": "Inspect an example course publication review, including accessibility and licensing.",
+    "fields": [
+      {
+        "key": "case-reference",
+        "label": "Case reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "purpose-or-reason",
+        "label": "Purpose or reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "draft-note",
+        "label": "Draft note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Reference",
+      "Category",
+      "Scope",
+      "State"
+    ],
+    "rows": [
+      [
+        "EX-OPS-05-A",
+        "Course Moderation",
+        "Synthetic example only",
+        "Awaiting delegated review"
+      ],
+      [
+        "EX-OPS-05-B",
+        "Course Moderation",
+        "Synthetic example only",
+        "Evidence required"
+      ]
+    ],
+    "links": [
+      "ADM-19",
+      "ADM-17",
+      "APP-19"
+    ],
+    "sections": [
+      [
+        "Least privilege",
+        "No privileged identity is active. All examples are synthetic training content."
+      ],
+      [
+        "Reason and evidence",
+        "Record scope, purpose, policy reference, decision note, and review history."
+      ],
+      [
+        "Action boundary",
+        "No account, content, institution, safety case, payment, or production setting is changed."
+      ]
+    ],
+    "route": "/preview/ADM-05",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "ADM-06",
+    "name": "Content Reports",
+    "family": "ADM",
+    "kind": "cases",
+    "summary": "Triage synthetic reports by category and purpose.",
+    "fields": [
+      {
+        "key": "case-reference",
+        "label": "Case reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "purpose-or-reason",
+        "label": "Purpose or reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "draft-note",
+        "label": "Draft note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Reference",
+      "Category",
+      "Scope",
+      "State"
+    ],
+    "rows": [
+      [
+        "EX-OPS-06-A",
+        "Content Reports",
+        "Synthetic example only",
+        "Awaiting delegated review"
+      ],
+      [
+        "EX-OPS-06-B",
+        "Content Reports",
+        "Synthetic example only",
+        "Evidence required"
+      ]
+    ],
+    "links": [
+      "ADM-19",
+      "ADM-17",
+      "APP-19"
+    ],
+    "sections": [
+      [
+        "Least privilege",
+        "No privileged identity is active. All examples are synthetic training content."
+      ],
+      [
+        "Reason and evidence",
+        "Record scope, purpose, policy reference, decision note, and review history."
+      ],
+      [
+        "Action boundary",
+        "No account, content, institution, safety case, payment, or production setting is changed."
+      ]
+    ],
+    "route": "/preview/ADM-06",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "ADM-07",
+    "name": "Moderation Case",
+    "family": "ADM",
+    "kind": "review",
+    "summary": "Prepare a reasoned moderation decision draft using synthetic evidence only.",
+    "fields": [
+      {
+        "key": "case-reference",
+        "label": "Case reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "purpose-or-reason",
+        "label": "Purpose or reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "draft-note",
+        "label": "Draft note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Reference",
+      "Category",
+      "Scope",
+      "State"
+    ],
+    "rows": [
+      [
+        "EX-OPS-07-A",
+        "Moderation Case",
+        "Synthetic example only",
+        "Awaiting delegated review"
+      ],
+      [
+        "EX-OPS-07-B",
+        "Moderation Case",
+        "Synthetic example only",
+        "Evidence required"
+      ]
+    ],
+    "links": [
+      "ADM-19",
+      "ADM-17",
+      "APP-19"
+    ],
+    "sections": [
+      [
+        "Least privilege",
+        "No privileged identity is active. All examples are synthetic training content."
+      ],
+      [
+        "Reason and evidence",
+        "Record scope, purpose, policy reference, decision note, and review history."
+      ],
+      [
+        "Action boundary",
+        "No account, content, institution, safety case, payment, or production setting is changed."
+      ]
+    ],
+    "route": "/preview/ADM-07",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "ADM-08",
+    "name": "Safeguarding Cases",
+    "family": "ADM",
+    "kind": "safeguarding",
+    "summary": "Specialist safeguarding intake remains redacted even in this training console.",
+    "fields": [
+      {
+        "key": "case-reference",
+        "label": "Case reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "purpose-or-reason",
+        "label": "Purpose or reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "draft-note",
+        "label": "Draft note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Reference",
+      "Category",
+      "Scope",
+      "State"
+    ],
+    "rows": [
+      [
+        "EX-OPS-08-A",
+        "Safeguarding Cases",
+        "Synthetic example only",
+        "Awaiting delegated review"
+      ],
+      [
+        "EX-OPS-08-B",
+        "Safeguarding Cases",
+        "Synthetic example only",
+        "Evidence required"
+      ]
+    ],
+    "links": [
+      "ADM-19",
+      "ADM-17",
+      "APP-19"
+    ],
+    "sections": [
+      [
+        "Least privilege",
+        "No privileged identity is active. All examples are synthetic training content."
+      ],
+      [
+        "Reason and evidence",
+        "Record scope, purpose, policy reference, decision note, and review history."
+      ],
+      [
+        "Action boundary",
+        "No account, content, institution, safety case, payment, or production setting is changed."
+      ]
+    ],
+    "route": "/preview/ADM-08",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "ADM-09",
+    "name": "Appeals",
+    "family": "ADM",
+    "kind": "review",
+    "summary": "Review a fictional appeal separately from the original decision.",
+    "fields": [
+      {
+        "key": "case-reference",
+        "label": "Case reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "purpose-or-reason",
+        "label": "Purpose or reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "draft-note",
+        "label": "Draft note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Reference",
+      "Category",
+      "Scope",
+      "State"
+    ],
+    "rows": [
+      [
+        "EX-OPS-09-A",
+        "Appeals",
+        "Synthetic example only",
+        "Awaiting delegated review"
+      ],
+      [
+        "EX-OPS-09-B",
+        "Appeals",
+        "Synthetic example only",
+        "Evidence required"
+      ]
+    ],
+    "links": [
+      "ADM-19",
+      "ADM-17",
+      "APP-19"
+    ],
+    "sections": [
+      [
+        "Least privilege",
+        "No privileged identity is active. All examples are synthetic training content."
+      ],
+      [
+        "Reason and evidence",
+        "Record scope, purpose, policy reference, decision note, and review history."
+      ],
+      [
+        "Action boundary",
+        "No account, content, institution, safety case, payment, or production setting is changed."
+      ]
+    ],
+    "route": "/preview/ADM-09",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "ADM-10",
+    "name": "Communities Oversight",
+    "family": "ADM",
+    "kind": "records",
+    "summary": "Inspect example community governance and audience boundaries.",
+    "fields": [
+      {
+        "key": "case-reference",
+        "label": "Case reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "purpose-or-reason",
+        "label": "Purpose or reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "draft-note",
+        "label": "Draft note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Reference",
+      "Category",
+      "Scope",
+      "State"
+    ],
+    "rows": [
+      [
+        "EX-OPS-10-A",
+        "Communities Oversight",
+        "Synthetic example only",
+        "Awaiting delegated review"
+      ],
+      [
+        "EX-OPS-10-B",
+        "Communities Oversight",
+        "Synthetic example only",
+        "Evidence required"
+      ]
+    ],
+    "links": [
+      "ADM-19",
+      "ADM-17",
+      "APP-19"
+    ],
+    "sections": [
+      [
+        "Least privilege",
+        "No privileged identity is active. All examples are synthetic training content."
+      ],
+      [
+        "Reason and evidence",
+        "Record scope, purpose, policy reference, decision note, and review history."
+      ],
+      [
+        "Action boundary",
+        "No account, content, institution, safety case, payment, or production setting is changed."
+      ]
+    ],
+    "route": "/preview/ADM-10",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "ADM-11",
+    "name": "Orders and Transactions",
+    "family": "ADM",
+    "kind": "reconciliation",
+    "summary": "Inspect synthetic order states; no payment is treated as settled.",
+    "fields": [
+      {
+        "key": "case-reference",
+        "label": "Case reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "purpose-or-reason",
+        "label": "Purpose or reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "draft-note",
+        "label": "Draft note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Reference",
+      "Category",
+      "Scope",
+      "State"
+    ],
+    "rows": [
+      [
+        "EX-OPS-11-A",
+        "Orders and Transactions",
+        "Synthetic example only",
+        "Awaiting delegated review"
+      ],
+      [
+        "EX-OPS-11-B",
+        "Orders and Transactions",
+        "Synthetic example only",
+        "Evidence required"
+      ]
+    ],
+    "links": [
+      "ADM-19",
+      "ADM-17",
+      "APP-19"
+    ],
+    "sections": [
+      [
+        "Least privilege",
+        "No privileged identity is active. All examples are synthetic training content."
+      ],
+      [
+        "Reason and evidence",
+        "Record scope, purpose, policy reference, decision note, and review history."
+      ],
+      [
+        "Action boundary",
+        "No account, content, institution, safety case, payment, or production setting is changed."
+      ]
+    ],
+    "route": "/preview/ADM-11",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "ADM-12",
+    "name": "Refunds and Payouts",
+    "family": "ADM",
+    "kind": "payout",
+    "summary": "Review refund and payout readiness without moving funds.",
+    "fields": [
+      {
+        "key": "case-reference",
+        "label": "Case reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "purpose-or-reason",
+        "label": "Purpose or reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "draft-note",
+        "label": "Draft note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Reference",
+      "Category",
+      "Scope",
+      "State"
+    ],
+    "rows": [
+      [
+        "EX-OPS-12-A",
+        "Refunds and Payouts",
+        "Synthetic example only",
+        "Awaiting delegated review"
+      ],
+      [
+        "EX-OPS-12-B",
+        "Refunds and Payouts",
+        "Synthetic example only",
+        "Evidence required"
+      ]
+    ],
+    "links": [
+      "ADM-19",
+      "ADM-17",
+      "APP-19"
+    ],
+    "sections": [
+      [
+        "Least privilege",
+        "No privileged identity is active. All examples are synthetic training content."
+      ],
+      [
+        "Reason and evidence",
+        "Record scope, purpose, policy reference, decision note, and review history."
+      ],
+      [
+        "Action boundary",
+        "No account, content, institution, safety case, payment, or production setting is changed."
+      ]
+    ],
+    "route": "/preview/ADM-12",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "ADM-13",
+    "name": "Subscriptions and Plans",
+    "family": "ADM",
+    "kind": "pricing",
+    "summary": "Draft commercial offering structure without approved prices or entitlements.",
+    "fields": [
+      {
+        "key": "case-reference",
+        "label": "Case reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "purpose-or-reason",
+        "label": "Purpose or reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "draft-note",
+        "label": "Draft note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Reference",
+      "Category",
+      "Scope",
+      "State"
+    ],
+    "rows": [
+      [
+        "EX-OPS-13-A",
+        "Subscriptions and Plans",
+        "Synthetic example only",
+        "Awaiting delegated review"
+      ],
+      [
+        "EX-OPS-13-B",
+        "Subscriptions and Plans",
+        "Synthetic example only",
+        "Evidence required"
+      ]
+    ],
+    "links": [
+      "ADM-19",
+      "ADM-17",
+      "APP-19"
+    ],
+    "sections": [
+      [
+        "Least privilege",
+        "No privileged identity is active. All examples are synthetic training content."
+      ],
+      [
+        "Reason and evidence",
+        "Record scope, purpose, policy reference, decision note, and review history."
+      ],
+      [
+        "Action boundary",
+        "No account, content, institution, safety case, payment, or production setting is changed."
+      ]
+    ],
+    "route": "/preview/ADM-13",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "ADM-14",
+    "name": "Support Inbox",
+    "family": "ADM",
+    "kind": "cases",
+    "summary": "A structured queue for fictional support requests.",
+    "fields": [
+      {
+        "key": "case-reference",
+        "label": "Case reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "purpose-or-reason",
+        "label": "Purpose or reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "draft-note",
+        "label": "Draft note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Reference",
+      "Category",
+      "Scope",
+      "State"
+    ],
+    "rows": [
+      [
+        "EX-OPS-14-A",
+        "Support Inbox",
+        "Synthetic example only",
+        "Awaiting delegated review"
+      ],
+      [
+        "EX-OPS-14-B",
+        "Support Inbox",
+        "Synthetic example only",
+        "Evidence required"
+      ]
+    ],
+    "links": [
+      "ADM-19",
+      "ADM-17",
+      "APP-19"
+    ],
+    "sections": [
+      [
+        "Least privilege",
+        "No privileged identity is active. All examples are synthetic training content."
+      ],
+      [
+        "Reason and evidence",
+        "Record scope, purpose, policy reference, decision note, and review history."
+      ],
+      [
+        "Action boundary",
+        "No account, content, institution, safety case, payment, or production setting is changed."
+      ]
+    ],
+    "route": "/preview/ADM-14",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "ADM-15",
+    "name": "Support Case",
+    "family": "ADM",
+    "kind": "support",
+    "summary": "Prepare a support response without sending it to anyone.",
+    "fields": [
+      {
+        "key": "case-reference",
+        "label": "Case reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "purpose-or-reason",
+        "label": "Purpose or reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "draft-note",
+        "label": "Draft note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Reference",
+      "Category",
+      "Scope",
+      "State"
+    ],
+    "rows": [
+      [
+        "EX-OPS-15-A",
+        "Support Case",
+        "Synthetic example only",
+        "Awaiting delegated review"
+      ],
+      [
+        "EX-OPS-15-B",
+        "Support Case",
+        "Synthetic example only",
+        "Evidence required"
+      ]
+    ],
+    "links": [
+      "ADM-19",
+      "ADM-17",
+      "APP-19"
+    ],
+    "sections": [
+      [
+        "Least privilege",
+        "No privileged identity is active. All examples are synthetic training content."
+      ],
+      [
+        "Reason and evidence",
+        "Record scope, purpose, policy reference, decision note, and review history."
+      ],
+      [
+        "Action boundary",
+        "No account, content, institution, safety case, payment, or production setting is changed."
+      ]
+    ],
+    "route": "/preview/ADM-15",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "ADM-16",
+    "name": "Security Events",
+    "family": "ADM",
+    "kind": "audit",
+    "summary": "Review synthetic security events with no credentials or private payloads.",
+    "fields": [
+      {
+        "key": "case-reference",
+        "label": "Case reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "purpose-or-reason",
+        "label": "Purpose or reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "draft-note",
+        "label": "Draft note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Reference",
+      "Category",
+      "Scope",
+      "State"
+    ],
+    "rows": [
+      [
+        "EX-OPS-16-A",
+        "Security Events",
+        "Synthetic example only",
+        "Awaiting delegated review"
+      ],
+      [
+        "EX-OPS-16-B",
+        "Security Events",
+        "Synthetic example only",
+        "Evidence required"
+      ]
+    ],
+    "links": [
+      "ADM-19",
+      "ADM-17",
+      "APP-19"
+    ],
+    "sections": [
+      [
+        "Least privilege",
+        "No privileged identity is active. All examples are synthetic training content."
+      ],
+      [
+        "Reason and evidence",
+        "Record scope, purpose, policy reference, decision note, and review history."
+      ],
+      [
+        "Action boundary",
+        "No account, content, institution, safety case, payment, or production setting is changed."
+      ]
+    ],
+    "route": "/preview/ADM-16",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "ADM-17",
+    "name": "Permissions and Roles",
+    "family": "ADM",
+    "kind": "permissions",
+    "summary": "Inspect delegated platform scopes without granting access.",
+    "fields": [
+      {
+        "key": "case-reference",
+        "label": "Case reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "purpose-or-reason",
+        "label": "Purpose or reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "draft-note",
+        "label": "Draft note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Reference",
+      "Category",
+      "Scope",
+      "State"
+    ],
+    "rows": [
+      [
+        "EX-OPS-17-A",
+        "Permissions and Roles",
+        "Synthetic example only",
+        "Awaiting delegated review"
+      ],
+      [
+        "EX-OPS-17-B",
+        "Permissions and Roles",
+        "Synthetic example only",
+        "Evidence required"
+      ]
+    ],
+    "links": [
+      "ADM-19",
+      "ADM-17",
+      "APP-19"
+    ],
+    "sections": [
+      [
+        "Least privilege",
+        "No privileged identity is active. All examples are synthetic training content."
+      ],
+      [
+        "Reason and evidence",
+        "Record scope, purpose, policy reference, decision note, and review history."
+      ],
+      [
+        "Action boundary",
+        "No account, content, institution, safety case, payment, or production setting is changed."
+      ]
+    ],
+    "route": "/preview/ADM-17",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "ADM-18",
+    "name": "Platform Metrics",
+    "family": "ADM",
+    "kind": "report",
+    "summary": "Review operational metric definitions and example data-quality states.",
+    "fields": [
+      {
+        "key": "case-reference",
+        "label": "Case reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "purpose-or-reason",
+        "label": "Purpose or reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "draft-note",
+        "label": "Draft note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Reference",
+      "Category",
+      "Scope",
+      "State"
+    ],
+    "rows": [
+      [
+        "EX-OPS-18-A",
+        "Platform Metrics",
+        "Synthetic example only",
+        "Awaiting delegated review"
+      ],
+      [
+        "EX-OPS-18-B",
+        "Platform Metrics",
+        "Synthetic example only",
+        "Evidence required"
+      ]
+    ],
+    "links": [
+      "ADM-19",
+      "ADM-17",
+      "APP-19"
+    ],
+    "sections": [
+      [
+        "Least privilege",
+        "No privileged identity is active. All examples are synthetic training content."
+      ],
+      [
+        "Reason and evidence",
+        "Record scope, purpose, policy reference, decision note, and review history."
+      ],
+      [
+        "Action boundary",
+        "No account, content, institution, safety case, payment, or production setting is changed."
+      ]
+    ],
+    "route": "/preview/ADM-18",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "ADM-19",
+    "name": "Audit Log Explorer",
+    "family": "ADM",
+    "kind": "audit",
+    "summary": "Filter a synthetic privileged-activity log by scope and reason.",
+    "fields": [
+      {
+        "key": "case-reference",
+        "label": "Case reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "purpose-or-reason",
+        "label": "Purpose or reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "draft-note",
+        "label": "Draft note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Reference",
+      "Category",
+      "Scope",
+      "State"
+    ],
+    "rows": [
+      [
+        "EX-OPS-19-A",
+        "Audit Log Explorer",
+        "Synthetic example only",
+        "Awaiting delegated review"
+      ],
+      [
+        "EX-OPS-19-B",
+        "Audit Log Explorer",
+        "Synthetic example only",
+        "Evidence required"
+      ]
+    ],
+    "links": [
+      "ADM-19",
+      "ADM-17",
+      "APP-19"
+    ],
+    "sections": [
+      [
+        "Least privilege",
+        "No privileged identity is active. All examples are synthetic training content."
+      ],
+      [
+        "Reason and evidence",
+        "Record scope, purpose, policy reference, decision note, and review history."
+      ],
+      [
+        "Action boundary",
+        "No account, content, institution, safety case, payment, or production setting is changed."
+      ]
+    ],
+    "route": "/preview/ADM-19",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  },
+  {
+    "id": "ADM-20",
+    "name": "Configuration and Release",
+    "family": "ADM",
+    "kind": "release",
+    "summary": "Prepare release notes and a configuration-review draft without changing production.",
+    "fields": [
+      {
+        "key": "case-reference",
+        "label": "Case reference",
+        "type": "text",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "purpose-or-reason",
+        "label": "Purpose or reason",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      },
+      {
+        "key": "draft-note",
+        "label": "Draft note",
+        "type": "textarea",
+        "required": true,
+        "options": []
+      }
+    ],
+    "columns": [
+      "Reference",
+      "Category",
+      "Scope",
+      "State"
+    ],
+    "rows": [
+      [
+        "EX-OPS-20-A",
+        "Configuration and Release",
+        "Synthetic example only",
+        "Awaiting delegated review"
+      ],
+      [
+        "EX-OPS-20-B",
+        "Configuration and Release",
+        "Synthetic example only",
+        "Evidence required"
+      ]
+    ],
+    "links": [
+      "ADM-19",
+      "ADM-17",
+      "APP-19"
+    ],
+    "sections": [
+      [
+        "Least privilege",
+        "No privileged identity is active. All examples are synthetic training content."
+      ],
+      [
+        "Reason and evidence",
+        "Record scope, purpose, policy reference, decision note, and review history."
+      ],
+      [
+        "Action boundary",
+        "No account, content, institution, safety case, payment, or production setting is changed."
+      ]
+    ],
+    "route": "/preview/ADM-20",
+    "policy": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced.",
+    "native": false
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "module": "00",
+  "version": "V3",
+  "date": "2026-11-11",
+  "status": "source_redesign_implemented_visual_and_device_acceptance_incomplete",
+  "historical_acceptance_preserved": true,
+  "module_01_implementation_preserved": true,
+  "new_backend_module_started": false,
+  "screens_accounted_for": 180,
+  "native_eligible_plans": 138,
+  "workflow_paths": 40,
+  "visually_accepted": 0,
+  "screenshots_inspected": 0,
+  "viewports_tested": [],
+  "required_viewports": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    768,
+    1024,
+    1440,
+    1920
+  ],
+  "browser": "saved_permission_denied_even_after_authorized_retry",
+  "native_device_runs": 0,
+  "manual_approval": false,
+  "remaining": [
+    "rendered_21_exemplars_and_all_registered_screen_states",
+    "individual_shared_layout_refinement_after_review",
+    "native_device_qa_and_component_state_parity",
+    "runtime_performance_measurement",
+    "manual_user_acceptance"
+  ],
+  "qa": "v3-validation.json",
+  "automated_tests_passed": 120,
+  "http_checks_passed": 49
+}

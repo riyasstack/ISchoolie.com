@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "iSchoolie Preview",
+    "slug": "mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/ischoolie-proposed-icon.png",
+    "scheme": ["mobile", "ischoolie"],
+    "userInterfaceStyle": "light",
+    "ios": {
+      "icon": "./assets/images/ischoolie-proposed-icon.png"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF",
+        "foregroundImage": "./assets/images/ischoolie-proposed-foreground.png",
+        "monochromeImage": "./assets/images/ischoolie-proposed-foreground.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "server",
+      "favicon": "./assets/images/ischoolie-proposed-icon.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FFFFFF"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}

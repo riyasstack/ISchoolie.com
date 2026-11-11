@@ -1,0 +1,4021 @@
+[
+  {
+    "id": "W01",
+    "name": "Learner identity registration",
+    "route": "/design-lab/workflows/W01",
+    "steps": [
+      {
+        "screenId": "AUTH-02",
+        "title": "Register Account",
+        "instruction": "Prepare an example account. No account, verification, grant, or session is created.",
+        "fields": [
+          {
+            "key": "display-name",
+            "label": "Display name",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "example-email",
+            "label": "Example email",
+            "type": "email",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "purpose",
+            "label": "Purpose",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Learn",
+              "Teach",
+              "Family",
+              "Tutoring",
+              "Institution"
+            ]
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "AUTH-03",
+        "title": "Contact Verification",
+        "instruction": "Review a contact challenge. No account, verification, grant, or session is created.",
+        "fields": [
+          {
+            "key": "example-contact",
+            "label": "Example contact",
+            "type": "email",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "sample-code",
+            "label": "Sample code",
+            "type": "text",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "AUTH-05",
+        "title": "Age and Consent",
+        "instruction": "Age and consent review. No account, verification, grant, or session is created.",
+        "fields": [
+          {
+            "key": "jurisdiction",
+            "label": "Jurisdiction",
+            "type": "select",
+            "required": true,
+            "options": [
+              "India",
+              "Other territory"
+            ]
+          },
+          {
+            "key": "age-declaration",
+            "label": "Age declaration",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Policy review required",
+              "Adult example",
+              "Guardian-supported example"
+            ]
+          },
+          {
+            "key": "consent-context",
+            "label": "Consent context",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "AUTH-07",
+        "title": "Learner Onboarding",
+        "instruction": "Set up your learner profile. No account, verification, grant, or session is created.",
+        "fields": [
+          {
+            "key": "display-name",
+            "label": "Display name",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "learning-interests",
+            "label": "Learning interests",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "education-stage",
+            "label": "Education stage",
+            "type": "select",
+            "required": true,
+            "options": [
+              "School",
+              "College",
+              "Professional learning"
+            ]
+          },
+          {
+            "key": "profile-introduction",
+            "label": "Profile introduction",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": true
+  },
+  {
+    "id": "W02",
+    "name": "Educator onboarding and verification",
+    "route": "/design-lab/workflows/W02",
+    "steps": [
+      {
+        "screenId": "AUTH-08",
+        "title": "Educator Onboarding",
+        "instruction": "Introduce your teaching practice. No account, verification, grant, or session is created.",
+        "fields": [
+          {
+            "key": "professional-name",
+            "label": "Professional name",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "subjects",
+            "label": "Subjects",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "experience-summary",
+            "label": "Experience summary",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "evidence-description",
+            "label": "Evidence description",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "EDU-02",
+        "title": "Professional Profile",
+        "instruction": "A professional teaching identity with reviewable qualification claims.",
+        "fields": [
+          {
+            "key": "professional-name",
+            "label": "Professional name",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "headline",
+            "label": "Headline",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "teaching-philosophy",
+            "label": "Teaching philosophy",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "evidence-summary",
+            "label": "Evidence summary",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "ADM-04",
+        "title": "Educator Verification",
+        "instruction": "Review a fictional professional claim and its evidence requirements.",
+        "fields": [
+          {
+            "key": "case-reference",
+            "label": "Case reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "purpose-or-reason",
+            "label": "Purpose or reason",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "draft-note",
+            "label": "Draft note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": true
+  },
+  {
+    "id": "W03",
+    "name": "Institution application",
+    "route": "/design-lab/workflows/W03",
+    "steps": [
+      {
+        "screenId": "PUB-19",
+        "title": "Register Institution",
+        "instruction": "Prepare an institution application without creating or verifying a tenant.",
+        "fields": [
+          {
+            "key": "institution-name",
+            "label": "Institution name",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "institution-type",
+            "label": "Institution type",
+            "type": "select",
+            "required": true,
+            "options": [
+              "School",
+              "College",
+              "University",
+              "Learning center"
+            ]
+          },
+          {
+            "key": "representative-name",
+            "label": "Representative name",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "example-contact",
+            "label": "Example contact",
+            "type": "email",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "campus-city",
+            "label": "Campus city",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "evidence-description",
+            "label": "Evidence description",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "AUTH-11",
+        "title": "Institution Application",
+        "instruction": "Prepare an institution application. No account, verification, grant, or session is created.",
+        "fields": [
+          {
+            "key": "institution-name",
+            "label": "Institution name",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "representative",
+            "label": "Representative",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "example-email",
+            "label": "Example email",
+            "type": "email",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "campus-city",
+            "label": "Campus city",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "evidence-summary",
+            "label": "Evidence summary",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-03",
+        "title": "Verification Status",
+        "instruction": "Inspect the application evidence checklist without marking an organization verified.",
+        "fields": [
+          {
+            "key": "application-reference",
+            "label": "Application reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "evidence-description",
+            "label": "Evidence description",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "reviewer-question",
+            "label": "Reviewer question",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": true
+  },
+  {
+    "id": "W04",
+    "name": "Guardian-child link",
+    "route": "/design-lab/workflows/W04",
+    "steps": [
+      {
+        "screenId": "PAR-13",
+        "title": "Child Link Request",
+        "instruction": "Request a child relationship without granting access to any student record.",
+        "fields": [
+          {
+            "key": "institution-reference",
+            "label": "Institution reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "child-reference",
+            "label": "Child reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "relationship",
+            "label": "Relationship",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Parent",
+              "Guardian",
+              "Other authorized relationship"
+            ]
+          },
+          {
+            "key": "evidence-description",
+            "label": "Evidence description",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "requested-categories",
+            "label": "Requested categories",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-10",
+        "title": "Guardian Links",
+        "instruction": "Review relationship evidence and requested child-specific categories.",
+        "fields": [
+          {
+            "key": "relationship-reference",
+            "label": "Relationship reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "evidence-review-note",
+            "label": "Evidence review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "category-scope",
+            "label": "Category scope",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Academic summary",
+              "Attendance",
+              "Published results",
+              "Fee notices"
+            ]
+          },
+          {
+            "key": "decision-draft",
+            "label": "Decision draft",
+            "type": "select",
+            "required": true,
+            "options": [
+              "More evidence required",
+              "Ready for authorized review",
+              "Decline draft"
+            ]
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "PAR-03",
+        "title": "Child Academic Summary",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": true
+  },
+  {
+    "id": "W05",
+    "name": "Education profile publication",
+    "route": "/design-lab/workflows/W05",
+    "steps": [
+      {
+        "screenId": "APP-16",
+        "title": "Profile Viewer",
+        "instruction": "A professional identity with deliberate public visibility.",
+        "fields": [
+          {
+            "key": "display-name",
+            "label": "Display name",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "headline",
+            "label": "Headline",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "bio",
+            "label": "Bio",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "website-(optional)",
+            "label": "Website (optional)",
+            "type": "url",
+            "required": false,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "APP-18",
+        "title": "Privacy Center",
+        "instruction": "Understand and control the boundaries around your information.",
+        "fields": [
+          {
+            "key": "request-type",
+            "label": "Request type",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Access copy",
+              "Correction",
+              "Deletion review",
+              "Consent question"
+            ]
+          },
+          {
+            "key": "request-scope",
+            "label": "Request scope",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "reason-(optional)",
+            "label": "Reason (optional)",
+            "type": "textarea",
+            "required": false,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "PUB-08",
+        "title": "Educator Public Profile",
+        "instruction": "Meet an example educator and explore their teaching perspective.",
+        "fields": [
+          {
+            "key": "display-name",
+            "label": "Display name",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "headline",
+            "label": "Headline",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "teaching-approach",
+            "label": "Teaching approach",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "public-website",
+            "label": "Public website",
+            "type": "url",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "W06",
+    "name": "Connection and follow",
+    "route": "/design-lab/workflows/W06",
+    "steps": [
+      {
+        "screenId": "APP-09",
+        "title": "People Search",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "APP-08",
+        "title": "My Network",
+        "instruction": "Build a deliberate education network.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "APP-16",
+        "title": "Profile Viewer",
+        "instruction": "A professional identity with deliberate public visibility.",
+        "fields": [
+          {
+            "key": "display-name",
+            "label": "Display name",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "headline",
+            "label": "Headline",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "bio",
+            "label": "Bio",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "website-(optional)",
+            "label": "Website (optional)",
+            "type": "url",
+            "required": false,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "W07",
+    "name": "Post publishing and feed",
+    "route": "/design-lab/workflows/W07",
+    "steps": [
+      {
+        "screenId": "APP-06",
+        "title": "Compose Post",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "APP-07",
+        "title": "Post Detail",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "APP-15",
+        "title": "Saved Items",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "W08",
+    "name": "Community membership",
+    "route": "/design-lab/workflows/W08",
+    "steps": [
+      {
+        "screenId": "APP-10",
+        "title": "Community Discovery",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "APP-11",
+        "title": "Community Detail",
+        "instruction": "The curious classroom: contribute to an example discussion without entering a private group.",
+        "fields": [
+          {
+            "key": "discussion-title",
+            "label": "Discussion title",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "your-contribution",
+            "label": "Your contribution",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "APP-18",
+        "title": "Privacy Center",
+        "instruction": "Understand and control the boundaries around your information.",
+        "fields": [
+          {
+            "key": "request-type",
+            "label": "Request type",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Access copy",
+              "Correction",
+              "Deletion review",
+              "Consent question"
+            ]
+          },
+          {
+            "key": "request-scope",
+            "label": "Request scope",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "reason-(optional)",
+            "label": "Reason (optional)",
+            "type": "textarea",
+            "required": false,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "W09",
+    "name": "Free-course enrollment",
+    "route": "/design-lab/workflows/W09",
+    "steps": [
+      {
+        "screenId": "APP-13",
+        "title": "Course Detail",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "STU-09",
+        "title": "Enrolled Courses",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "STU-10",
+        "title": "Learning Player",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "W10",
+    "name": "Paid-course purchase",
+    "route": "/design-lab/workflows/W10",
+    "steps": [
+      {
+        "screenId": "PUB-10",
+        "title": "Course Detail",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-24",
+        "title": "Payment Reconciliation",
+        "instruction": "Match illustrative references without treating a provider event as settled.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "STU-09",
+        "title": "Enrolled Courses",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": true
+  },
+  {
+    "id": "W11",
+    "name": "Course authoring and publication",
+    "route": "/design-lab/workflows/W11",
+    "steps": [
+      {
+        "screenId": "EDU-06",
+        "title": "Create Course",
+        "instruction": "Start a course with a clear audience and learning outcome.",
+        "fields": [
+          {
+            "key": "course-title",
+            "label": "Course title",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "category",
+            "label": "Category",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Design",
+              "Science",
+              "Language",
+              "Mathematics"
+            ]
+          },
+          {
+            "key": "intended-audience",
+            "label": "Intended audience",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "learning-outcomes",
+            "label": "Learning outcomes",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "prerequisites",
+            "label": "Prerequisites",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "content-ownership-note",
+            "label": "Content ownership note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "EDU-07",
+        "title": "Curriculum Editor",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "EDU-08",
+        "title": "Resource Library",
+        "instruction": "Keep learning materials organized, described, and licensed.",
+        "fields": [
+          {
+            "key": "resource-title",
+            "label": "Resource title",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "resource-description",
+            "label": "Resource description",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "license-or-ownership",
+            "label": "License or ownership",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "resource-category",
+            "label": "Resource category",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Reading",
+              "Worksheet",
+              "Presentation",
+              "Reference"
+            ]
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "EDU-09",
+        "title": "Course Publish Review",
+        "instruction": "Review a course before requesting a publication decision.",
+        "fields": [
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "content-ownership-declaration",
+            "label": "Content ownership declaration",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Evidence review required",
+              "Original example content"
+            ]
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "W12",
+    "name": "Assignment publishing",
+    "route": "/design-lab/workflows/W12",
+    "steps": [
+      {
+        "screenId": "EDU-14",
+        "title": "Assignment Builder",
+        "instruction": "Give learners a clear task and a transparent rubric.",
+        "fields": [
+          {
+            "key": "assignment-title",
+            "label": "Assignment title",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "class",
+            "label": "Class",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Example 10 A",
+              "Example 10 B"
+            ]
+          },
+          {
+            "key": "instructions",
+            "label": "Instructions",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "due-date",
+            "label": "Due date",
+            "type": "date",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "assessment-criteria",
+            "label": "Assessment criteria",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "maximum-attempts",
+            "label": "Maximum attempts",
+            "type": "number",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "EDU-11",
+        "title": "Institution Classes",
+        "instruction": "Your assigned example cohorts and teaching responsibilities.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "STU-12",
+        "title": "Assignments",
+        "instruction": "Plan your next piece of meaningful work.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "W13",
+    "name": "Submission and grading",
+    "route": "/design-lab/workflows/W13",
+    "steps": [
+      {
+        "screenId": "STU-13",
+        "title": "Submit Assignment",
+        "instruction": "Observation journal: describe five details and one question worth pursuing.",
+        "fields": [
+          {
+            "key": "response-title",
+            "label": "Response title",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "your-response",
+            "label": "Your response",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "attachment-description-(optional)",
+            "label": "Attachment description (optional)",
+            "type": "textarea",
+            "required": false,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "EDU-15",
+        "title": "Submissions Inbox",
+        "instruction": "A focused review queue for example learner work.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "EDU-16",
+        "title": "Grade and Feedback",
+        "instruction": "Read a sample response and draft specific, useful feedback.",
+        "fields": [
+          {
+            "key": "observation-criterion",
+            "label": "Observation criterion",
+            "type": "number",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "reflection-criterion",
+            "label": "Reflection criterion",
+            "type": "number",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "feedback",
+            "label": "Feedback",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "release-state",
+            "label": "Release state",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Private local draft",
+              "Review requested preview"
+            ]
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "STU-15",
+        "title": "Grades and Feedback",
+        "instruction": "Review published-example feedback. No official grade is represented.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": true
+  },
+  {
+    "id": "W14",
+    "name": "Live class session",
+    "route": "/design-lab/workflows/W14",
+    "steps": [
+      {
+        "screenId": "EDU-18",
+        "title": "Live Class Scheduler",
+        "instruction": "Plan an example live lesson with explicit timezone and participant context.",
+        "fields": [
+          {
+            "key": "session-title",
+            "label": "Session title",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "class",
+            "label": "Class",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Example 10 A",
+              "Example 10 B"
+            ]
+          },
+          {
+            "key": "session-date",
+            "label": "Session date",
+            "type": "date",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "start-time",
+            "label": "Start time",
+            "type": "time",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "timezone",
+            "label": "Timezone",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Asia/Kolkata",
+              "UTC"
+            ]
+          },
+          {
+            "key": "agenda",
+            "label": "Agenda",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "EDU-19",
+        "title": "Live Class Host",
+        "instruction": "Prepare a live-teaching room without starting a meeting or collecting media.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "EDU-20",
+        "title": "Attendance Register",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "W15",
+    "name": "Admissions decision",
+    "route": "/design-lab/workflows/W15",
+    "steps": [
+      {
+        "screenId": "INS-11",
+        "title": "Admissions Cycles",
+        "instruction": "Draft an admissions cycle with clear dates and program eligibility.",
+        "fields": [
+          {
+            "key": "cycle-name",
+            "label": "Cycle name",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "program",
+            "label": "Program",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "opens-on",
+            "label": "Opens on",
+            "type": "date",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "closes-on",
+            "label": "Closes on",
+            "type": "date",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "eligibility-description",
+            "label": "Eligibility description",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "required-evidence",
+            "label": "Required evidence",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-12",
+        "title": "Application Inbox",
+        "instruction": "A deliberate evidence-first admissions review queue.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-13",
+        "title": "Admission Detail",
+        "instruction": "Inspect a synthetic application and prepare a reasoned decision draft.",
+        "fields": [
+          {
+            "key": "reviewer-note",
+            "label": "Reviewer note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "decision-draft",
+            "label": "Decision draft",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Request correction",
+              "Recommend review",
+              "Decline draft"
+            ]
+          },
+          {
+            "key": "effective-date",
+            "label": "Effective date",
+            "type": "date",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-09",
+        "title": "Student Record Detail",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": true
+  },
+  {
+    "id": "W16",
+    "name": "Student lifecycle change",
+    "route": "/design-lab/workflows/W16",
+    "steps": [
+      {
+        "screenId": "INS-09",
+        "title": "Student Record Detail",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-07",
+        "title": "Staff Assignments",
+        "instruction": "Draft teaching responsibility assignments for an example term.",
+        "fields": [
+          {
+            "key": "staff-reference",
+            "label": "Staff reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "class",
+            "label": "Class",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Example 10 A",
+              "Example 10 B"
+            ]
+          },
+          {
+            "key": "subject",
+            "label": "Subject",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Visual thinking",
+              "Science inquiry"
+            ]
+          },
+          {
+            "key": "effective-from",
+            "label": "Effective from",
+            "type": "date",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "effective-until",
+            "label": "Effective until",
+            "type": "date",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "assignment-reason",
+            "label": "Assignment reason",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-30",
+        "title": "Institution Audit and Support",
+        "instruction": "Inspect synthetic activity and draft support context without exposing private history.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "W17",
+    "name": "Timetable publication",
+    "route": "/design-lab/workflows/W17",
+    "steps": [
+      {
+        "screenId": "INS-17",
+        "title": "Subjects and Teaching",
+        "instruction": "Draft subject offerings and teaching allocations.",
+        "fields": [
+          {
+            "key": "subject-title",
+            "label": "Subject title",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "subject-code",
+            "label": "Subject code",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "class",
+            "label": "Class",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Example 10 A",
+              "Example 10 B"
+            ]
+          },
+          {
+            "key": "educator-reference",
+            "label": "Educator reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "weekly-periods",
+            "label": "Weekly periods",
+            "type": "number",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-18",
+        "title": "Timetable Builder",
+        "instruction": "Build a conflict-aware sample week. No official schedule can be published.",
+        "fields": [
+          {
+            "key": "subject",
+            "label": "Subject",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Visual thinking",
+              "Science inquiry",
+              "Language practice"
+            ]
+          },
+          {
+            "key": "teacher",
+            "label": "Teacher",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Ananya Rao",
+              "Kabir Sen",
+              "Meera Iyer"
+            ]
+          },
+          {
+            "key": "day",
+            "label": "Day",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ]
+          },
+          {
+            "key": "period",
+            "label": "Period",
+            "type": "select",
+            "required": true,
+            "options": [
+              "09.00",
+              "10.00",
+              "11.00"
+            ]
+          },
+          {
+            "key": "room",
+            "label": "Room",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Studio A",
+              "Lab B",
+              "Room C"
+            ]
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-19",
+        "title": "Timetable Publisher",
+        "instruction": "Review timetable conflicts and readiness before any official publication.",
+        "fields": [
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "W18",
+    "name": "Attendance and correction",
+    "route": "/design-lab/workflows/W18",
+    "steps": [
+      {
+        "screenId": "EDU-20",
+        "title": "Attendance Register",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-20",
+        "title": "Attendance Management",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "STU-19",
+        "title": "Attendance View",
+        "instruction": "A transparent personal attendance view with a correction-request draft.",
+        "fields": [
+          {
+            "key": "session-reference",
+            "label": "Session reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "correction-reason",
+            "label": "Correction reason",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "W19",
+    "name": "Exam results publication",
+    "route": "/design-lab/workflows/W19",
+    "steps": [
+      {
+        "screenId": "INS-21",
+        "title": "Examinations",
+        "instruction": "Prepare an example examination period and component structure.",
+        "fields": [
+          {
+            "key": "examination-name",
+            "label": "Examination name",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "academic-term",
+            "label": "Academic term",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "start-date",
+            "label": "Start date",
+            "type": "date",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "end-date",
+            "label": "End date",
+            "type": "date",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "component-description",
+            "label": "Component description",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "grading-policy-reference",
+            "label": "Grading policy reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-22",
+        "title": "Marks and Results",
+        "instruction": "Review draft example marks while keeping publication segregated.",
+        "fields": [
+          {
+            "key": "review-reason",
+            "label": "Review reason",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "STU-15",
+        "title": "Grades and Feedback",
+        "instruction": "Review published-example feedback. No official grade is represented.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": true
+  },
+  {
+    "id": "W20",
+    "name": "Guardian academic overview",
+    "route": "/design-lab/workflows/W20",
+    "steps": [
+      {
+        "screenId": "PAR-02",
+        "title": "Child Selector",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "PAR-03",
+        "title": "Child Academic Summary",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "PAR-07",
+        "title": "Child Grades",
+        "instruction": "Released-example results only. Unpublished grades and staff notes remain unavailable.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "PAR-09",
+        "title": "Child Fees",
+        "instruction": "Inspect unposted example charges without implying a real balance, receipt, or payment.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "W21",
+    "name": "Tutor session booking",
+    "route": "/design-lab/workflows/W21",
+    "steps": [
+      {
+        "screenId": "STU-21",
+        "title": "Find Tutors",
+        "instruction": "Explore example tutoring expertise. Contact and bookings require eligibility.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "PRO-04",
+        "title": "Availability Calendar",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "PRO-06",
+        "title": "Booking Detail",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "PRO-07",
+        "title": "Live Tutoring Session",
+        "instruction": "Prepare for a tutoring session without creating a meeting or contacting a learner.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": true
+  },
+  {
+    "id": "W22",
+    "name": "Safe messaging",
+    "route": "/design-lab/workflows/W22",
+    "steps": [
+      {
+        "screenId": "APP-08",
+        "title": "My Network",
+        "instruction": "Build a deliberate education network.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "APP-04",
+        "title": "Inbox",
+        "instruction": "Your example conversation list. Only fictional adult professional exchanges are shown.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "APP-05",
+        "title": "Conversation",
+        "instruction": "An example adult educator conversation. Sending adds a local message only.",
+        "fields": [
+          {
+            "key": "message",
+            "label": "Message",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "W23",
+    "name": "Notification opening",
+    "route": "/design-lab/workflows/W23",
+    "steps": [
+      {
+        "screenId": "APP-03",
+        "title": "Notifications",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "STU-12",
+        "title": "Assignments",
+        "instruction": "Plan your next piece of meaningful work.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "APP-17",
+        "title": "Account Settings",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "W24",
+    "name": "Institution fee assessment",
+    "route": "/design-lab/workflows/W24",
+    "steps": [
+      {
+        "screenId": "INS-23",
+        "title": "Fees and Billing",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-24",
+        "title": "Payment Reconciliation",
+        "instruction": "Match illustrative references without treating a provider event as settled.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "PAR-09",
+        "title": "Child Fees",
+        "instruction": "Inspect unposted example charges without implying a real balance, receipt, or payment.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": true
+  },
+  {
+    "id": "W25",
+    "name": "Fee payment allocation",
+    "route": "/design-lab/workflows/W25",
+    "steps": [
+      {
+        "screenId": "PAR-09",
+        "title": "Child Fees",
+        "instruction": "Inspect unposted example charges without implying a real balance, receipt, or payment.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-24",
+        "title": "Payment Reconciliation",
+        "instruction": "Match illustrative references without treating a provider event as settled.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-30",
+        "title": "Institution Audit and Support",
+        "instruction": "Inspect synthetic activity and draft support context without exposing private history.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": true
+  },
+  {
+    "id": "W26",
+    "name": "Platform subscription lifecycle",
+    "route": "/design-lab/workflows/W26",
+    "steps": [
+      {
+        "screenId": "PUB-17",
+        "title": "Pricing",
+        "instruction": "Find an appropriate product offering. Commercial terms are awaiting approval.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "ADM-13",
+        "title": "Subscriptions and Plans",
+        "instruction": "Draft commercial offering structure without approved prices or entitlements.",
+        "fields": [
+          {
+            "key": "case-reference",
+            "label": "Case reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "purpose-or-reason",
+            "label": "Purpose or reason",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "draft-note",
+            "label": "Draft note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "APP-17",
+        "title": "Account Settings",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": true
+  },
+  {
+    "id": "W27",
+    "name": "Event registration and opportunity",
+    "route": "/design-lab/workflows/W27",
+    "steps": [
+      {
+        "screenId": "PUB-15",
+        "title": "Events",
+        "instruction": "Make time for a new perspective.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "PUB-16",
+        "title": "Opportunities",
+        "instruction": "Explore possibilities without invented endorsements or guaranteed outcomes.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "APP-14",
+        "title": "Event Detail",
+        "instruction": "Teaching with better questions: an illustrative event detail and registration review.",
+        "fields": [
+          {
+            "key": "attendance-format",
+            "label": "Attendance format",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Online",
+              "In person"
+            ]
+          },
+          {
+            "key": "access-requirements-(optional)",
+            "label": "Access requirements (optional)",
+            "type": "textarea",
+            "required": false,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "W28",
+    "name": "Credential issue and verification",
+    "route": "/design-lab/workflows/W28",
+    "steps": [
+      {
+        "screenId": "STU-11",
+        "title": "Course Progress",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "STU-16",
+        "title": "Certificates",
+        "instruction": "Inspect example achievements without claiming an issued or verified certificate.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "STU-03",
+        "title": "Portfolio",
+        "instruction": "Give your learning a thoughtful home.",
+        "fields": [
+          {
+            "key": "project-title",
+            "label": "Project title",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "project-summary",
+            "label": "Project summary",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "project-link-(optional)",
+            "label": "Project link (optional)",
+            "type": "url",
+            "required": false,
+            "options": []
+          },
+          {
+            "key": "visibility",
+            "label": "Visibility",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Private draft",
+              "Eligible network preview"
+            ]
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": true
+  },
+  {
+    "id": "W29",
+    "name": "AI study assistance",
+    "route": "/design-lab/workflows/W29",
+    "steps": [
+      {
+        "screenId": "STU-10",
+        "title": "Learning Player",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "APP-18",
+        "title": "Privacy Center",
+        "instruction": "Understand and control the boundaries around your information.",
+        "fields": [
+          {
+            "key": "request-type",
+            "label": "Request type",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Access copy",
+              "Correction",
+              "Deletion review",
+              "Consent question"
+            ]
+          },
+          {
+            "key": "request-scope",
+            "label": "Request scope",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "reason-(optional)",
+            "label": "Reason (optional)",
+            "type": "textarea",
+            "required": false,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "APP-19",
+        "title": "Help and Report",
+        "instruction": "Prepare a help request or a report with a clear recovery path.",
+        "fields": [
+          {
+            "key": "category",
+            "label": "Category",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Help",
+              "Accessibility",
+              "Content report",
+              "Contact concern",
+              "Privacy"
+            ]
+          },
+          {
+            "key": "subject",
+            "label": "Subject",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "description",
+            "label": "Description",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "related-reference-(optional)",
+            "label": "Related reference (optional)",
+            "type": "text",
+            "required": false,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "W30",
+    "name": "Content moderation",
+    "route": "/design-lab/workflows/W30",
+    "steps": [
+      {
+        "screenId": "APP-19",
+        "title": "Help and Report",
+        "instruction": "Prepare a help request or a report with a clear recovery path.",
+        "fields": [
+          {
+            "key": "category",
+            "label": "Category",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Help",
+              "Accessibility",
+              "Content report",
+              "Contact concern",
+              "Privacy"
+            ]
+          },
+          {
+            "key": "subject",
+            "label": "Subject",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "description",
+            "label": "Description",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "related-reference-(optional)",
+            "label": "Related reference (optional)",
+            "type": "text",
+            "required": false,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "ADM-06",
+        "title": "Content Reports",
+        "instruction": "Triage synthetic reports by category and purpose.",
+        "fields": [
+          {
+            "key": "case-reference",
+            "label": "Case reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "purpose-or-reason",
+            "label": "Purpose or reason",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "draft-note",
+            "label": "Draft note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "ADM-07",
+        "title": "Moderation Case",
+        "instruction": "Prepare a reasoned moderation decision draft using synthetic evidence only.",
+        "fields": [
+          {
+            "key": "case-reference",
+            "label": "Case reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "purpose-or-reason",
+            "label": "Purpose or reason",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "draft-note",
+            "label": "Draft note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "ADM-09",
+        "title": "Appeals",
+        "instruction": "Review a fictional appeal separately from the original decision.",
+        "fields": [
+          {
+            "key": "case-reference",
+            "label": "Case reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "purpose-or-reason",
+            "label": "Purpose or reason",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "draft-note",
+            "label": "Draft note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": true
+  },
+  {
+    "id": "W31",
+    "name": "Safeguarding escalation",
+    "route": "/design-lab/workflows/W31",
+    "steps": [
+      {
+        "screenId": "APP-19",
+        "title": "Help and Report",
+        "instruction": "Prepare a help request or a report with a clear recovery path.",
+        "fields": [
+          {
+            "key": "category",
+            "label": "Category",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Help",
+              "Accessibility",
+              "Content report",
+              "Contact concern",
+              "Privacy"
+            ]
+          },
+          {
+            "key": "subject",
+            "label": "Subject",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "description",
+            "label": "Description",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "related-reference-(optional)",
+            "label": "Related reference (optional)",
+            "type": "text",
+            "required": false,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "ADM-08",
+        "title": "Safeguarding Cases",
+        "instruction": "Specialist safeguarding intake remains redacted even in this training console.",
+        "fields": [
+          {
+            "key": "case-reference",
+            "label": "Case reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "purpose-or-reason",
+            "label": "Purpose or reason",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "draft-note",
+            "label": "Draft note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "ADM-19",
+        "title": "Audit Log Explorer",
+        "instruction": "Filter a synthetic privileged-activity log by scope and reason.",
+        "fields": [
+          {
+            "key": "case-reference",
+            "label": "Case reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "purpose-or-reason",
+            "label": "Purpose or reason",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "draft-note",
+            "label": "Draft note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": true
+  },
+  {
+    "id": "W32",
+    "name": "Workspace switching",
+    "route": "/design-lab/workflows/W32",
+    "steps": [
+      {
+        "screenId": "AUTH-16",
+        "title": "Workspace Picker",
+        "instruction": "Choose an eligible context. No account, verification, grant, or session is created.",
+        "fields": [
+          {
+            "key": "context",
+            "label": "Context",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Student",
+              "Educator",
+              "Guardian",
+              "Tutor",
+              "Institution"
+            ]
+          },
+          {
+            "key": "reason-for-context",
+            "label": "Reason for context",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-01",
+        "title": "Institution Overview",
+        "instruction": "A clear operational picture, separated from public network activity.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "PAR-02",
+        "title": "Child Selector",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "W33",
+    "name": "Institution bulk import",
+    "route": "/design-lab/workflows/W33",
+    "steps": [
+      {
+        "screenId": "INS-08",
+        "title": "Student Directory",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-09",
+        "title": "Student Record Detail",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-30",
+        "title": "Institution Audit and Support",
+        "instruction": "Inspect synthetic activity and draft support context without exposing private history.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "W34",
+    "name": "Institution offboarding",
+    "route": "/design-lab/workflows/W34",
+    "steps": [
+      {
+        "screenId": "INS-04",
+        "title": "Institution Settings",
+        "instruction": "Prepare tenant settings as a local draft.",
+        "fields": [
+          {
+            "key": "institution-display-name",
+            "label": "Institution display name",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "academic-timezone",
+            "label": "Academic timezone",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Asia/Kolkata",
+              "UTC"
+            ]
+          },
+          {
+            "key": "default-locale",
+            "label": "Default locale",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "support-contact",
+            "label": "Support contact",
+            "type": "email",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "campus-reference",
+            "label": "Campus reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-29",
+        "title": "Reports and Exports",
+        "instruction": "Produce a local example report with explicit scope and data-quality notes.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-05",
+        "title": "Institution Users and Roles",
+        "instruction": "Inspect delegated scopes without creating or expanding access.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-30",
+        "title": "Institution Audit and Support",
+        "instruction": "Inspect synthetic activity and draft support context without exposing private history.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": true
+  },
+  {
+    "id": "W35",
+    "name": "Personal data request",
+    "route": "/design-lab/workflows/W35",
+    "steps": [
+      {
+        "screenId": "APP-18",
+        "title": "Privacy Center",
+        "instruction": "Understand and control the boundaries around your information.",
+        "fields": [
+          {
+            "key": "request-type",
+            "label": "Request type",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Access copy",
+              "Correction",
+              "Deletion review",
+              "Consent question"
+            ]
+          },
+          {
+            "key": "request-scope",
+            "label": "Request scope",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "reason-(optional)",
+            "label": "Reason (optional)",
+            "type": "textarea",
+            "required": false,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "AUTH-03",
+        "title": "Contact Verification",
+        "instruction": "Review a contact challenge. No account, verification, grant, or session is created.",
+        "fields": [
+          {
+            "key": "example-contact",
+            "label": "Example contact",
+            "type": "email",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "sample-code",
+            "label": "Sample code",
+            "type": "text",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "ADM-15",
+        "title": "Support Case",
+        "instruction": "Prepare a support response without sending it to anyone.",
+        "fields": [
+          {
+            "key": "case-reference",
+            "label": "Case reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "purpose-or-reason",
+            "label": "Purpose or reason",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "draft-note",
+            "label": "Draft note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": true
+  },
+  {
+    "id": "W36",
+    "name": "Failure and retry recovery",
+    "route": "/design-lab/workflows/W36",
+    "steps": [
+      {
+        "screenId": "STU-13",
+        "title": "Submit Assignment",
+        "instruction": "Observation journal: describe five details and one question worth pursuing.",
+        "fields": [
+          {
+            "key": "response-title",
+            "label": "Response title",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "your-response",
+            "label": "Your response",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "attachment-description-(optional)",
+            "label": "Attachment description (optional)",
+            "type": "textarea",
+            "required": false,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "APP-19",
+        "title": "Help and Report",
+        "instruction": "Prepare a help request or a report with a clear recovery path.",
+        "fields": [
+          {
+            "key": "category",
+            "label": "Category",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Help",
+              "Accessibility",
+              "Content report",
+              "Contact concern",
+              "Privacy"
+            ]
+          },
+          {
+            "key": "subject",
+            "label": "Subject",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "description",
+            "label": "Description",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "related-reference-(optional)",
+            "label": "Related reference (optional)",
+            "type": "text",
+            "required": false,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "STU-12",
+        "title": "Assignments",
+        "instruction": "Plan your next piece of meaningful work.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "W37",
+    "name": "Staff leave approval",
+    "route": "/design-lab/workflows/W37",
+    "steps": [
+      {
+        "screenId": "INS-28",
+        "title": "Staff Leave",
+        "instruction": "Review an example staff leave request without approving official absence.",
+        "fields": [
+          {
+            "key": "staff-reference",
+            "label": "Staff reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "from-date",
+            "label": "From date",
+            "type": "date",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "until-date",
+            "label": "Until date",
+            "type": "date",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "reason",
+            "label": "Reason",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-draft",
+            "label": "Review draft",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Request information",
+              "Recommend delegated review",
+              "Decline draft"
+            ]
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-07",
+        "title": "Staff Assignments",
+        "instruction": "Draft teaching responsibility assignments for an example term.",
+        "fields": [
+          {
+            "key": "staff-reference",
+            "label": "Staff reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "class",
+            "label": "Class",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Example 10 A",
+              "Example 10 B"
+            ]
+          },
+          {
+            "key": "subject",
+            "label": "Subject",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Visual thinking",
+              "Science inquiry"
+            ]
+          },
+          {
+            "key": "effective-from",
+            "label": "Effective from",
+            "type": "date",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "effective-until",
+            "label": "Effective until",
+            "type": "date",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "assignment-reason",
+            "label": "Assignment reason",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-18",
+        "title": "Timetable Builder",
+        "instruction": "Build a conflict-aware sample week. No official schedule can be published.",
+        "fields": [
+          {
+            "key": "subject",
+            "label": "Subject",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Visual thinking",
+              "Science inquiry",
+              "Language practice"
+            ]
+          },
+          {
+            "key": "teacher",
+            "label": "Teacher",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Ananya Rao",
+              "Kabir Sen",
+              "Meera Iyer"
+            ]
+          },
+          {
+            "key": "day",
+            "label": "Day",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ]
+          },
+          {
+            "key": "period",
+            "label": "Period",
+            "type": "select",
+            "required": true,
+            "options": [
+              "09.00",
+              "10.00",
+              "11.00"
+            ]
+          },
+          {
+            "key": "room",
+            "label": "Room",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Studio A",
+              "Lab B",
+              "Room C"
+            ]
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "W38",
+    "name": "Library circulation",
+    "route": "/design-lab/workflows/W38",
+    "steps": [
+      {
+        "screenId": "INS-27",
+        "title": "Library Transport Hostel",
+        "instruction": "Manage activated example library, transport, and hostel capabilities separately.",
+        "fields": [
+          {
+            "key": "module",
+            "label": "Module",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Library",
+              "Transport",
+              "Hostel"
+            ]
+          },
+          {
+            "key": "resource-reference",
+            "label": "Resource reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "action-note",
+            "label": "Action note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-09",
+        "title": "Student Record Detail",
+        "instruction": "A connected education experience with local example data and deliberate privacy boundaries.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-30",
+        "title": "Institution Audit and Support",
+        "instruction": "Inspect synthetic activity and draft support context without exposing private history.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "W39",
+    "name": "Report card or transcript",
+    "route": "/design-lab/workflows/W39",
+    "steps": [
+      {
+        "screenId": "STU-15",
+        "title": "Grades and Feedback",
+        "instruction": "Review published-example feedback. No official grade is represented.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "STU-16",
+        "title": "Certificates",
+        "instruction": "Inspect example achievements without claiming an issued or verified certificate.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "INS-29",
+        "title": "Reports and Exports",
+        "instruction": "Produce a local example report with explicit scope and data-quality notes.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": true
+  },
+  {
+    "id": "W40",
+    "name": "Role-based reporting",
+    "route": "/design-lab/workflows/W40",
+    "steps": [
+      {
+        "screenId": "INS-29",
+        "title": "Reports and Exports",
+        "instruction": "Produce a local example report with explicit scope and data-quality notes.",
+        "fields": [
+          {
+            "key": "context-reference",
+            "label": "Example context reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "review-note",
+            "label": "Review note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "ADM-18",
+        "title": "Platform Metrics",
+        "instruction": "Review operational metric definitions and example data-quality states.",
+        "fields": [
+          {
+            "key": "case-reference",
+            "label": "Case reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "purpose-or-reason",
+            "label": "Purpose or reason",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "draft-note",
+            "label": "Draft note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      },
+      {
+        "screenId": "ADM-19",
+        "title": "Audit Log Explorer",
+        "instruction": "Filter a synthetic privileged-activity log by scope and reason.",
+        "fields": [
+          {
+            "key": "case-reference",
+            "label": "Case reference",
+            "type": "text",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "purpose-or-reason",
+            "label": "Purpose or reason",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          },
+          {
+            "key": "draft-note",
+            "label": "Draft note",
+            "type": "textarea",
+            "required": true,
+            "options": []
+          }
+        ],
+        "boundary": "Example data only. Review, consent, identity, finance, and academic policies remain unapproved; no official outcome is produced."
+      }
+    ],
+    "sensitive": false
+  }
+]

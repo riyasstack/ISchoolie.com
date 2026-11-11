@@ -1,0 +1,260 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Get a free hosted Postgres database in seconds: `npx create-db`
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id              String                 @id @default(uuid()) @db.Uuid
+  email           String?                @unique
+  emailCanonical  String?                @unique
+  passwordHash    String?
+  displayName     String?
+  status          String                 @default("PENDING")
+  accountKind     String                 @default("PUBLIC")
+  authVersion     Int                    @default(0)
+  emailVerifiedAt DateTime?
+  createdAt       DateTime               @default(now())
+  updatedAt       DateTime               @updatedAt
+  sessions        IdentitySession[]
+  logins          InstitutionalLogin[]
+  phones          PhoneIdentity[]
+  providers       ProviderIdentity[]
+  challenges      IdentityChallenge[]
+  grants          InstitutionGrant[]
+  operator        PlatformOperator?
+  totp            IdentityTotp?
+  recoveryCodes   IdentityRecoveryCode[]
+  mfaFailures     IdentityMfaFailure[]
+}
+
+model IdentitySession {
+  id           String   @id
+  userId       String   @db.Uuid
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  authVersion  Int
+  createdAt    DateTime
+  expiresAt    DateTime
+  lastActiveAt DateTime
+  mfa          String?
+  metadata     Json     @default("{}")
+
+  @@index([userId])
+  @@index([expiresAt])
+}
+
+model InstitutionIdentity {
+  id              String                  @id @default(uuid()) @db.Uuid
+  code            String                  @unique
+  name            String
+  identifierCase  String                  @default("UPPER")
+  sequencePadding Int                     @default(4)
+  active          Boolean                 @default(true)
+  createdAt       DateTime                @default(now())
+  logins          InstitutionalLogin[]
+  sequences       StaffIdentitySequence[]
+  grants          InstitutionGrant[]
+  imports         IdentityImport[]
+}
+
+model InstitutionalLogin {
+  id            String              @id @default(uuid()) @db.Uuid
+  institutionId String              @db.Uuid
+  institution   InstitutionIdentity @relation(fields: [institutionId], references: [id])
+  userId        String              @db.Uuid
+  user          User                @relation(fields: [userId], references: [id])
+  kind          String
+  identifier    String
+  normalized    String
+  status        String              @default("ISSUED")
+  staffType     String?
+  hiringYear    Int?
+  legacy        Boolean             @default(false)
+  sequence      BigInt?
+  activatedAt   DateTime?
+  contactEmail  String?
+  challenges    IdentityChallenge[]
+  createdAt     DateTime            @default(now())
+
+  @@unique([institutionId, kind, normalized])
+  @@unique([institutionId, hiringYear, staffType, sequence], map: "InstitutionalLogin_staff_sequence_key")
+  @@index([userId])
+}
+
+model StaffIdentitySequence {
+  institutionId String              @db.Uuid
+  institution   InstitutionIdentity @relation(fields: [institutionId], references: [id])
+  year          Int
+  staffType     String
+  value         BigInt              @default(0)
+
+  @@id([institutionId, year, staffType])
+}
+
+model PhoneIdentity {
+  id         String   @id @default(uuid()) @db.Uuid
+  userId     String   @unique @db.Uuid
+  user       User     @relation(fields: [userId], references: [id])
+  phone      String   @unique
+  verifiedAt DateTime
+}
+
+model ProviderIdentity {
+  id       String   @id @default(uuid()) @db.Uuid
+  userId   String   @db.Uuid
+  user     User     @relation(fields: [userId], references: [id])
+  provider String
+  subject  String
+  linkedAt DateTime @default(now())
+
+  @@unique([provider, subject])
+  @@unique([userId, provider])
+}
+
+model IdentityChallenge {
+  id          String              @id @default(uuid()) @db.Uuid
+  userId      String              @db.Uuid
+  user        User                @relation(fields: [userId], references: [id], onDelete: Cascade)
+  kind        String
+  authVersion Int                 @default(0)
+  identityId  String?             @db.Uuid
+  identity    InstitutionalLogin? @relation(fields: [identityId], references: [id], onDelete: Cascade)
+  tokenHash   String              @unique
+  expiresAt   DateTime
+  consumedAt  DateTime?
+  createdAt   DateTime            @default(now())
+
+  @@index([expiresAt])
+}
+
+model IdentityRateLimit {
+  key       String   @id
+  count     Int
+  expiresAt DateTime
+}
+
+model IdentityAudit {
+  id        String   @id @default(uuid()) @db.Uuid
+  userId    String?  @db.Uuid
+  type      String
+  createdAt DateTime @default(now())
+
+  @@index([userId, createdAt])
+}
+
+model InstitutionGrant {
+  id            String              @id @default(uuid()) @db.Uuid
+  userId        String              @db.Uuid
+  user          User                @relation(fields: [userId], references: [id])
+  institutionId String              @db.Uuid
+  institution   InstitutionIdentity @relation(fields: [institutionId], references: [id])
+  permission    String
+  active        Boolean             @default(true)
+
+  @@unique([userId, institutionId, permission])
+}
+
+model PlatformOperator {
+  userId String  @id @db.Uuid
+  user   User    @relation(fields: [userId], references: [id])
+  active Boolean @default(true)
+}
+
+model IdentityTotp {
+  userId        String  @id @db.Uuid
+  user          User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  secret        String
+  confirmed     Boolean
+  pendingSecret String?
+  lastUsedStep  Int     @default(-1)
+}
+
+model IdentityRecoveryCode {
+  userId String @db.Uuid
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  hash   String
+
+  @@id([userId, hash])
+}
+
+model IdentityMfaFailure {
+  id     String @id @default(uuid()) @db.Uuid
+  userId String @db.Uuid
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  at     BigInt
+
+  @@index([userId, at])
+}
+
+model IdentityImport {
+  id            String              @id @default(uuid()) @db.Uuid
+  institutionId String              @db.Uuid
+  institution   InstitutionIdentity @relation(fields: [institutionId], references: [id])
+  actorId       String              @db.Uuid
+  rows          Json
+  result        Json?
+  expiresAt     DateTime
+  committedAt   DateTime?
+}
+
+model IdentityOidcState {
+  state     String   @id
+  data      Json
+  expiresAt DateTime
+}
+
+model IdentityPhoneChallenge {
+  id         String    @id @default(uuid()) @db.Uuid
+  phone      String
+  kind       String
+  codeHash   String
+  payload    Json
+  userId     String?   @db.Uuid
+  attempts   Int       @default(0)
+  expiresAt  DateTime
+  consumedAt DateTime?
+  createdAt  DateTime  @default(now())
+
+  @@index([phone, expiresAt])
+}
+
+model IdentityNativeBroker {
+  id            String    @id @default(uuid()) @db.Uuid
+  provider      String
+  challenge     String
+  clientState   String
+  linkUserId    String?   @db.Uuid
+  linkSessionId String?
+  oidcState     String?   @unique
+  userId        String?   @db.Uuid
+  authVersion   Int?
+  codeHash      String?
+  expiresAt     DateTime
+  consumedAt    DateTime?
+}
+
+model IdentityDeliveryMessage {
+  id              String    @id @default(uuid()) @db.Uuid
+  channel         String
+  transport       String    @default("LOCAL")
+  kind            String
+  payload         String?
+  status          String    @default("PENDING")
+  attempts        Int       @default(0)
+  nextAttemptAt   DateTime  @default(now())
+  leaseUntil      DateTime?
+  expiresAt       DateTime
+  providerReceipt String?
+  errorCode       String?
+  createdAt       DateTime  @default(now())
+
+  @@index([status, nextAttemptAt])
+}

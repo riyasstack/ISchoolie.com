@@ -1,0 +1,7 @@
+{
+  "kind": "static-html-label-id-landmark-check",
+  "artifacts": 220,
+  "passed": true,
+  "issues": [],
+  "limits": "No browser hydration, computed contrast, focus, keyboard, screen-reader, viewport, or native accessibility checks."
+}

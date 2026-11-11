@@ -1,0 +1,7 @@
+# Module 00 V3 motion
+
+Installed Animate UI skill reviewed; @animate-ui/react 2.4.3, Motion 14.11.0 and Radix retained. No blanket codemod, backend change or GSAP installation. Header brand reveal now uses library Fade with a visible 0.7 starting opacity; it never covers the page or delays inputs. Existing Button press, animated Tabs, Dialog and Progress use primitive motion with AnimateUIProvider reducedMotion=user, tempo 0.85 and ReducedMotionConfig.
+
+Motion gate: subtle for authentication/enterprise; spatial/state feedback for tabs and overlays; limited expressive branding. No new hand-tuned Motion springs or scroll hijacking. CSS retains finite vector/course demonstration effects and reduced-motion media handling. Native uses Reanimated with ReduceMotion.System and the shared press-scale/duration tokens; no DOM motion in Expo.
+
+Source audit saved under output/module-00-v3/motion-source-results.json. The obsolete timed intro was removed (seven prior facts to five before the added context primitives). Color/shadow transitions are small control paints; the 650ms product entrance and 800ms small SVG reveal are finite rare presentation effects, not menu/input delays. These facts are not counted as defects or an animation score. It does not see primitive internals or certify frame timing, keyboard retargeting, hover/touch behavior or reduced-motion runtime. Actual browser motion inspection is blocked. Device frame/startup measurements remain pending.

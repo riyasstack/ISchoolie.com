@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "PUB-01",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PUB-02",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PUB-03",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PUB-04",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PUB-05",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PUB-06",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PUB-07",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PUB-08",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PUB-09",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PUB-10",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PUB-11",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PUB-12",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PUB-13",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PUB-14",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PUB-15",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PUB-16",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PUB-17",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PUB-18",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PUB-19",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PUB-20",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PUB-21",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PUB-22",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "AUTH-01",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "AUTH-02",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "AUTH-03",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "AUTH-04",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "AUTH-05",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "AUTH-06",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "AUTH-07",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "AUTH-08",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "AUTH-09",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "AUTH-10",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "AUTH-11",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "AUTH-12",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "AUTH-13",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "AUTH-14",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "AUTH-15",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "AUTH-16",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "APP-01",
+    "native": true,
+    "plan": "native-feed",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "APP-02",
+    "native": true,
+    "plan": "native-search",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "APP-03",
+    "native": true,
+    "plan": "native-notifications",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "APP-04",
+    "native": true,
+    "plan": "native-messages",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "APP-05",
+    "native": true,
+    "plan": "native-messages",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "APP-06",
+    "native": true,
+    "plan": "native-feed",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "APP-07",
+    "native": true,
+    "plan": "native-feed",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "APP-08",
+    "native": true,
+    "plan": "records",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "APP-09",
+    "native": true,
+    "plan": "native-network",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "APP-10",
+    "native": true,
+    "plan": "native-communities",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "APP-11",
+    "native": true,
+    "plan": "native-discussion",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "APP-12",
+    "native": true,
+    "plan": "native-catalog",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "APP-13",
+    "native": true,
+    "plan": "native-course",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "APP-14",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "APP-15",
+    "native": true,
+    "plan": "native-saved",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "APP-16",
+    "native": true,
+    "plan": "native-profile",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "APP-17",
+    "native": true,
+    "plan": "native-settings",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "APP-18",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "APP-19",
+    "native": true,
+    "plan": "native-support",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "STU-01",
+    "native": true,
+    "plan": "native-overview",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "STU-02",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "STU-03",
+    "native": true,
+    "plan": "native-portfolio",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "STU-04",
+    "native": true,
+    "plan": "records",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "STU-05",
+    "native": true,
+    "plan": "native-student-feed",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "STU-06",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "STU-07",
+    "native": true,
+    "plan": "native-communities",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "STU-08",
+    "native": true,
+    "plan": "native-catalog",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "STU-09",
+    "native": true,
+    "plan": "native-my-learning",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "STU-10",
+    "native": true,
+    "plan": "native-player",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "STU-11",
+    "native": true,
+    "plan": "native-player",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "STU-12",
+    "native": true,
+    "plan": "records",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "STU-13",
+    "native": true,
+    "plan": "native-submission",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "STU-14",
+    "native": true,
+    "plan": "native-assessment",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "STU-15",
+    "native": true,
+    "plan": "records",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "STU-16",
+    "native": true,
+    "plan": "native-credentials",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "STU-17",
+    "native": true,
+    "plan": "records",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "STU-18",
+    "native": true,
+    "plan": "native-timetable",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "STU-19",
+    "native": true,
+    "plan": "records-and-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "STU-20",
+    "native": true,
+    "plan": "records",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "STU-21",
+    "native": true,
+    "plan": "native-directory",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "STU-22",
+    "native": true,
+    "plan": "native-booking",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "STU-23",
+    "native": true,
+    "plan": "records",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "STU-24",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "EDU-01",
+    "native": true,
+    "plan": "native-overview",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "EDU-02",
+    "native": true,
+    "plan": "native-profile",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "EDU-03",
+    "native": true,
+    "plan": "native-feed",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "EDU-04",
+    "native": true,
+    "plan": "records",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "EDU-05",
+    "native": true,
+    "plan": "records",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "EDU-06",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "EDU-07",
+    "native": true,
+    "plan": "native-editor",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "EDU-08",
+    "native": true,
+    "plan": "native-resources",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "EDU-09",
+    "native": true,
+    "plan": "native-publication",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "EDU-10",
+    "native": true,
+    "plan": "records",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "EDU-11",
+    "native": true,
+    "plan": "records",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "EDU-12",
+    "native": true,
+    "plan": "native-roster",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "EDU-13",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "EDU-14",
+    "native": true,
+    "plan": "native-assignment-builder",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "EDU-15",
+    "native": true,
+    "plan": "records",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "EDU-16",
+    "native": true,
+    "plan": "native-grading",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "EDU-17",
+    "native": true,
+    "plan": "native-assessment-builder",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "EDU-18",
+    "native": true,
+    "plan": "native-scheduler",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "EDU-19",
+    "native": true,
+    "plan": "native-live",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "EDU-20",
+    "native": true,
+    "plan": "native-attendance",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "EDU-21",
+    "native": true,
+    "plan": "native-timetable",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "EDU-22",
+    "native": true,
+    "plan": "records",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "EDU-23",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PAR-01",
+    "native": true,
+    "plan": "native-guardian",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PAR-02",
+    "native": true,
+    "plan": "native-guardian",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PAR-03",
+    "native": true,
+    "plan": "native-guardian",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PAR-04",
+    "native": true,
+    "plan": "native-guardian",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PAR-05",
+    "native": true,
+    "plan": "native-timetable",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PAR-06",
+    "native": true,
+    "plan": "records",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PAR-07",
+    "native": true,
+    "plan": "records",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PAR-08",
+    "native": true,
+    "plan": "native-guardian",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PAR-09",
+    "native": true,
+    "plan": "native-finance",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PAR-10",
+    "native": true,
+    "plan": "native-guardian",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PAR-11",
+    "native": true,
+    "plan": "native-messages",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PAR-12",
+    "native": true,
+    "plan": "native-consent",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PAR-13",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PAR-14",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PAR-15",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-01",
+    "native": true,
+    "plan": "native-overview",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-02",
+    "native": true,
+    "plan": "native-profile",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-03",
+    "native": true,
+    "plan": "native-verification",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-04",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-05",
+    "native": true,
+    "plan": "records",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-06",
+    "native": true,
+    "plan": "records",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-07",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-08",
+    "native": true,
+    "plan": "native-roster",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-09",
+    "native": true,
+    "plan": "native-roster",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-10",
+    "native": true,
+    "plan": "native-review",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-11",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-12",
+    "native": true,
+    "plan": "native-admissions",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-13",
+    "native": true,
+    "plan": "native-review",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-14",
+    "native": true,
+    "plan": "records-and-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-15",
+    "native": true,
+    "plan": "records-and-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-16",
+    "native": true,
+    "plan": "records",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-17",
+    "native": true,
+    "plan": "records-and-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-18",
+    "native": true,
+    "plan": "native-timetable-builder",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-19",
+    "native": true,
+    "plan": "native-publication",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-20",
+    "native": true,
+    "plan": "native-attendance",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-21",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-22",
+    "native": true,
+    "plan": "native-marks",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-23",
+    "native": true,
+    "plan": "native-finance",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-24",
+    "native": true,
+    "plan": "native-reconciliation",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-25",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-26",
+    "native": true,
+    "plan": "native-communities",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-27",
+    "native": true,
+    "plan": "records-and-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-28",
+    "native": true,
+    "plan": "records-and-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-29",
+    "native": true,
+    "plan": "records",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "INS-30",
+    "native": true,
+    "plan": "records",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PRO-01",
+    "native": true,
+    "plan": "native-overview",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PRO-02",
+    "native": true,
+    "plan": "native-profile",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PRO-03",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PRO-04",
+    "native": true,
+    "plan": "native-booking",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PRO-05",
+    "native": true,
+    "plan": "native-bookings",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PRO-06",
+    "native": true,
+    "plan": "native-booking",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PRO-07",
+    "native": true,
+    "plan": "native-live",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PRO-08",
+    "native": true,
+    "plan": "native-messages",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PRO-09",
+    "native": true,
+    "plan": "records",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PRO-10",
+    "native": true,
+    "plan": "validated-form",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "PRO-11",
+    "native": true,
+    "plan": "records",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "ADM-01",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "ADM-02",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "ADM-03",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "ADM-04",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "ADM-05",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "ADM-06",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "ADM-07",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "ADM-08",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "ADM-09",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "ADM-10",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "ADM-11",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "ADM-12",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "ADM-13",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "ADM-14",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "ADM-15",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "ADM-16",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "ADM-17",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "ADM-18",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "ADM-19",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  },
+  {
+    "id": "ADM-20",
+    "native": false,
+    "plan": "web-only",
+    "acceptance": "Unverified on device"
+  }
+]

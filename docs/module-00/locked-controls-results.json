@@ -1,0 +1,7 @@
+{
+  "kind": "locked-state-choice-markup",
+  "checkedArtifacts": 316,
+  "passed": true,
+  "issues": [],
+  "limits": "Static control attributes only; no keyboard or browser interaction test."
+}

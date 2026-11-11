@@ -1,0 +1,21 @@
+# Module 00 V3 reference research
+
+Reviewed official current page text/documentation on 2026-11-11. No reference screenshot, authenticated LinkedIn interior, motion frame or reference viewport was inspected. Textual information architecture is evidence; a brand's rendered typography/spacing is not inferred from it.
+
+| Sources inspected | Useful pattern / adaptation | Unsuitable / access, mobile and licensing limits |
+| --- | --- | --- |
+| [Apple](https://www.apple.com/), [HIG](https://developer.apple.com/design/human-interface-guidelines.md), [Fonts](https://developer.apple.com/fonts/) | Short focused product paths, platform guidance, readable hierarchy; adapt with original education copy and native system type | No copied logo/product imagery or redistributed SF files. Visual precision still needs our rendered QA. |
+| [Clerk sign-in](https://clerk.com/components/sign-in), [switcher](https://clerk.com/components/organization-switcher), [organization profile](https://clerk.com/components/organization-profile) | Category/proof progression, explicit workspace context and grouped account tasks | UI reference only; no Clerk auth migration, no treating a workspace switch as permission. Keep native controls/touch targets. |
+| [LinkedIn](https://www.linkedin.com/) | Public identity/discovery/join entry points; adapt professional identity and network vocabulary | Public page only; authenticated feed/profile UI unavailable for inspection. No claimed interior visual observations, logo reuse or unrestricted student networking. |
+| [Linear](https://linear.app/) | Focused product navigation and task-oriented information grouping | Marketing text is not proof of application spacing/motion. Avoid importing dark/agent-centric styling into education ERP. |
+| [Animate UI](https://animate-ui.com/), [docs](https://animate-ui.com/docs) | Primitive motion ownership; retain Button/Tabs/Dialog/Progress and reduced-motion provider | No broad codemod needed; do not put DOM primitives in Expo. Existing installed skill and package licenses apply. |
+| [Udemy](https://www.udemy.com/), [Coursera](https://www.coursera.org/) | Search, course categories, learning goals and clear course decision hierarchy | Do not borrow promotions, ratings, prices, certification claims or thumbnails. Use original clearly labeled course examples. |
+| [Notion](https://www.notion.com/), [Stripe](https://stripe.com/), [Figma](https://www.figma.com/) | Clear product areas, workspace/task grouping and enterprise information architecture | No vendor integration/endorsement implied; no imported artwork or unsuitable marketing gradients. Our complex tables/forms remain task-specific. |
+| [Inter](https://rsms.me/inter/), [Expo Font](https://docs.expo.dev/versions/v58.0.0/sdk/font/) | Open-licensed cross-platform text, explicit platform font loading | Inter OFL included by package; retain system fonts on iOS, test scaling. |
+| [Expo FileSystem](https://docs.expo.dev/versions/v58.0.0/sdk/filesystem/), [DocumentPicker](https://docs.expo.dev/versions/v58.0.0/sdk/document-picker/), [Image](https://docs.expo.dev/versions/v58.0.0/sdk/image/) | Bounded local file/image previews with platform APIs | Device picker, cache cleanup and interrupted selection need device verification; no remote upload service claimed. |
+
+Repository references inspected: Module 00 screen/state/workflow/native registers, previous design/architecture/research docs, Module 01 identity ledger/security boundaries, installed Next font/Server-Client docs, Expo SDK 58 guidance. The available 105-page Enterprise Product Blueprint v1.1 was inspected through existing extraction and selected core architecture/identity/screen sections. Its annex contains consolidated master material; this is not a separately supplied ISCHOOLIE-MASTER-001 file.
+
+An additional 25-page iSchoolie - Learn. Teach. Connect. Grow.pdf was located; first-page text extraction returned encoded glyph names rather than readable prose. Its content is not claimed read.
+
+Unavailable as standalone named files in the checked workspace/Downloads: iSchoolie_Complete_Web_Mobile_UIUX_Architecture_v1_0.pdf, iSchoolie_Complete_8_Document_Set.pdf and ISCHOOLIE-MASTER-001. Their contents are not claimed read. The current user request controls the palette/redesign scope; PDF instructions remain reference material.

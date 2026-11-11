@@ -1,0 +1,87 @@
+(node:16536) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/WAI/packages/contracts/authoring-state.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\D:\WAI\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ inline formatting clamps selection and treats HTML as inert text (3.4215ms)
+✔ module, lesson and block ordering preserves stable identity and nested content (2.1053ms)
+✔ snapshot is independent of edits; conflict and offline saves do not overwrite it (0.8168ms)
+✔ review cannot bypass invalid curriculum and edits invalidate prior review (0.5368ms)
+✔ assessment validates distinct options, answer key, positive integral points and written guidance (0.6517ms)
+✔ assignment review requires a real due date and complete bounded rubric scores (1.9869ms)
+✔ resource admission rejects unsupported and unknown/oversized sizes and deduplicates attachments (0.8225ms)
+✔ authoring collection limits and reset keep the local draft bounded and clean (5.2024ms)
+✔ all five domain cases require evidence, notes and final response, without official outcomes (1.1226ms)
+✔ reconciliation mismatches and invalid marks fail; escalation is an explicit alternative (0.2505ms)
+✔ booking proposals require actual dates/times; decline and cancellation need no fake slot (0.1467ms)
+✔ currency parses decimal strings into exact bounded integer minor units (0.436ms)
+✔ rubric review distinguishes zero from missing marks and requires useful feedback (0.3766ms)
+✔ weekly availability allows adjacency but blocks overlap, reversed windows and excluded dates (0.4941ms)
+✔ native workflow eligibility excludes every public-marketing and platform-operations stage (5.0786ms)
+(node:13512) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/WAI/packages/contracts/register-state.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\D:\WAI\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ register filters the named status rather than unrelated last-column amounts (1.8918ms)
+✔ register pagination clamps after filtering and natural sorting is stable across platforms (0.6062ms)
+✔ numeric decimal sorting and descending order retain source order for equal values (1.0734ms)
+✔ duplicate display labels have distinct selection keys; selection survives filters and exports exact scope (0.3766ms)
+✔ example CSV stays rectangular, roundtrips quotes/newlines and neutralizes prefixed formula text (0.516ms)
+✔ CSV grammar rejects quotes in unquoted fields and trailing text after a closing quote (0.1986ms)
+✔ CSV workflow draft survives revisit and changing an earlier stage invalidates downstream data and reviews (0.5635ms)
+✔ direct workflow advance also invalidates future drafts when current data changed (0.3086ms)
+✔ learner response requires a title, written content and explicit inspection (1.1951ms)
+✔ learner attachments enforce caps, types and deduplication without losing existing content (0.8679ms)
+✔ learner snapshot is independent of later edits; restore and reset never create an official attempt (0.2702ms)
+✔ case revision restores exact stage evidence and source changes invalidate downstream reviews (0.9199ms)
+✔ case note revision clears only the current and later review checkpoints (0.2325ms)
+(node:14128) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/WAI/packages/contracts/frontend-state.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\D:\WAI\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ all 180 source IDs have unique routes, supported renderers, valid references and domain content (2.2576ms)
+✔ native screen catalog excludes public marketing and broad platform operations (0.5455ms)
+✔ every screen form accepts a syntactically valid fictional draft (3.5356ms)
+✔ required whitespace and malformed contacts, URLs, dates, times and negative numbers fail safely (0.2848ms)
+✔ academic and leave date ranges cannot end before their start (0.1666ms)
+✔ optional empty fields do not block a local review (0.1159ms)
+✔ timetable detects shared-teacher and shared-room overlaps, but permits distinct days/resources (0.2044ms)
+✔ CSV preview supports BOM, CRLF, quoted commas, escaped quotes and multiline cells (0.4131ms)
+✔ CSV preview rejects duplicate identifiers, missing headers, broken widths and unclosed quotes (0.2493ms)
+✔ CSV preview has bounded size and row count (0.4291ms)
+✔ workflow drafts survive back navigation and repeated reviews do not duplicate local events (0.3421ms)
+✔ context reset removes all prior workflow drafts and events (0.2875ms)
+✔ all forty local paths can be reviewed, preserve stage data, and never emit an official outcome (3.6434ms)
+(node:38056) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/WAI/packages/contracts/screen-states.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\D:\WAI\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ every one of 180 screens accounts for every state, with an action or explicit N/A reason (4.6046ms)
+✔ temporary failure states retain the same content generation for all screen contracts (1.3119ms)
+✔ restriction and expiry unmount prior content, reject ordinary ready selection and require explicit recovery (1.7007ms)
+✔ conflict discard remounts the fixture while keep-local preserves the current generation (0.2759ms)
+✔ scope switches and reset clear local content even when returning to a permitted example (0.3397ms)
+✔ read-only screens do not invent required review-note fields or mutation receipts (1.9524ms)
+✔ native contracts exactly match native eligibility, preserving the public/operations boundary (0.3381ms)
+✔ web/native practice fixture has three valid distinct questions and consistent answer keys (0.1603ms)
+✔ every native-eligible screen has an explicit task plan, and unsupported empty tasks fail visibly (0.5857ms)
+✔ consent drafts require scoped categories, real dates, relationship evidence and explicit choices (1.5812ms)
+(node:8588) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/WAI/apps/web/src/lib/preview-state.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\D:\WAI\apps\web\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ preview initialization copies the public list and starts with no saved state (1.3278ms)
+✔ saving a known public post toggles a unique in-memory collection (0.4696ms)
+✔ an arbitrary or private record identifier cannot enter the public saved collection (0.2499ms)
+✔ adding a local thought preserves existing saved items and prepends the new post (0.2999ms)
+✔ duplicate local identifiers do not duplicate posts (0.1744ms)
+✔ whitespace-only content cannot be preview-published (0.1558ms)
+✔ oversized content is rejected at the local state boundary (0.1633ms)
+✔ a fresh preview starts without content or saved state from another preview instance (0.1828ms)
+ℹ tests 59
+ℹ suites 0
+ℹ pass 59
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 191.4995

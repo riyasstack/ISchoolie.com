@@ -1,0 +1,425 @@
+[
+  {
+    "name": "Button",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Icon button",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Input",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Password input",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Phone input",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Institution selector",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Combobox",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Search",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Select",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Checkbox",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Radio",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Switch",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Textarea",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Tabs",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Segmented control",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Accordion",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Tooltip",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Popover",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Dropdown menu",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Dialog",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Sheet",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Drawer",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Toast",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Alert",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Progress",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Stepper",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Breadcrumb",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Avatar",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Badge",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Profile card",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Course card",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Community card",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Institution card",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Feed card",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Media preview",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Data table",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Pagination",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Calendar",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Date picker",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Navigation sidebar",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Mobile bottom navigation",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Workspace switcher",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Notification item",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "File uploader",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Loading skeleton",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Empty state",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  },
+  {
+    "name": "Error state",
+    "status": "Existing implementation/family styled; runtime state review pending",
+    "web_owner": "apps/web/src/components/ui.tsx and enterprise/domain task components",
+    "native_owner": "apps/mobile/src/components/native-ui.tsx and native task equivalents",
+    "states": "Default/selected/disabled/loading/error/success where applicable; full hover/focus/pressed matrix not visually verified",
+    "keyboard": "Browser/platform primitives and explicit labels; runtime review pending",
+    "reduced_motion": "Shared providers/media/native System preference; runtime review pending"
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-11",
+  "module": "00 V3",
+  "status": "all_executed_automated_checks_pass_visual_device_acceptance_incomplete",
+  "shared_contract_tests": 69,
+  "api_unit_tests": 10,
+  "api_integration_tests": 41,
+  "total_automated_tests": 120,
+  "auth_proxy_http_checks": 33,
+  "http_document_routes": 16,
+  "web_lint_types": "pass",
+  "native_lint_types": "pass",
+  "default_build": {
+    "passed": true,
+    "generated_routes": 55,
+    "fixture_gates": "pass"
+  },
+  "preview_build": {
+    "passed": true,
+    "generated_routes": 2071,
+    "screens": 180,
+    "workflows": 40
+  },
+  "static_a11y_documents": 220,
+  "applicable_state_artifacts": 1620,
+  "locked_control_artifacts": 316,
+  "native_export": {
+    "passed": true,
+    "android_mb": 4.4,
+    "ios_mb": 4.1,
+    "assets": 38,
+    "ios_ttf_assets": 0,
+    "android_inter_weights": 4
+  },
+  "expo_doctor": {
+    "passed": 20,
+    "total": 20
+  },
+  "expo_dependency_check": "pass",
+  "prisma": {
+    "valid": true,
+    "existing_migrations": 15,
+    "schema_diff": "empty",
+    "new_v3_migrations": 0
+  },
+  "motion_source": {
+    "files": 58,
+    "facts": 5,
+    "unreadable": 0,
+    "primitive_internals_covered": false
+  },
+  "diff_whitespace": "pass",
+  "browser_executed": false,
+  "screenshots_inspected": 0,
+  "tested_viewports": [],
+  "native_device_runs": 0,
+  "core_web_vitals_measured": false,
+  "browser_block": "saved_permission_denied_after_explicit_authorized_retry",
+  "next_backend_module_started": false
+}

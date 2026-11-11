@@ -1,0 +1,1180 @@
+{
+  "screens": [
+    [
+      "PUB-01",
+      "/preview/PUB-01",
+      "home",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PUB-02",
+      "/preview/PUB-02",
+      "about",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PUB-03",
+      "/preview/PUB-03",
+      "mission",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PUB-04",
+      "/preview/PUB-04",
+      "trust",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PUB-05",
+      "/preview/PUB-05",
+      "feed",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PUB-06",
+      "/preview/PUB-06",
+      "directory",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PUB-07",
+      "/preview/PUB-07",
+      "directory",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PUB-08",
+      "/preview/PUB-08",
+      "profile",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PUB-09",
+      "/preview/PUB-09",
+      "catalog",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PUB-10",
+      "/preview/PUB-10",
+      "course",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PUB-11",
+      "/preview/PUB-11",
+      "directory",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PUB-12",
+      "/preview/PUB-12",
+      "profile",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PUB-13",
+      "/preview/PUB-13",
+      "communities",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PUB-14",
+      "/preview/PUB-14",
+      "discussion",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PUB-15",
+      "/preview/PUB-15",
+      "events",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PUB-16",
+      "/preview/PUB-16",
+      "opportunities",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PUB-17",
+      "/preview/PUB-17",
+      "pricing",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PUB-18",
+      "/preview/PUB-18",
+      "form",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PUB-19",
+      "/preview/PUB-19",
+      "form",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PUB-20",
+      "/preview/PUB-20",
+      "help",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PUB-21",
+      "/preview/PUB-21",
+      "support",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PUB-22",
+      "/preview/PUB-22",
+      "policy",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "AUTH-01",
+      "/preview/AUTH-01",
+      "identity",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "AUTH-02",
+      "/preview/AUTH-02",
+      "identity",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "AUTH-03",
+      "/preview/AUTH-03",
+      "identity",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "AUTH-04",
+      "/preview/AUTH-04",
+      "identity",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "AUTH-05",
+      "/preview/AUTH-05",
+      "identity",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "AUTH-06",
+      "/preview/AUTH-06",
+      "identity",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "AUTH-07",
+      "/preview/AUTH-07",
+      "identity",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "AUTH-08",
+      "/preview/AUTH-08",
+      "identity",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "AUTH-09",
+      "/preview/AUTH-09",
+      "identity",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "AUTH-10",
+      "/preview/AUTH-10",
+      "identity",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "AUTH-11",
+      "/preview/AUTH-11",
+      "identity",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "AUTH-12",
+      "/preview/AUTH-12",
+      "identity",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "AUTH-13",
+      "/preview/AUTH-13",
+      "identity",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "AUTH-14",
+      "/preview/AUTH-14",
+      "identity",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "AUTH-15",
+      "/preview/AUTH-15",
+      "identity",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "AUTH-16",
+      "/preview/AUTH-16",
+      "identity",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "APP-01",
+      "/preview/APP-01",
+      "feed",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "APP-02",
+      "/preview/APP-02",
+      "search",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "APP-03",
+      "/preview/APP-03",
+      "notifications",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "APP-04",
+      "/preview/APP-04",
+      "messages",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "APP-05",
+      "/preview/APP-05",
+      "messages",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "APP-06",
+      "/preview/APP-06",
+      "feed",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "APP-07",
+      "/preview/APP-07",
+      "feed",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "APP-08",
+      "/preview/APP-08",
+      "connections",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "APP-09",
+      "/preview/APP-09",
+      "network",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "APP-10",
+      "/preview/APP-10",
+      "communities",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "APP-11",
+      "/preview/APP-11",
+      "discussion",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "APP-12",
+      "/preview/APP-12",
+      "catalog",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "APP-13",
+      "/preview/APP-13",
+      "course",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "APP-14",
+      "/preview/APP-14",
+      "event-detail",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "APP-15",
+      "/preview/APP-15",
+      "saved",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "APP-16",
+      "/preview/APP-16",
+      "profile",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "APP-17",
+      "/preview/APP-17",
+      "settings",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "APP-18",
+      "/preview/APP-18",
+      "privacy",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "APP-19",
+      "/preview/APP-19",
+      "support",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "STU-01",
+      "/preview/STU-01",
+      "overview",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "STU-02",
+      "/preview/STU-02",
+      "form",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "STU-03",
+      "/preview/STU-03",
+      "portfolio",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "STU-04",
+      "/preview/STU-04",
+      "connections",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "STU-05",
+      "/preview/STU-05",
+      "student-feed",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "STU-06",
+      "/preview/STU-06",
+      "form",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "STU-07",
+      "/preview/STU-07",
+      "communities",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "STU-08",
+      "/preview/STU-08",
+      "catalog",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "STU-09",
+      "/preview/STU-09",
+      "my-learning",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "STU-10",
+      "/preview/STU-10",
+      "player",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "STU-11",
+      "/preview/STU-11",
+      "player",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "STU-12",
+      "/preview/STU-12",
+      "assignments",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "STU-13",
+      "/preview/STU-13",
+      "submission",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "STU-14",
+      "/preview/STU-14",
+      "assessment",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "STU-15",
+      "/preview/STU-15",
+      "results",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "STU-16",
+      "/preview/STU-16",
+      "credentials",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "STU-17",
+      "/preview/STU-17",
+      "classes",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "STU-18",
+      "/preview/STU-18",
+      "timetable",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "STU-19",
+      "/preview/STU-19",
+      "attendance-summary",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "STU-20",
+      "/preview/STU-20",
+      "announcements",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "STU-21",
+      "/preview/STU-21",
+      "directory",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "STU-22",
+      "/preview/STU-22",
+      "booking",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "STU-23",
+      "/preview/STU-23",
+      "opportunities",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "STU-24",
+      "/preview/STU-24",
+      "preferences",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "EDU-01",
+      "/preview/EDU-01",
+      "overview",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "EDU-02",
+      "/preview/EDU-02",
+      "profile",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "EDU-03",
+      "/preview/EDU-03",
+      "feed",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "EDU-04",
+      "/preview/EDU-04",
+      "connections",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "EDU-05",
+      "/preview/EDU-05",
+      "course-manager",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "EDU-06",
+      "/preview/EDU-06",
+      "form",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "EDU-07",
+      "/preview/EDU-07",
+      "editor",
+      "Module/lesson/block editing; safe inline formatting; stable order/remove; learner preview; snapshots/offline/conflict recovery; context reset; manual acceptance pending"
+    ],
+    [
+      "EDU-08",
+      "/preview/EDU-08",
+      "resources",
+      "Real local file selection; bounded text/image preview; size/type/cap/deduplication; remove and readiness; context reset; manual acceptance pending"
+    ],
+    [
+      "EDU-09",
+      "/preview/EDU-09",
+      "publication",
+      "Readiness/audience/rights and publication-response draft stages; context reset; manual acceptance pending"
+    ],
+    [
+      "EDU-10",
+      "/preview/EDU-10",
+      "records",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "EDU-11",
+      "/preview/EDU-11",
+      "classes",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "EDU-12",
+      "/preview/EDU-12",
+      "roster",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "EDU-13",
+      "/preview/EDU-13",
+      "form",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "EDU-14",
+      "/preview/EDU-14",
+      "assignment-builder",
+      "Assignment instructions/due date; ordered rubric/guidance/points; learner preview and readiness; context reset; manual acceptance pending"
+    ],
+    [
+      "EDU-15",
+      "/preview/EDU-15",
+      "submissions",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "EDU-16",
+      "/preview/EDU-16",
+      "grading",
+      "Two-criterion rubric draft; zero/missing/bounds validation; useful feedback; local total; context reset; manual acceptance pending"
+    ],
+    [
+      "EDU-17",
+      "/preview/EDU-17",
+      "assessment-builder",
+      "Choice/written authoring; option validation/answer key/points/guidance; practice preview; context reset; manual acceptance pending"
+    ],
+    [
+      "EDU-18",
+      "/preview/EDU-18",
+      "scheduler",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "EDU-19",
+      "/preview/EDU-19",
+      "live",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "EDU-20",
+      "/preview/EDU-20",
+      "attendance",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "EDU-21",
+      "/preview/EDU-21",
+      "timetable",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "EDU-22",
+      "/preview/EDU-22",
+      "report",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "EDU-23",
+      "/preview/EDU-23",
+      "preferences",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PAR-01",
+      "/preview/PAR-01",
+      "guardian",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PAR-02",
+      "/preview/PAR-02",
+      "guardian",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PAR-03",
+      "/preview/PAR-03",
+      "guardian",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PAR-04",
+      "/preview/PAR-04",
+      "guardian",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PAR-05",
+      "/preview/PAR-05",
+      "timetable",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PAR-06",
+      "/preview/PAR-06",
+      "assignments",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PAR-07",
+      "/preview/PAR-07",
+      "results",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PAR-08",
+      "/preview/PAR-08",
+      "guardian",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PAR-09",
+      "/preview/PAR-09",
+      "finance",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PAR-10",
+      "/preview/PAR-10",
+      "guardian",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PAR-11",
+      "/preview/PAR-11",
+      "messages",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PAR-12",
+      "/preview/PAR-12",
+      "consent",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PAR-13",
+      "/preview/PAR-13",
+      "form",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PAR-14",
+      "/preview/PAR-14",
+      "preferences",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PAR-15",
+      "/preview/PAR-15",
+      "preferences",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "INS-01",
+      "/preview/INS-01",
+      "overview",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "INS-02",
+      "/preview/INS-02",
+      "profile",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "INS-03",
+      "/preview/INS-03",
+      "verification",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "INS-04",
+      "/preview/INS-04",
+      "form",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "INS-05",
+      "/preview/INS-05",
+      "permissions",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "INS-06",
+      "/preview/INS-06",
+      "records",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "INS-07",
+      "/preview/INS-07",
+      "form",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "INS-08",
+      "/preview/INS-08",
+      "roster",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "INS-09",
+      "/preview/INS-09",
+      "roster",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "INS-10",
+      "/preview/INS-10",
+      "review",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "INS-11",
+      "/preview/INS-11",
+      "form",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "INS-12",
+      "/preview/INS-12",
+      "admissions",
+      "Evidence/note-gated intake, request and recommendation draft stages; context reset; manual acceptance pending"
+    ],
+    [
+      "INS-13",
+      "/preview/INS-13",
+      "review",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "INS-14",
+      "/preview/INS-14",
+      "structure",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "INS-15",
+      "/preview/INS-15",
+      "structure",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "INS-16",
+      "/preview/INS-16",
+      "classes",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "INS-17",
+      "/preview/INS-17",
+      "structure",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "INS-18",
+      "/preview/INS-18",
+      "timetable-builder",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "INS-19",
+      "/preview/INS-19",
+      "publication",
+      "Readiness/audience/rights and publication-response draft stages; context reset; manual acceptance pending"
+    ],
+    [
+      "INS-20",
+      "/preview/INS-20",
+      "attendance",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "INS-21",
+      "/preview/INS-21",
+      "form",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "INS-22",
+      "/preview/INS-22",
+      "marks",
+      "Bounded draft marks, moderation and release-review stages; context reset; manual acceptance pending"
+    ],
+    [
+      "INS-23",
+      "/preview/INS-23",
+      "finance",
+      "Unposted charge draft; exact integer minor units; native removal; illustrative totals"
+    ],
+    [
+      "INS-24",
+      "/preview/INS-24",
+      "reconciliation",
+      "Reference/amount comparison; match or escalation draft; stage notes/history; context reset; manual acceptance pending"
+    ],
+    [
+      "INS-25",
+      "/preview/INS-25",
+      "form",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "INS-26",
+      "/preview/INS-26",
+      "communities",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "INS-27",
+      "/preview/INS-27",
+      "campus",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "INS-28",
+      "/preview/INS-28",
+      "leave",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "INS-29",
+      "/preview/INS-29",
+      "report",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "INS-30",
+      "/preview/INS-30",
+      "audit",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PRO-01",
+      "/preview/PRO-01",
+      "overview",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PRO-02",
+      "/preview/PRO-02",
+      "booking",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PRO-03",
+      "/preview/PRO-03",
+      "form",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PRO-04",
+      "/preview/PRO-04",
+      "booking",
+      "Recurring weekly windows; excluded dates; overlap validation; 30-minute example fit"
+    ],
+    [
+      "PRO-05",
+      "/preview/PRO-05",
+      "bookings",
+      "Proposed time/decline/cancellation draft stages with evidence and history; context reset; manual acceptance pending"
+    ],
+    [
+      "PRO-06",
+      "/preview/PRO-06",
+      "booking",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PRO-07",
+      "/preview/PRO-07",
+      "live",
+      "related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PRO-08",
+      "/preview/PRO-08",
+      "messages",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PRO-09",
+      "/preview/PRO-09",
+      "earnings",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PRO-10",
+      "/preview/PRO-10",
+      "payout",
+      "Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "PRO-11",
+      "/preview/PRO-11",
+      "report",
+      "Search/filter/sort/detail/selection/example export; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "ADM-01",
+      "/preview/ADM-01",
+      "overview",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "ADM-02",
+      "/preview/ADM-02",
+      "records",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "ADM-03",
+      "/preview/ADM-03",
+      "verification",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "ADM-04",
+      "/preview/ADM-04",
+      "verification",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "ADM-05",
+      "/preview/ADM-05",
+      "review",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "ADM-06",
+      "/preview/ADM-06",
+      "cases",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "ADM-07",
+      "/preview/ADM-07",
+      "review",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "ADM-08",
+      "/preview/ADM-08",
+      "safeguarding",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "ADM-09",
+      "/preview/ADM-09",
+      "review",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "ADM-10",
+      "/preview/ADM-10",
+      "records",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "ADM-11",
+      "/preview/ADM-11",
+      "reconciliation",
+      "Reference/amount comparison; match or escalation draft; stage notes/history; context reset; manual acceptance pending"
+    ],
+    [
+      "ADM-12",
+      "/preview/ADM-12",
+      "payout",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "ADM-13",
+      "/preview/ADM-13",
+      "pricing",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "ADM-14",
+      "/preview/ADM-14",
+      "cases",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "ADM-15",
+      "/preview/ADM-15",
+      "support",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "ADM-16",
+      "/preview/ADM-16",
+      "audit",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "ADM-17",
+      "/preview/ADM-17",
+      "permissions",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "ADM-18",
+      "/preview/ADM-18",
+      "report",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "ADM-19",
+      "/preview/ADM-19",
+      "audit",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ],
+    [
+      "ADM-20",
+      "/preview/ADM-20",
+      "release",
+      "Search/filter/sort/detail/selection/example export; Validated local draft and review; related-screen navigation; domain-specific task interactions; preview state recovery"
+    ]
+  ],
+  "workflows": {
+    "W01": "/design-lab/workflows/W01: AUTH-02 -> AUTH-03 -> AUTH-05 -> AUTH-07; validated local draft/back/retry/review; no official outcome",
+    "W02": "/design-lab/workflows/W02: AUTH-08 -> EDU-02 -> ADM-04; validated local draft/back/retry/review; no official outcome",
+    "W03": "/design-lab/workflows/W03: PUB-19 -> AUTH-11 -> INS-03; validated local draft/back/retry/review; no official outcome",
+    "W04": "/design-lab/workflows/W04: PAR-13 -> INS-10 -> PAR-03; validated local draft/back/retry/review; no official outcome",
+    "W05": "/design-lab/workflows/W05: APP-16 -> APP-18 -> PUB-08; validated local draft/back/retry/review; no official outcome",
+    "W06": "/design-lab/workflows/W06: APP-09 -> APP-08 -> APP-16; validated local draft/back/retry/review; no official outcome",
+    "W07": "/design-lab/workflows/W07: APP-06 -> APP-07 -> APP-15; validated local draft/back/retry/review; no official outcome",
+    "W08": "/design-lab/workflows/W08: APP-10 -> APP-11 -> APP-18; validated local draft/back/retry/review; no official outcome",
+    "W09": "/design-lab/workflows/W09: APP-13 -> STU-09 -> STU-10; validated local draft/back/retry/review; no official outcome",
+    "W10": "/design-lab/workflows/W10: PUB-10 -> INS-24 -> STU-09; validated local draft/back/retry/review; no official outcome",
+    "W11": "/design-lab/workflows/W11: EDU-06 -> EDU-07 -> EDU-08 -> EDU-09; validated local draft/back/retry/review; no official outcome",
+    "W12": "/design-lab/workflows/W12: EDU-14 -> EDU-11 -> STU-12; validated local draft/back/retry/review; no official outcome",
+    "W13": "/design-lab/workflows/W13: STU-13 -> EDU-15 -> EDU-16 -> STU-15; validated local draft/back/retry/review; no official outcome",
+    "W14": "/design-lab/workflows/W14: EDU-18 -> EDU-19 -> EDU-20; validated local draft/back/retry/review; no official outcome",
+    "W15": "/design-lab/workflows/W15: INS-11 -> INS-12 -> INS-13 -> INS-09; validated local draft/back/retry/review; no official outcome",
+    "W16": "/design-lab/workflows/W16: INS-09 -> INS-07 -> INS-30; validated local draft/back/retry/review; no official outcome",
+    "W17": "/design-lab/workflows/W17: INS-17 -> INS-18 -> INS-19; validated local draft/back/retry/review; no official outcome",
+    "W18": "/design-lab/workflows/W18: EDU-20 -> INS-20 -> STU-19; validated local draft/back/retry/review; no official outcome",
+    "W19": "/design-lab/workflows/W19: INS-21 -> INS-22 -> STU-15; validated local draft/back/retry/review; no official outcome",
+    "W20": "/design-lab/workflows/W20: PAR-02 -> PAR-03 -> PAR-07 -> PAR-09; validated local draft/back/retry/review; no official outcome",
+    "W21": "/design-lab/workflows/W21: STU-21 -> PRO-04 -> PRO-06 -> PRO-07; validated local draft/back/retry/review; no official outcome",
+    "W22": "/design-lab/workflows/W22: APP-08 -> APP-04 -> APP-05; validated local draft/back/retry/review; no official outcome",
+    "W23": "/design-lab/workflows/W23: APP-03 -> STU-12 -> APP-17; validated local draft/back/retry/review; no official outcome",
+    "W24": "/design-lab/workflows/W24: INS-23 -> INS-24 -> PAR-09; validated local draft/back/retry/review; no official outcome",
+    "W25": "/design-lab/workflows/W25: PAR-09 -> INS-24 -> INS-30; validated local draft/back/retry/review; no official outcome",
+    "W26": "/design-lab/workflows/W26: PUB-17 -> ADM-13 -> APP-17; validated local draft/back/retry/review; no official outcome",
+    "W27": "/design-lab/workflows/W27: PUB-15 -> PUB-16 -> APP-14; validated local draft/back/retry/review; no official outcome",
+    "W28": "/design-lab/workflows/W28: STU-11 -> STU-16 -> STU-03; validated local draft/back/retry/review; no official outcome",
+    "W29": "/design-lab/workflows/W29: STU-10 -> APP-18 -> APP-19; validated local draft/back/retry/review; no official outcome",
+    "W30": "/design-lab/workflows/W30: APP-19 -> ADM-06 -> ADM-07 -> ADM-09; validated local draft/back/retry/review; no official outcome",
+    "W31": "/design-lab/workflows/W31: APP-19 -> ADM-08 -> ADM-19; validated local draft/back/retry/review; no official outcome",
+    "W32": "/design-lab/workflows/W32: AUTH-16 -> INS-01 -> PAR-02; validated local draft/back/retry/review; no official outcome",
+    "W33": "/design-lab/workflows/W33: INS-08 -> INS-09 -> INS-30; validated local draft/back/retry/review; no official outcome",
+    "W34": "/design-lab/workflows/W34: INS-04 -> INS-29 -> INS-05 -> INS-30; validated local draft/back/retry/review; no official outcome",
+    "W35": "/design-lab/workflows/W35: APP-18 -> AUTH-03 -> ADM-15; validated local draft/back/retry/review; no official outcome",
+    "W36": "/design-lab/workflows/W36: STU-13 -> APP-19 -> STU-12; validated local draft/back/retry/review; no official outcome",
+    "W37": "/design-lab/workflows/W37: INS-28 -> INS-07 -> INS-18; validated local draft/back/retry/review; no official outcome",
+    "W38": "/design-lab/workflows/W38: INS-27 -> INS-09 -> INS-30; validated local draft/back/retry/review; no official outcome",
+    "W39": "/design-lab/workflows/W39: STU-15 -> STU-16 -> INS-29; validated local draft/back/retry/review; no official outcome",
+    "W40": "/design-lab/workflows/W40: INS-29 -> ADM-18 -> ADM-19; validated local draft/back/retry/review; no official outcome"
+  },
+  "status": "Complete \u2014 accepted by user",
+  "browser_qa": "Explicit retry approved by user; saved policy still blocked origin",
+  "native_workflow_paths": [
+    "W01",
+    "W04",
+    "W06",
+    "W07",
+    "W08",
+    "W09",
+    "W11",
+    "W12",
+    "W13",
+    "W14",
+    "W15",
+    "W16",
+    "W17",
+    "W18",
+    "W19",
+    "W20",
+    "W21",
+    "W22",
+    "W23",
+    "W24",
+    "W25",
+    "W28",
+    "W29",
+    "W32",
+    "W33",
+    "W34",
+    "W36",
+    "W37",
+    "W38",
+    "W39"
+  ],
+  "advanced_authoring": "Shared web/native curriculum, resource, assessment, assignment, rubric, revision, availability and case draft models; manual acceptance pending",
+  "state_contracts": {
+    "screens": 180,
+    "applicable": 1620,
+    "not_applicable": 180,
+    "native_screens": 138,
+    "manual_acceptance": "pending"
+  },
+  "latest_closure": "Shared registers/export, retained CSV/dependent reviews, dedicated learner submission and revisitable case checkpoints; 59 tests; UI acceptance pending",
+  "module_acceptance": {
+    "module": "00",
+    "status": "complete",
+    "accepted_by": "user",
+    "accepted_on": "2026-11-11",
+    "statement": "module 000 is done",
+    "scope": "Existing Module 00 frontend and native prototype scope",
+    "module_01_authorized": false,
+    "qa_evidence": "Existing QA results and unverified browser/device limitations remain unchanged."
+  },
+  "module_01_status": "Not started; not authorized"
+}

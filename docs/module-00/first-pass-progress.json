@@ -1,0 +1,281 @@
+{
+  "screens": [
+    [
+      "PUB-01",
+      "/",
+      "public editorial",
+      "Audience tabs, preview navigation, first-visit decorative brand reveal"
+    ],
+    [
+      "PUB-02",
+      "/about",
+      "public editorial",
+      "Company direction and product boundaries"
+    ],
+    [
+      "PUB-03",
+      "/about#main-content",
+      "public editorial",
+      "Mission narrative reused within About; dedicated contract pending"
+    ],
+    [
+      "PUB-04",
+      "/trust",
+      "public editorial",
+      "Proposed safety approach; not final legal policy"
+    ],
+    [
+      "PUB-09",
+      "/courses",
+      "course discovery",
+      "Search and category filters over four example courses"
+    ],
+    [
+      "PUB-10",
+      "/courses/design",
+      "course detail",
+      "Four valid course IDs, syllabus disclosures, sample lesson entry"
+    ],
+    [
+      "AUTH-01",
+      "/auth/sign-in",
+      "restricted boundary",
+      "Explains disconnected authentication; no credential collection"
+    ],
+    [
+      "AUTH-16",
+      "/app#workspace-picker",
+      "workspace dialog",
+      "Seven design contexts; not an authentication or grant mechanism"
+    ],
+    [
+      "APP-01",
+      "/app",
+      "education feed",
+      "Local composer, reactions, comments, saved collection"
+    ],
+    [
+      "APP-02",
+      "/app#command-search",
+      "command dialog",
+      "Ctrl/Cmd K; fixture search over courses, people, workspaces"
+    ],
+    [
+      "APP-03",
+      "/app/notifications",
+      "notification list",
+      "Read-state controls and example deep links"
+    ],
+    [
+      "APP-04",
+      "/app/inbox",
+      "restricted messaging",
+      "Empty authorized list and explicit contact-policy restriction"
+    ],
+    [
+      "APP-06",
+      "/app#compose-post",
+      "composer dialog",
+      "Required text, bounded length, example post insertion"
+    ],
+    [
+      "APP-07",
+      "/app#p1",
+      "feed detail view",
+      "Reusable inline post body and comments; standalone permalink pending"
+    ],
+    [
+      "APP-08",
+      "/app/network",
+      "people discovery",
+      "Connection request preview toggles; full connections manager pending"
+    ],
+    [
+      "APP-09",
+      "/app/network",
+      "people discovery",
+      "Name and subject filters; example adult professional cards"
+    ],
+    [
+      "APP-10",
+      "/app/communities",
+      "community discovery",
+      "Join request toggles; private discussion stays restricted"
+    ],
+    [
+      "APP-12",
+      "/app/courses",
+      "course discovery",
+      "Shared catalog component and filters"
+    ],
+    [
+      "APP-13",
+      "/courses/design",
+      "course detail",
+      "Shared public course detail; no entitlement or enrollment"
+    ],
+    [
+      "APP-15",
+      "/app/saved",
+      "saved feed",
+      "In-memory saved collection shared with main feed"
+    ],
+    [
+      "APP-17",
+      "/app/settings",
+      "preferences form",
+      "Required display name, local toggles, status feedback"
+    ],
+    [
+      "STU-01",
+      "/app/student",
+      "personal learning",
+      "Learning-focused overview only; broader student overview pending"
+    ],
+    [
+      "STU-08",
+      "/app/courses",
+      "course discovery",
+      "Search example catalog; no policy-approved minor discovery"
+    ],
+    [
+      "STU-09",
+      "/app/student",
+      "personal learning",
+      "Two fictional in-progress courses and resume links"
+    ],
+    [
+      "STU-10",
+      "/app/student/player",
+      "learning player",
+      "Six text lesson selectors, read markers, notes, transcript, resources"
+    ],
+    [
+      "STU-11",
+      "/app/student/player#course-outline",
+      "learning outline",
+      "In-memory read progress; full course-progress screen pending"
+    ],
+    [
+      "EDU-01",
+      "/app/educator",
+      "teaching overview",
+      "Draft course entry, classroom and community navigation"
+    ],
+    [
+      "EDU-05",
+      "/app/educator#course-studio",
+      "teaching overview",
+      "Two course draft links; full owned-course management pending"
+    ],
+    [
+      "EDU-07",
+      "/app/educator/editor",
+      "split authoring",
+      "Lesson selection, per-lesson drafts, module-scoped addition, local save"
+    ],
+    [
+      "EDU-20",
+      "/org/example/attendance",
+      "academic register",
+      "Shared draft attendance interface; assignment rights are not active"
+    ],
+    [
+      "PAR-01",
+      "/app/guardian",
+      "family overview",
+      "Authorized-example and awaiting-authorization child states"
+    ],
+    [
+      "PAR-02",
+      "/app/guardian#child-selector",
+      "child context control",
+      "Child switch remounts details and clears prior selected tab"
+    ],
+    [
+      "PAR-03",
+      "/app/guardian#academic-summary",
+      "family overview",
+      "Permitted example summary; no actual relationship evidence"
+    ],
+    [
+      "PAR-04",
+      "/app/guardian#attendance",
+      "family overview tab",
+      "Read-only illustrative attendance counts"
+    ],
+    [
+      "PAR-08",
+      "/app/guardian#learning",
+      "family overview tab",
+      "Illustrative shared course progress"
+    ],
+    [
+      "PAR-10",
+      "/app/guardian#school",
+      "family overview tab",
+      "One labeled example notice; no live announcements"
+    ],
+    [
+      "INS-08",
+      "/org/example/students",
+      "enterprise register",
+      "Search, class filter, name sort, density, bulk selection, mobile summaries"
+    ],
+    [
+      "INS-09",
+      "/org/example/students#record-detail",
+      "record dialog",
+      "Read-only fictional record; sensitive categories omitted"
+    ],
+    [
+      "INS-20",
+      "/org/example/attendance",
+      "enterprise register",
+      "Per-row draft marks, filters, detail, local feedback; no finalization"
+    ],
+    [
+      "INS-23",
+      "/org/example/finance",
+      "finance ledger",
+      "Unposted example charges and correct illustrative total; no transactions"
+    ],
+    [
+      "PRO-02",
+      "/app/professional#professional-profile",
+      "professional profile",
+      "Example mentor bio, expertise, explicit unverified state"
+    ],
+    [
+      "PRO-04",
+      "/app/professional#availability",
+      "booking calendar",
+      "Five example days, four slots, timezone, reset on day change"
+    ],
+    [
+      "PRO-06",
+      "/app/professional#booking-review",
+      "booking review",
+      "Selected-time review, back action; never reserves or charges"
+    ],
+    [
+      "ADM-01",
+      "/ops",
+      "restricted operations",
+      "Access boundary and console information architecture only; dashboard pending"
+    ]
+  ],
+  "workflows": {
+    "W06": "/app/network: local request toggle only; eligibility and recipient flow pending",
+    "W07": "/app: composer -> local feed -> comment -> saved collection; no publication or media",
+    "W08": "/app/communities: request toggle; no membership approval or private content",
+    "W11": "/app/educator -> editor -> lesson draft; publication and metadata workflow pending",
+    "W18": "/org/example/attendance: filter -> mark -> local feedback; corrections/finalization pending",
+    "W20": "/app/guardian: child switch -> reset -> scoped example summary/restriction",
+    "W21": "/app/professional: day -> slot -> review -> non-transaction confirmation",
+    "W22": "/app/inbox: intentionally restricted; no participant conversation implemented",
+    "W23": "/app/notifications: read -> sample destination; reauthorization unavailable",
+    "W24": "/org/example/finance: unposted read-only charge layout; fee assessment editor pending",
+    "W32": "Shell workspace picker: navigate context and remount page; backend membership/cache checks pending"
+  }
+}

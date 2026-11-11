@@ -1,0 +1,74 @@
+{
+  "module": "01",
+  "request_version": "v2",
+  "date": "2026-11-11",
+  "status": "partially_complete",
+  "checkpoint": "core_workflows_implemented_external_and_manual_verification_pending",
+  "module_00": "user_accepted_preserved",
+  "module_02_started": false,
+  "ready_for_manual_module_acceptance": false,
+  "implemented": [
+    "central_multi_method_identity",
+    "versioned_cookie_and_native_sessions",
+    "email_registration_verification_recovery",
+    "scoped_student_staff_provisioning",
+    "legacy_staff_and_canonical_sequence_import",
+    "row_error_preview_atomic_commit",
+    "parent_phone_otp_mobile_login",
+    "phone_change_link_unlink",
+    "encrypted_totp_recovery_codes",
+    "privileged_mfa_offline_bootstrap",
+    "oidc_adapters_explicit_linking",
+    "native_device_bound_handoff",
+    "encrypted_delivery_queue_resend_twilio",
+    "next_auth_security_screens",
+    "expo_securestore_workflows"
+  ],
+  "restricted": [
+    "student_business_access",
+    "student_account_association",
+    "parent_child_association"
+  ],
+  "external_verification": {
+    "google": "blocked_no_credentials",
+    "github": "blocked_no_credentials",
+    "apple": "blocked_no_credentials",
+    "email": "local_capture_and_mock_adapter_only",
+    "sms": "local_capture_and_mock_adapter_only",
+    "browser": "unverified_policy_boundary",
+    "android_device": "unverified",
+    "ios_device": "unverified"
+  },
+  "remaining": [
+    "live_provider_delivery_verification",
+    "browser_visual_keyboard_accessibility_motion",
+    "signed_android_ios_device_verification",
+    "approved_student_safeguarding_policy",
+    "deployment_proxy_key_retention_monitoring",
+    "manual_module_acceptance"
+  ],
+  "qa": {
+    "api_unit_tests_passed": 10,
+    "api_unit_suites": 5,
+    "api_postgresql_e2e_tests_passed": 41,
+    "api_postgresql_e2e_suites": 8,
+    "shared_contract_tests_passed": 65,
+    "module_00_regressions_passed": 59,
+    "http_proxy_checks_passed": 33,
+    "expo_doctor_checks_passed": 20,
+    "api_build_lint": "pass",
+    "web_lint_types_build": "pass",
+    "web_generated_routes": 54,
+    "native_lint_types_dependencies": "pass",
+    "android_ios_bundle_export": "pass",
+    "prisma_migrations_applied": 15,
+    "prisma_schema_diff": "empty",
+    "browser_executed": false,
+    "native_device_authentication_tested": false
+  },
+  "approval_boundary": {
+    "second_next_qa_server": "blocked_by_automatic_review",
+    "stated_reason": "blocked by policy",
+    "fallback": "existing_authorized_preview_http_only"
+  }
+}

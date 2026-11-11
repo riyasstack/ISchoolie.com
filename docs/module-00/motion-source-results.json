@@ -1,0 +1,97 @@
+{
+  "files": 45,
+  "filesWithMotion": [
+    "src\\app\\globals.css"
+  ],
+  "facts": [
+    {
+      "file": "src\\app\\globals.css",
+      "line": 166,
+      "kind": "animated-properties",
+      "detail": "transition",
+      "properties": [
+        {
+          "name": "background-color",
+          "cost": "paint"
+        },
+        {
+          "name": "box-shadow",
+          "cost": "paint"
+        }
+      ]
+    },
+    {
+      "file": "src\\app\\globals.css",
+      "line": 463,
+      "kind": "animated-properties",
+      "detail": "animation hero-entrance",
+      "properties": [
+        {
+          "name": "opacity",
+          "cost": "compositor"
+        },
+        {
+          "name": "transform",
+          "cost": "compositor"
+        }
+      ]
+    },
+    {
+      "file": "src\\app\\globals.css",
+      "line": 463,
+      "kind": "long-duration",
+      "detail": "650ms (animation hero-entrance)"
+    },
+    {
+      "file": "src\\app\\globals.css",
+      "line": 964,
+      "kind": "animated-properties",
+      "detail": "animation intro-resolve",
+      "properties": [
+        {
+          "name": "opacity",
+          "cost": "compositor"
+        },
+        {
+          "name": "translate",
+          "cost": "compositor"
+        }
+      ]
+    },
+    {
+      "file": "src\\app\\globals.css",
+      "line": 964,
+      "kind": "long-duration",
+      "detail": "1000ms (animation intro-resolve)"
+    },
+    {
+      "file": "src\\app\\globals.css",
+      "line": 985,
+      "kind": "animated-properties",
+      "detail": "animation connect-path",
+      "properties": [
+        {
+          "name": "stroke-dashoffset",
+          "cost": "paint"
+        }
+      ]
+    },
+    {
+      "file": "src\\app\\globals.css",
+      "line": 985,
+      "kind": "long-duration",
+      "detail": "800ms (animation connect-path)"
+    }
+  ],
+  "reducedMotion": {
+    "files": [
+      "src\\app\\globals.css",
+      "src\\components\\public-home.tsx",
+      "src\\components\\ui.tsx"
+    ],
+    "project": [
+      "src\\app\\globals.css"
+    ]
+  },
+  "unreadable": []
+}
